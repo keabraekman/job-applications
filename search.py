@@ -42,7 +42,6 @@ for job_position in job_positions:
     full_url = search_jobs(pay, driver, country, job_position, job_location, date_posted)
     df = scrape_job_data(driver, country)
     dataframes.append(df)
-driver.quit()
 
 # Concatenate all dataframes and remove duplicates
 merged_df = pd.concat(dataframes).drop_duplicates().reset_index(drop=True)
