@@ -16,3 +16,11 @@ outputs the required resumes. Something like that.
 
 Steps : 
 1. Make a script that returns a list of best job postings. Let's call it search.py
+
+
+Titles : Devops engineer, software engineer, site reliability engineer, security engineer, Systems engineer, infrastructure engineer, cloud engineer
+
+I am looking for jobs in Los Angeles, in person, hybrid, or remote.
+Total compensation > 130k
+
+
