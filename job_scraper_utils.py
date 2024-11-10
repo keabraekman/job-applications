@@ -14,6 +14,8 @@ from selenium_stealth import stealth
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 
+from urllib.parse import quote
+
 
 global total_jobs
 
@@ -37,8 +39,10 @@ def configure_webdriver():
     return driver
 
 
-def search_jobs(driver, country, job_position, job_location, date_posted):
-    full_url = f'{country}/jobs?q={"+".join(job_position.split())}&l={job_location}&fromage={date_posted}'
+def search_jobs(pay, driver, country, job_position, job_location, date_posted):
+    encoded_amount = quote(pay)
+# print(encoded_amount)
+    full_url = f'{country}/jobs?q={"+".join(job_position.split())}+{encoded_amount}&l={job_location}&fromage={date_posted}'
     print(full_url)
     driver.get(full_url)
     global total_jobs
@@ -69,7 +73,7 @@ def scrape_job_data(driver, country):
         for i in boxes:
             link = i.find('a').get('href')
             link_full = country + link
-            job_title = i.find('a', class_='jcs-JobTitle css-jspxzf eu4oa1w0').text
+            job_title = i.find('a', class_='jcs-JobTitle css-1baag51 eu4oa1w0').text
             # Check if the 'Company' attribute exists
             company_tag = i.find('span', {'data-testid': 'company-name'})
             company = company_tag.text if company_tag else None
@@ -77,7 +81,9 @@ def scrape_job_data(driver, country):
             try:
                 date_posted = i.find('span', class_='date').text
             except AttributeError:
-                date_posted = i.find('span', {'data-testid': 'myJobsStateDate'}).text.strip()
+                # date_posted = i.find('span', {'data-testid': 'myJobsStateDate'}).text.strip()
+                date_posted = 'N/A'
+
 
             location_element = i.find('div', {'data-testid': 'text-location'})
             location = ''

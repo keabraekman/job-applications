@@ -38,12 +38,12 @@ ireland = 'https://ie.indeed.com'
 def main():
     driver = configure_webdriver()
     country = united_states
-    sender_email = os.getenv("SENDER_EMAIL")
-    receiver_email = os.getenv("RECEIVER_EMAIL")
-    password = os.getenv("PASSWORD")
-    job_position = ''
-    job_location = 'remote'
-    date_posted = 10
+    sender_email = ''
+    receiver_email = 'kea.braekman@gmail.com'
+    password = ''
+    job_position = 'devops engineer'
+    job_location = '90066'
+    date_posted = 7
 
     sorted_df = None
 
@@ -74,7 +74,7 @@ def main():
     finally:
         try:
             if sorted_df is not None:
-                send_email(sorted_df, sender_email, receiver_email, job_position, job_location, password)
+                print(sorted_df)
         except Exception as e:
             print(f"Error sending email: {e}")
         finally:
