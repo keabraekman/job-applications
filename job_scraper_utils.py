@@ -104,7 +104,7 @@ def scrape_job_data(driver, country):
             df = pd.concat([df, new_data], ignore_index=True)
             job_count += 1
 
-        print(f"Scraped {job_count} of {total_jobs}")
+        # print(f"Scraped {job_count} of {total_jobs}")
 
         try:
             next_page = soup.find('a', {'aria-label': 'Next Page'}).get('href')
