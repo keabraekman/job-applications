@@ -8,6 +8,7 @@ from email.mime.text import MIMEText
 import pandas as pd
 from bs4 import BeautifulSoup
 from selenium import webdriver
+import undetected_chromedriver as uc
 from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium_stealth import stealth
@@ -15,27 +16,28 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 
 from urllib.parse import quote
+from selenium.webdriver.common.action_chains import ActionChains
+from fake_useragent import UserAgent
+import time
+import random
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+
+
+from seleniumbase import Driver
+
+
 
 
 global total_jobs
 
+# /opt/homebrew/bin/chromedriver
 
 def configure_webdriver():
-    options = webdriver.ChromeOptions()
-    options.add_argument("--headless")
-    options.add_argument("start-maximized")
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    options.add_experimental_option('useAutomationExtension', False)
-    driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
-    stealth(driver,
-            languages=["en-US", "en"],
-            vendor="Google Inc.",
-            platform="Win32",
-            webgl_vendor="Intel Inc.",
-            renderer="Intel Iris OpenGL Engine",
-            fix_hairline=True,
-            )
-
+    driver = Driver(uc=True)
+    # options = Options()
+    # options.add_argument("--headless")
+    # driver = Driver(uc=True, headless=True)
     return driver
 
 
@@ -67,9 +69,7 @@ def scrape_job_data(driver, country):
     while True:
         # count += 1
         soup = BeautifulSoup(driver.page_source, 'lxml')
-
         boxes = soup.find_all('div', class_='job_seen_beacon')
-
         for i in boxes:
             link = i.find('a').get('href')
             link_full = country + link

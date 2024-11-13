@@ -10,6 +10,7 @@ from docx.oxml import OxmlElement
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from fpdf import FPDF
 
 load_dotenv()
 api_key = os.getenv('OPENAI_API_KEY')
@@ -69,33 +70,38 @@ def searchToJson():
 
 # Given a string, return the list of all the bad indexes we want to remove. VERY STRICT WITH THE FORMAT.
 def removeBadJobs(partialPrompt):
-    print('prompting...')
-    # print('partialPrompt = ', partialPrompt)
+    print('prompting to get only best job...')
     prompt = f"""
         Given the following resume {base_resume}
-        And a list fo tuples containing [index, description] {partialPrompt}
+        And a list of tuples containing [index, description] {partialPrompt}
         Identify the description that best matches the base resume based on content similarity. 
         Return a Python integer list of all the indexes in the list of tuples, excluding the index with the best-matching 
         description. 
-        Only return a list in this format: [index1, index2, ...]
+
+        Output format: ONLY a list of integers, in Python list format. Do not include any explanations, extra text, or code.
+        Example output: [0, 2, 3]
     """
     client = OpenAI(api_key=api_key)
     response = client.chat.completions.create(
         model="gpt-4",
         messages=[
-            {"role": "system", "content": "You are an assistant that returns structured Python outputs."},
+            {"role": "system", "content": "You are an assistant that returns strictly structured outputs based on user instructions."},
             {"role": "user", "content": prompt}
         ],
-        # max_tokens=1000,
-        # temperature=0.1,
     )
-    return response.choices[0].message.content
+    stringOutput = response.choices[0].message.content.strip()  # Remove any surrounding whitespace
+    print('list of indexes we are removing =', stringOutput)
+    int_list = list(map(int, stringOutput.strip("[]").split(", ")))
+    print('type of indexes we are removing in a int list = ', int_list)
+    return int_list
 
 # given a job description, this function summarizes it. 
 def summarize(jobDescription):
     print('summarizing job description...')
     prompt = f"""
-        Summarize this job description in 100 words. Make sure to include all tech, tools, requirements, skills etc...
+        Below is a job description, I need to know if I am a good fit. Summarize it in 100 words. 
+        Make sure to include anything necessary to estimate whether or not it's a good fit : all tech, tools, 
+        requirements, skills etc...
         {jobDescription}
     """
     client = OpenAI(api_key=api_key)
@@ -119,9 +125,8 @@ def indexToRemove(descriptionDict):
         partialPrompt = ''
         for job in range(len(descriptionDict[company])):
             partialPrompt += 'INDEX = ' + str(descriptionDict[company][job][0]) + '|' + summarize(descriptionDict[company][job][1])
-        # Ask the question to chatgpt and give only the result.
         print('working on duplicates for company ', company)
-        result = removeBadJobs(partialPrompt)
+        result.update(removeBadJobs(partialPrompt))
     return result
 
 # We want a refine stage between the job scrape and the resume building process. 
@@ -141,6 +146,7 @@ def refineJson(filename):
             if company not in companiesCount:
                 companiesCount[company] = 0
             companiesCount[company] += 1
+        print('company postings = ', companiesCount)
         index = 0
         for entry in data:
             company = entry.get("Company")
@@ -151,6 +157,7 @@ def refineJson(filename):
                 companiesDescriptions[company].append([index, jobDescription(url)])
             index += 1
         print('Removing non ideal jobs')
+        toRemove = set()
         toRemove = indexToRemove(companiesDescriptions)
         for r in toRemove:
             removed.add(r)
@@ -222,7 +229,6 @@ def generate_resume_bullets(job_description):
         max_tokens=1000,
         temperature=0.2,
     )
-    # print('CHATGPT response = ', response.choices[0].message.content)
     return response.choices[0].message.content
 
 # We get an output of a couple bullet points with numbers. Now we want to replace the original bullets with the new ones
@@ -244,7 +250,10 @@ def parse_string_to_dict(input_string):
     for line in lines:
         # Split each line by the last space to separate the text from the index
         *text, index = line.rsplit(" ", 1)
-        result_dict[int(index)] = " ".join(text)
+        try:
+            result_dict[int(index)] = " ".join(text)
+        except:
+            print('ERROR with prompt : ', input_string)
     return result_dict
 
 # This replaces the bullets and creates a new updated resume
@@ -283,14 +292,16 @@ def replaceBullets(doc_path, newBulletDict):
     doc.save(doc_path)
 
 # This function takes the json file and returns a list of the urls for all the jobs posted today.
-def getURLandCompanyList(todayJSON):
+def getURLCompanyAndTitleList(todayJSON):
     urls = []
     companies = []
+    titles = []
     with open(todayJSON, 'r') as f:
         data = json.load(f)
         for entry in data:
             link = entry.get("Link")
             company = entry.get("Company")
+            title = entry.get("Job Title")
             if link:
                 urls.append(link)
             else:
@@ -299,7 +310,19 @@ def getURLandCompanyList(todayJSON):
                 companies.append(company)
             else:
                 companies.append(None)
-    return [urls, companies]
+            if title:
+                titles.append(title)
+            else:
+                titles.append(None)
+    return [urls, companies, titles]
+
+
+
+from docx2pdf import convert
+
+
+
+
 
 
 docx_path = 'Kea Braekman Resume.docx'
@@ -307,11 +330,30 @@ pdf_path = 'Kea Braekman Resume.pdf'
 output_pdf_path = 'Kea Braekman Resume'
 output_docx_path = 'Kea Braekman Resume'
 todaysDate = f"{datetime.today().strftime('%Y-%m-%d')}"
+
+
+input_folder = "/Users/keabraekman/Documents-Offline/" + todaysDate + '/'
+output_folder = "/Users/keabraekman/Documents-Offline/" + todaysDate + '/'
+# Ensure the output folder exists
+os.makedirs(output_folder, exist_ok=True)
+# Loop through each .docx file in the input folder
+for filename in os.listdir(input_folder):
+    if filename.endswith(".docx"):
+        input_path = os.path.join(input_folder, filename)
+        output_path = os.path.join(output_folder, filename.replace(".docx", ".pdf"))
+        # Convert each .docx file to a .pdf in the output folder
+        convert(input_path, output_path)
+        print(f"Converted {filename} to PDF.")
+
+print('DONE')
+
 os.makedirs(todaysDate, exist_ok=True)
 searchToJson()
 jsonPath = todaysDate+'/'+todaysDate+'.json'
 refined = refineJson(jsonPath)
-joburls, companies = getURLandCompanyList(jsonPath)
+print('refined = ', refined)
+print('STOP')
+joburls, companies, titles = getURLCompanyAndTitleList(jsonPath)
 for i in range(len(joburls)):
     if not joburls[i] or not companies[i] or i in refined:
         continue
@@ -322,9 +364,15 @@ for i in range(len(joburls)):
     resume_text = generate_resume_bullets(description)
     resume_text_bullets = isolateBullets(resume_text)
     newBulletDict = parse_string_to_dict(resume_text_bullets)
-    filename = todaysDate + '/' + output_docx_path + ' ' + companies[i] + '.docx'
+    filename = '/Users/keabraekman/Documents-Offline/' + todaysDate + '/' + output_docx_path + ' ' + companies[i] + ' ' + titles[i][:10] + '.docx'
     print('replacing bullets')
     replaceBullets(filename, newBulletDict)
+
+
+# convert("/Users/keabraekman/Documents/Kea Braekman Resume AeroVironment Software E.docx", "/Users/keabraekman/Documents-Offline/Kea Braekman Resume AeroVironment Software E.pdf")
+
+
+
 
 driver.quit()
 
