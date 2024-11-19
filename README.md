@@ -1,4 +1,15 @@
 # job-applications
+
+Description for Jose Duran branch. 
+Jose is a friend and wanted to use this script. I created a new branch. 
+I am using this opportunity to also clean up the repo since it's getting very messy. 
+
+
+
+
+
+BELOW is the readme for job-applications
+
 I am making a repo to help with the job application process : job search, resume edits, and job applying. 
 
 
