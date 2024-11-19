@@ -1,0 +1,408 @@
+[
+    {
+        "Link": "",
+        "Job Title": "",
+        "Company": "",
+        "Date Posted": "",
+        "Location": ""
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=0d1a9551f5924559&bb=8nXfwukSB5xKC5lkPfTvx2JAQT64uvQVpXiI0lM3fn7oAX8MrCY22raEb41gVlqOYdHvFo5Qrwn45ZA5TBXSqCdRZRGN7f-joW9e6VBrovlFD-hBc7slkfdnEfJK6be5&xkcb=SoDT67M35inKulxXVR0LbzkdCdPP&fccid=429d36c3a4ce79b9&vjs=3",
+        "Job Title": "Dev Ops Engineering Manager",
+        "Company": "Ventura Foods",
+        "Date Posted": "N/A",
+        "Location": "Brea, CA 92821"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=f0c10caf6c5ef2f7&bb=giE4K_P_yj4J4DE70u_a_yEBz4d3u5kbWWjXq_Sz5YoFf8dG-fZ_620SwisxU8AIeJjtKfr1JLahKcSjkuIU-qPLvm3b_E3jSPfzY30XmKXWskOlRnvWUQ%3D%3D&xkcb=SoAy67M35inKEYxXbx0LbzkdCdPP&fccid=11619ce0d3c2c733&vjs=3",
+        "Job Title": "Staff Classified Cybersecurity Analyst - Polygraph",
+        "Company": "Northrop Grumman",
+        "Date Posted": "N/A",
+        "Location": "Redondo Beach, CA 90278"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=2935d0852889f217&bb=Hbrt8KyDK8Uhb3KCKQIdYVhjdyV-PFYp82E09qh5zh37OMvKwKRMsmBfR5NRKrAbf5-t_zhGLr_AyT0tbg21tlUA27scFZvc6HpRbZMMLh7CW-R81tr-0si5-DZI2ogr&xkcb=SoDU67M35inJ6xRXVR0LbzkdCdPP&fccid=8379a3121011153a&vjs=3",
+        "Job Title": "Senior Software Engineer - Hybrid",
+        "Company": "Automobile Club of Southern California",
+        "Date Posted": "N/A",
+        "Location": "Remote in Los Angeles, CA 90007"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=f9b806d62ae39f1c&bb=Hbrt8KyDK8Uhb3KCKQIdYVX67mUiJeXGU-NKXLuzsIrcKTgV0lIPKAL6d7KepUtUI34ms7Qf4Ti5Rk6mXsgqtlNyWY1K59ci0RuPrHzEV02217Q3tNpWqA%3D%3D&xkcb=SoCR67M35inJ6xxXVR0LbzkdCdPP&fccid=a5b4499d9e91a5c6&vjs=3",
+        "Job Title": "Senior Software Engineer, Machine Learning, Search",
+        "Company": "Google",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA\u00a0(Venice area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=900902f7c0c41955&bb=Hbrt8KyDK8Uhb3KCKQIdYYhLXLfHRmBqS7uaojfB5T4dpophW_4Y-Y9DXhRLk8riyfxpAj6h97c9VgG3STfRZysnkEpieSiIzKMgK1Pq6a4-W6E67umrZQ%3D%3D&xkcb=SoAl67M35inJ6xxXVR0KbzkdCdPP&fccid=8bc01be85b97ce0d&vjs=3",
+        "Job Title": "Sr. Site Reliability Engineer, Data (Application Software)",
+        "Company": "SpaceX",
+        "Date Posted": "N/A",
+        "Location": "Hawthorne, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=1ba4e734905284ca&bb=Hbrt8KyDK8Uhb3KCKQIdYfTRiBWaQyWhwOSwejk9flStG-hs48uhmmlWE19EYWpXSQG1sci0S32GOCIK4aFKwbyTuu5k34C5fTT8s03MnW5DlmV0Jq9y1Q%3D%3D&xkcb=SoC467M35inJ6xxXVR0JbzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Sr. Mission Systems Engineer, Kuiper Government Solutions, KGS Mission Systems and Software Engineering Organization",
+        "Company": "KGS LLC",
+        "Date Posted": "N/A",
+        "Location": "Northridge, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=8f5e74347fa0e5a3&bb=Hbrt8KyDK8Uhb3KCKQIdYZ96d-d1f8OzgWHIlGZiCI9VIL7WnYs8JqGX_2g08Pn3YNOgC7uj8zQq4VVzHKQhRj8bywlNjPWCHvhAl2S9ZJXeo0OoKU7blg%3D%3D&xkcb=SoAM67M35inJ6xxXVR0IbzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Microwave Design Engineer, AWS MAS2 (WJV)",
+        "Company": "Amazon Development Center U.S., Inc.",
+        "Date Posted": "N/A",
+        "Location": "Pasadena, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=a8d4ac70e63ba891&bb=HF2eZ_21dvgX8LO3A9ELGmL5HYYyFMEMllU2Ckz8RfII4rwp4IEu9Ote2GiBvCjsQt1UhDo-fmtmvcAJUPfbR5tf1sOyTtne1Q2PMBUQdE-cFaq-5Dqyp1mecdTVlQ_g&xkcb=SoBC67M35inJTyxS9R0LbzkdCdPP&fccid=5c1587f51107a3e0&vjs=3",
+        "Job Title": "Senior Software Developer",
+        "Company": "hive.co",
+        "Date Posted": "N/A",
+        "Location": "Remote in Ontario, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=853c41f7309c7028&bb=NXGWVHDQnh1h6nWsgnDB8O9MEuizQh-4u0rSIKQC2rS4gfuPHCevETvduNeuF1O_lZn22F1wL813jZTdxfRTOGOvMgA-LCMIIN51Kfnf2ZlPL5o-9ck0d02Un_uVqXkP&xkcb=SoDR67M35inJLAxQGx1ybzkdCdPP&fccid=7b824fcc7063fe6f&cmp=Flipped.ai&ti=Engineer&vjs=3",
+        "Job Title": "AI Engineer",
+        "Company": "Flipped.ai",
+        "Date Posted": "N/A",
+        "Location": "Santa Monica, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=76d309160398da1d&bb=NXGWVHDQnh1h6nWsgnDB8Cin1CWmlG_Zp8SieYYuWt9IOon9cD8ubNXwmu7_LHX48N3qgXHtyf1Qo_5pO_DahfDU-ya3iIBzX2dqDFhuQkxQrHzFhk6URQ%3D%3D&xkcb=SoBM67M35inJLAxQGx1xbzkdCdPP&fccid=5cc0cdc6dbb121cc&vjs=3",
+        "Job Title": "Cloud Technical Account Manager , Enterprise Support - Strategic Industries - Media & Entertainment",
+        "Company": "Amazon Web Services, Inc.",
+        "Date Posted": "N/A",
+        "Location": "Santa Monica, CA 90404\u00a0(Mid-City area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=6c642a62baa149fd&bb=NXGWVHDQnh1h6nWsgnDB8JcnAVpDmGq2Pzq4ncnz-jjbc3n15tOlphupoAaVea8bG2DqzBKmYREZOkAMv6VKuyuUgEDkYClO_LzLikKsZJTIulMoMw7-hQ%3D%3D&xkcb=SoD467M35inJLAxQGx1wbzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Software Development Engineer II, ART19",
+        "Company": "Amazon.com Services LLC",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA 90230"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=5a2bde69911366fa&bb=NXGWVHDQnh1h6nWsgnDB8ElxKwiYb6pHay3bDnG9eWOcLgGxf2tMHQwDOmq1vMmdCR4dJwUHHxMz59pIsQMD8mjO_Xx58qX26qrMTv1SxQfYZFu1xkjrJlYfdf1xtRHi&xkcb=SoB267M35inJLAxQGx13bzkdCdPP&fccid=afd6e70abde66661&vjs=3",
+        "Job Title": "Manager, Data Services - Remote",
+        "Company": "Harbor Freight Tools USA, Inc.",
+        "Date Posted": "N/A",
+        "Location": "Remote in Calabasas, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=f0a2a2b0231d82e2&bb=NXGWVHDQnh1h6nWsgnDB8BasQ-ysOwBue1HVRW-sFiULoKPlJvczK6MUaksuVpEzWiaZDmBVgPtfzD9UdCp-zsdmS7kRuqIpv3Fbsi2h3pPjMyVgkAybMQ%3D%3D&xkcb=SoDC67M35inJLAxQGx12bzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Sr. Applied Scientist, Prime Video, Marketing Tech",
+        "Company": "Amazon.com Services LLC",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA 90230"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=56a121981725b59b&bb=NXGWVHDQnh1h6nWsgnDB8HHcKvb1slFO9qCIi3_Pr0rmx13ntmGKR95HvVb5hRxzukjLWZf5Wvca2opng3u-xp8MKVjQwmNI4xfZoU345UHm4EXPK2Icmw%3D%3D&xkcb=SoBf67M35inJLAxQGx11bzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Sr. Marketing Data Mgt Office Mgr., Prime Video Global Operations",
+        "Company": "Amazon.com LLC",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=c61f535dfe510af5&bb=NXGWVHDQnh1h6nWsgnDB8BELknuIu0vscOfLbfz7iLwMDcE_AHeK0TijbvJIZ731pCWxkoxc4p47I_WY_yRWwVCQ-lCJLoZ0iVxDq9ArMyOAbu8JCouePA%3D%3D&xkcb=SoDr67M35inJLAxQGx10bzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Art Director, Prime Video Global Brand Strategy & Governance",
+        "Company": "Amazon.com Services LLC",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA 90230"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=85e2100db713da5c&bb=NXGWVHDQnh1h6nWsgnDB8APRFdnmfTntbT7TTbtqT8Wo2CAWzEo_ktYCV_7XDPNNyiEcDGTex6AHCCMo54Oy9jo79sxEh-Fap43xPsdB2AN2LFHPum07NA%3D%3D&xkcb=SoDb67M35inJLAxQGx2LbzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Global Senior Kids Designer, Private Brands, Apparel Design Team",
+        "Company": "Amazon.com Services LLC",
+        "Date Posted": "N/A",
+        "Location": "Santa Monica, CA 90404\u00a0(Mid-City area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=8f5e74347fa0e5a3&bb=NXGWVHDQnh1h6nWsgnDB8BasQ-ysOwBuJW8ALWkr9nZvS6gawI3Q-2TZT4ZPJbuAlCjQ16u1b09nYH4HwpdwTD1mgIBHuUqfzwJHhxX53Va_WT3q765V6g%3D%3D&xkcb=SoBv67M35inJLAxQGx2KbzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Microwave Design Engineer, AWS MAS2 (WJV)",
+        "Company": "Amazon Development Center U.S., Inc.",
+        "Date Posted": "N/A",
+        "Location": "Pasadena, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=0d1a9551f5924559&bb=NXGWVHDQnh1h6nWsgnDB8L56ehgU0kSoybs6aMkNQ3Mpj23SdX0U2aYVaD0c-qBMs9tpsG3-ljNA2CeuAdD-ysREnUEHoliKWrweCPw8lQM61wJ-fI9WIdjXr29Qam9c&xkcb=SoDy67M35inJLAxQGx2JbzkdCdPP&fccid=429d36c3a4ce79b9&vjs=3",
+        "Job Title": "Dev Ops Engineering Manager",
+        "Company": "Ventura Foods",
+        "Date Posted": "N/A",
+        "Location": "Brea, CA 92821"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=ecf50303a9c43206&bb=NXGWVHDQnh1h6nWsgnDB8Ej_8i6LffXMOv0ztX5322goRA-ojG7Uhw4gBWx5VfUJH4ecDmN2LKg4v_rw-KP93Bh1JtBGO4qSZfk52ViDQNTKvKbuNApyZcH3rjB5l3WR&xkcb=SoBG67M35inJLAxQGx2IbzkdCdPP&fccid=b780c5d1f38b6a83&vjs=3",
+        "Job Title": "Senior Solution Architect",
+        "Company": "Akka",
+        "Date Posted": "N/A",
+        "Location": "Remote in Los Angeles, CA 90012"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=1ba4e734905284ca&bb=NXGWVHDQnh1h6nWsgnDB8BELknuIu0vs8P5ep7bX30P5AiqeSdMMqOOWdbyGoSKjrCy4h4Y7EWcvvdpoqeIblzGHv5CfzsWBYrx4onE6VAke03c8u3VU4A%3D%3D&xkcb=SoDI67M35inJLAxQGx2PbzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Sr. Mission Systems Engineer, Kuiper Government Solutions, KGS Mission Systems and Software Engineering Organization",
+        "Company": "KGS LLC",
+        "Date Posted": "N/A",
+        "Location": "Northridge, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=6c642a62baa149fd&bb=ByvEu20bThT2m5ILaDvUd9wsMFNTVL78tl_ptFAIv35Mvp2K2CnmSvlrMDAoCmeAImzfZAs6pCGYGqIdMnvncUJIGkNx4wBfsjlfEPrvd_rf9NlFctzq9w%3D%3D&xkcb=SoBT67M35inIgeRQJp0KbzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Software Development Engineer II, ART19",
+        "Company": "Amazon.com Services LLC",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA 90230"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=a8d4ac70e63ba891&bb=ByvEu20bThT2m5ILaDvUdwsxzXWU_PUnXPTj0sdWC1I1-tQ0f8QpySjDHf__7vQTtQQMvNMAZc60QsIV__DYe8MV6gV7vGGv94XrZQztbRF0LIHwTUyJklhrt8j7GG4C&xkcb=SoDO67M35inIgeRQJp0JbzkdCdPP&fccid=5c1587f51107a3e0&vjs=3",
+        "Job Title": "Senior Software Developer",
+        "Company": "hive.co",
+        "Date Posted": "N/A",
+        "Location": "Remote in Ontario, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=d033818a3f8cbfb8&bb=1TWCiKnSPjMYed3_TpY7LwZs3Wzic5cKlL6RMHEaDxGDagpyl5-rJh6xpImziVuXyftvIxLkxuiFDIQe0MNdT6GzIkOrzp92175tniSslH524zj1KQoS7g%3D%3D&xkcb=SoBV67M35inIG3AN4j0JbzkdCdPP&fccid=84c8ed4c8205d753&vjs=3",
+        "Job Title": "Nursing Supervisor - GI/ Endoscopy",
+        "Company": "Providence",
+        "Date Posted": "N/A",
+        "Location": "Santa Monica, CA 90404"
+    },
+    {
+        "Link": "https://www.indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0CpFJQzrgRR8WqXWK1qKKEqALWJw739KlKqr2H-MSI4evXlooIXHsJg43pNoTZ_gJduHi5NJaXl8WD2atUkHDnbKZ8L5bW01NOgP_PQuTFeArZOUdZzAiENQf8epCO3leuvtgswiPW8t12l0hm9ZzUcu5zrhMnkpZJpwbiV526TdcCdobAOIdu25ElVmCJV1bsTVapKdFVGvqoXu0OkeprTkp7b-eVhK47bdjDJxbXz6dtozgNeE8jH-QPi3kqSYUdPzBHgLM_E1zXWni4nAZWytPWEAG5L90ZkA9LZPHJGK1PVmGM3OXRxQxSIJWYcWKNozfbb3gFOr5u7pE9ishf5EZP4gfKPIHWpsLuOYCmLvD-ynNqwOygT0SSxW8JOLyOhT_4MQTnnv6F_jKlB-iP46Pd-MLlDG-j2KVMMaTPsLWpWnk00H9MHIRCHROzNGPaPPCQCmhCgJzdIlZ6FZ9lt3Q0tm-kPfC2KKX8TFFloeChdm1-ru6LbwkgWG_BdcAS05YNPc7G04yPT7c3ytr7cBQMPw8hBn9wSNmC4NexKA6PLoZh1rTiLEwENZ5iMkda4jhQfUKq0zxy6GKPFcWtgTX1yItVejW1reH4ajKwlr2r2YA-ck5TgSdzLRaP44dxN3nMjZnwxAVon8O7q-CAiZncOSzRnIntoDPzWVwMCKuu-b1fZ9LBS1jucE24hTObANEoE672E0ezvRDV9PyrEZVKItYzjhg1-3UVVtOqN_jUqVcEoUMP0IgS_zsNLB6zE4udbYP8wpSOh57xr7YGe2TJwkyRFfASYHTyOqhMHTOZEb-LmBdjEMkIsaByUJXmsFAasGYAPp9fNcwBvcAlsqtFLJAVrJ_Kw-WG-keSJAcCyFKy3IcNwsxq3O8kxaffuGSIO7nZnRChgOjyD3o2AjCiwjZl8xKydHBuwiFf2NSaCkqWsTm2WE73OjHMXNhDkGvoaNqHp26dzNxvAcbqIa9LWiNqZvAbeJTscdoj_4mU98lbi4WBN4mJFw2en0tJHOdUXnZmgV_GYBHPXLIEWXAgfuBSSQ3jvuj-PekKfHu-gwk5U39CWw1513UAuQanAAUErA5X_S6s0YY59pGPxNexNOZHomnC5Izzu4HG1EiB3MU0RC6dzIiuxyQORajWfjOy4uVzsIXSlp3D2-AxcF4Qe4YVBHSPltXLgbIPqOThRh2opFs_1kqRtE045PUQjWvn0UHNjoIKAkQqEnJ_t9_wLnvlKat8Zxr4gZeNeT0zVWX4elzXoPoaZVTKc8_g=&xkcb=SoD76_M35inH-txSop0LbzkdCdPP&camk=nUmJqO2E8rhNvBsTRNFp8Q==&p=0&fvj=0&vjs=3",
+        "Job Title": "Sr. Digital Implementation Engineer(ASIC)",
+        "Company": "CyberCoders",
+        "Date Posted": "N/A",
+        "Location": "Irvine, CA 92618"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=853c41f7309c7028&bb=djqGI52fkS4LaOcnJzVIPQIDkjfg7RZzK31wLOCCrYHOv_3Cwx3-mue58z6FxhKDMmEODpa9PoWtouyETbZ2p8fBJ3vNZ3l073uj-UUslAT_2WSlcN7NoeYspNI81fbY&xkcb=SoC767M35inH-txSop0KbzkdCdPP&fccid=7b824fcc7063fe6f&cmp=Flipped.ai&ti=Engineer&vjs=3",
+        "Job Title": "AI Engineer",
+        "Company": "Flipped.ai",
+        "Date Posted": "N/A",
+        "Location": "Santa Monica, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=6436f720a9a0ed0b&bb=djqGI52fkS4LaOcnJzVIPVXfnXFsDxNaY3TcLwXRwpkDIBRv2_L1nRuwISXxvtUaNq63NPOMthOqh60IoHgXEzwZvCoPn3mDe6qs6qc8NZvst5S1dHhOVA%3D%3D&xkcb=SoAm67M35inH-txSop0JbzkdCdPP&fccid=c1099851e9794854&vjs=3",
+        "Job Title": "Algorithm Engineer, Home and Audio Devices",
+        "Company": "Apple",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=f0a2a2b0231d82e2&bb=djqGI52fkS4LaOcnJzVIPWH5Np3cvCUowTJAj9QBIaPeaMpCyORstAM9HmoUYbAvfUNLc-bj2Hp6UXixlwKNYaUphy8hkhsz0_Tk49gbBkdj5TShlo_j2Q%3D%3D&xkcb=SoCS67M35inH-txSop0IbzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Sr. Applied Scientist, Prime Video, Marketing Tech",
+        "Company": "Amazon.com Services LLC",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA 90230"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=8348af15da5a09c8&bb=djqGI52fkS4LaOcnJzVIPaAIhaHZlx7BMZW47QjFdUJeBTuNOY4JIkWIKk3wQlKL-KmYdnmeDZPHNLx3xA9SxsEuQO8WJvwXGbSMspDaGtpW8vqwep-LXHebk9cYH01O&xkcb=SoAc67M35inH-txSop0PbzkdCdPP&fccid=7a705147b922e4f2&vjs=3",
+        "Job Title": "Principal Data Scientist, Analytics",
+        "Company": "Kajabi",
+        "Date Posted": "N/A",
+        "Location": "Remote in Newport Beach, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=900902f7c0c41955&bb=djqGI52fkS4LaOcnJzVIPVH5JWIph82wTXfr5fpRXmBdizE-ncmSkxB9vt-v34Mcxd46HwPXUDxrWWEy6vrhu7TBmXErCHzW98-A6tKDivSgmssN5Ec30g%3D%3D&xkcb=SoCo67M35inH-txSop0ObzkdCdPP&fccid=8bc01be85b97ce0d&vjs=3",
+        "Job Title": "Sr. Site Reliability Engineer, Data (Application Software)",
+        "Company": "SpaceX",
+        "Date Posted": "N/A",
+        "Location": "Hawthorne, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=a7231d0cf65fb2b9&bb=djqGI52fkS4LaOcnJzVIPQqm6Yh1A_Ltt7rsYd5Uge7xH0tZ0rzmwsAGZRkYOhPlAdXM7tT7UtPoJXRNw-6d-ZAlrCB23gygr2uJR4pd41dpE86nGUwrfgqXDTvZZe_S&xkcb=SoA167M35inH-txSop0NbzkdCdPP&fccid=1466138518ba64c6&vjs=3",
+        "Job Title": "Vice President, Investment Risk Analyst",
+        "Company": "The TCW Group, Inc.",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=60e4417d5974ee23&bb=djqGI52fkS4LaOcnJzVIPcS8d3Wp4C9Mvzn_Wg72bF2gb9dXhZ_iDmbt3hV-fWmxLR9znWy2I1P7jg1VFPj79APxS7FR9JxpJ-pRigw6KvHodwto5I3pchQ5B5RGlVTl&xkcb=SoCB67M35inH-txSop0MbzkdCdPP&fccid=3ed115f185405351&vjs=3",
+        "Job Title": "Senior Software Engineer - Train 1000 Bots to Trade Memecoins",
+        "Company": "Coral",
+        "Date Posted": "N/A",
+        "Location": "Remote in Ontario, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=5d5b3f3530266a50&bb=djqGI52fkS4LaOcnJzVIPXzBs9m21B-1FkgQOeCmCBO5EsJfDMVx9BOgAiuda49NqTjZRh5HlBI-U_Gg2FdZVIgYym4CrmHMJtgqGFQw3QNB3LL-t0sD2aIYPQTdAirq&xkcb=SoBo67M35inH-txSop0DbzkdCdPP&fccid=06206ab329e0eb22&vjs=3",
+        "Job Title": "Principal Data Scientist I",
+        "Company": "RELX",
+        "Date Posted": "N/A",
+        "Location": "Ontario, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=042c952e77b3aba1&bb=djqGI52fkS4LaOcnJzVIPbqUtGzpwjVCFW4uWkfmoJvjvG8QH3c0X3eryT1YBihOSfsA-ZgykFyd2OebA3m55ycq2ZxP1f0JBGhxsiFKWREf17paM1lZzA%3D%3D&xkcb=SoDc67M35inH-txSop0CbzkdCdPP&fccid=aa53b551f9df0210&vjs=3",
+        "Job Title": "Principal Systems Security Engineer-Cybersecurity Program Lead (P4) (Onsite)",
+        "Company": "Raytheon",
+        "Date Posted": "N/A",
+        "Location": "Fullerton, CA 92833"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=a0c26cdb3f2b9afb&bb=djqGI52fkS4LaOcnJzVIPWJNzCqqb_fH5n2p0asKM_5oUapEOOcSl3tI04dsSySr2kPZ61MbcwnBs81HOXKBjosjZ4WkJkLs_ZQVLT6ku5e6SpxYkb-pox-BP2SURMIt&xkcb=SoCB67M35inH-sRSop0LbzkdCdPP&fccid=cce17bd4beada08d&vjs=3",
+        "Job Title": "Principal Data Scientist I",
+        "Company": "LexisNexis",
+        "Date Posted": "N/A",
+        "Location": "Ontario, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=24dedd9c88281eb2&bb=djqGI52fkS4LaOcnJzVIPeClX_XvfE9f5HIQQRqoWOAXaPS30yRiTZ834w4MSo-r-UBEmNw4iG3MLA9bOPEhgj5ZORlF4NaLgK50A7vjcX7HK-WCFgMYBA%3D%3D&xkcb=SoA167M35inH-sRSop0KbzkdCdPP&fccid=11619ce0d3c2c733&vjs=3",
+        "Job Title": "Staff Command & Telemetry Database Systems Engineer (Secret Clearance Required)",
+        "Company": "Northrop Grumman",
+        "Date Posted": "N/A",
+        "Location": "Redondo Beach, CA 90278"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=0d1a9551f5924559&bb=djqGI52fkS4LaOcnJzVIPXzBs9m21B-16RzvVhY5c6tE-BqBJvL9tMGNyW6ajMaxxbs6K1zn0qxFAdGe6p6FuXHXjhoKTYBdybS9M4MdgioXOnDY41s7W8GaaOIgLLpI&xkcb=SoCo67M35inH-sRSop0JbzkdCdPP&fccid=429d36c3a4ce79b9&vjs=3",
+        "Job Title": "Dev Ops Engineering Manager",
+        "Company": "Ventura Foods",
+        "Date Posted": "N/A",
+        "Location": "Brea, CA 92821"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=a8d4ac70e63ba891&bb=djqGI52fkS4LaOcnJzVIPc6y1cdtzEsxueMANu3nueG2Jju3rj2YL9FRuMgVwShRwg6x83sX1eRy16b5NssaUfVMptGYmFQWfGhm1RvrXy6NIpeq9nKnSEnV-W7gpWo_&xkcb=SoAc67M35inH-sRSop0IbzkdCdPP&fccid=5c1587f51107a3e0&vjs=3",
+        "Job Title": "Senior Software Developer",
+        "Company": "hive.co",
+        "Date Posted": "N/A",
+        "Location": "Remote in Ontario, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=8d81914d01f378bb&bb=djqGI52fkS4LaOcnJzVIPQ-WNBmjpZ1_M6TuSvu12NLwefq6vQ18WLCrl4XlLsFxC2AFf_kWDFtye2J-yHF1A2spk274_bRC6Cg9uS2mWNDXExQuvmE4RJkUdXdHqZe-&xkcb=SoCS67M35inH-sRSop0PbzkdCdPP&fccid=5e964c4afc56b180&vjs=3",
+        "Job Title": "MDM Senior Architect-Senior Manager",
+        "Company": "PRICE WATERHOUSE COOPERS",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=0d1a9551f5924559&bb=fNp5bWMCfXX4tdPdv1MBTx1S9RJoR8dm91ptN6Urm1gz5dSZ4ovq7jNCI_Qzr6fhXlzN8kKvHsd7biJwhVWvFo73EbO8fgTWYQ90GUbxQEzq9nMbExhjZIzJTkYkb8_q&xkcb=SoCx67M35inHV3xSop0LbzkdCdPP&fccid=429d36c3a4ce79b9&vjs=3",
+        "Job Title": "Dev Ops Engineering Manager",
+        "Company": "Ventura Foods",
+        "Date Posted": "N/A",
+        "Location": "Brea, CA 92821"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=0d1a9551f5924559&bb=rG7svKvcmwtVuvZ5E5duene25B2caCVeuFHiE7HKwTMTUOBGWCjYQbtZnU90wd2WSEAH1Q83OIbJR26fK9H7S59RKcdyZqmKpM0_E53rvk0s5NsfNeBodlfAgRF0cC-s&xkcb=SoAo67M35inHNmxXbx0KbzkdCdPP&fccid=429d36c3a4ce79b9&vjs=3",
+        "Job Title": "Dev Ops Engineering Manager",
+        "Company": "Ventura Foods",
+        "Date Posted": "N/A",
+        "Location": "Brea, CA 92821"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=042c952e77b3aba1&bb=rG7svKvcmwtVuvZ5E5duemBJnpqbdt8NFeMLhiTg1hMhTlJSsyOccvzG7ZGqawohbL3Vs-XjtIXW-2fP8TOs27YDpN5_v4--TaDlnwAMG_tLB4uBv_Oguw%3D%3D&xkcb=SoAB67M35inHNmxXbx0IbzkdCdPP&fccid=aa53b551f9df0210&vjs=3",
+        "Job Title": "Principal Systems Security Engineer-Cybersecurity Program Lead (P4) (Onsite)",
+        "Company": "Raytheon",
+        "Date Posted": "N/A",
+        "Location": "Fullerton, CA 92833"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=192861fac97da591&bb=qALrvVBgNZz7klVNozcATyfmiUJz-u3DVz_9FgOa8Fk-yVBO-PBuTtWIHYny3E_LIKGdn0doz0_BjvU_TXp9cFWT7jNAB-NyVhoL0D7kj2yhHGMnqWk2cgU5stRSE1G9&xkcb=SoAS67M35inGlCwv0R0LbzkdCdPP&fccid=488b55ee5340959d&vjs=3",
+        "Job Title": "GNC Engineer - Configurable Space Systems",
+        "Company": "Stellar Solutions",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=d362bf3f3fc66fab&bb=qALrvVBgNZz7klVNozcATzVrJJVF4Jomv_r6fTis7K8ZFzaqH6lkRIgXSDwtt0lC6rR0EZVoyQJi4FoGZXBRnlToy50wICVmw-wB9xn7lwL9HCw2PWqhjA%3D%3D&xkcb=SoCm67M35inGlCwv0R0KbzkdCdPP&fccid=11619ce0d3c2c733&vjs=3",
+        "Job Title": "Staff Systems Engineer (AHT)",
+        "Company": "Northrop Grumman",
+        "Date Posted": "N/A",
+        "Location": "Northridge, CA 91324"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=1ba4e734905284ca&bb=qALrvVBgNZz7klVNozcAT_oht8fU3Qiv3e1vgLSsX33-hd-7AxVCFX7D5jCg--_j-zswL-ZylViOo4BOtCZdQ5hq0gvdJmVuCnJvTs6D0nx7Dhr6LW2HHw%3D%3D&xkcb=SoA767M35inGlCwv0R0JbzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Sr. Mission Systems Engineer, Kuiper Government Solutions, KGS Mission Systems and Software Engineering Organization",
+        "Company": "KGS LLC",
+        "Date Posted": "N/A",
+        "Location": "Northridge, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=24dedd9c88281eb2&bb=qALrvVBgNZz7klVNozcAT1ciEQTy_6UkIJl73LmNnShlBiapd7o1wUOOXKkYEThAqV7fNqnR15hQ2Syjs4r7b-_SQkGihc4SqT0Ti6iFXbjBaxKyGyWr9w%3D%3D&xkcb=SoCP67M35inGlCwv0R0IbzkdCdPP&fccid=11619ce0d3c2c733&vjs=3",
+        "Job Title": "Staff Command & Telemetry Database Systems Engineer (Secret Clearance Required)",
+        "Company": "Northrop Grumman",
+        "Date Posted": "N/A",
+        "Location": "Redondo Beach, CA 90278"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=6c642a62baa149fd&bb=6K0biAj0zKKK4xJ4PQHvhIkqI0Nkfwd7QvTZ1hpQ-z2m1e5ClERgPRxJASJZgig1MYWkaE2tVbsNWtrg1WfAXswhSEyw-x3wsLEYpwj-OvilLX1HUeOe2A%3D%3D&xkcb=SoAc67M35inGaaAN4j0LbzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Software Development Engineer II, ART19",
+        "Company": "Amazon.com Services LLC",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA 90230"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=2935d0852889f217&bb=6K0biAj0zKKK4xJ4PQHvhIwpHnnpumLIN5L9lS8h9_M3JBEuXsXB3PrIgahUxGRdOv8PV5x4e0n_D0UK8f4c7LO9EDE1uqkzuy5kY7K4F-0g245SiDnTfzWEFAdXV7eL&xkcb=SoCo67M35inGaaAN4j0KbzkdCdPP&fccid=8379a3121011153a&vjs=3",
+        "Job Title": "Senior Software Engineer - Hybrid",
+        "Company": "Automobile Club of Southern California",
+        "Date Posted": "N/A",
+        "Location": "Remote in Los Angeles, CA 90007"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=60e4417d5974ee23&bb=6K0biAj0zKKK4xJ4PQHvhAVg55SDABFYDWjApj7gcAWigT7hBo4aGm83KsUsHl_VcZl-yVfbUo_oo7ZMDFFTB8MSi0pazL6wDIGcEWx2S782JTC3Ur4EXqsAxmDBPyJ7&xkcb=SoA167M35inGaaAN4j0JbzkdCdPP&fccid=3ed115f185405351&vjs=3",
+        "Job Title": "Senior Software Engineer - Train 1000 Bots to Trade Memecoins",
+        "Company": "Coral",
+        "Date Posted": "N/A",
+        "Location": "Remote in Ontario, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=e4a7b92b6861fb6e&bb=6K0biAj0zKKK4xJ4PQHvhGFhyQcY-NRxOtsKKlq6o2n_IhUpWI0QmNnOT_H4rOJ3JDkmFnGbVieBAgyOGad5vjcj93tnbDaVRZq67LI6o2XpLxzFvgDCdrRoEPVVKiXR&xkcb=SoCB67M35inGaaAN4j0IbzkdCdPP&fccid=645d83ee4cbe1d25&vjs=3",
+        "Job Title": "Lead Software Engineer - World of Warcraft | Irvine, CA",
+        "Company": "Blizzard Entertainment",
+        "Date Posted": "N/A",
+        "Location": "Irvine, CA 92618"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=f9b806d62ae39f1c&bb=6K0biAj0zKKK4xJ4PQHvhOvCWHp347B7ZArSxcb_Kl5dRNlYjcIcY61dvD9o9aGIjhC0TOEqIcYiWfDzoMx368NcA7jLiik7jcy4KLoe0-daExZbQ5f8mA%3D%3D&xkcb=SoAP67M35inGaaAN4j0PbzkdCdPP&fccid=a5b4499d9e91a5c6&vjs=3",
+        "Job Title": "Senior Software Engineer, Machine Learning, Search",
+        "Company": "Google",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA\u00a0(Venice area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=900902f7c0c41955&bb=6K0biAj0zKKK4xJ4PQHvhISf-MNM_R3dCPn1_OYwUJ9quuNlNPtg2Y-nO4qANGPfv1aqzwSQNHeCmU-Pmc65jZ4bgKxU49UztRfP66A8YeKyJV1WJrKAmQ%3D%3D&xkcb=SoC767M35inGaaAN4j0ObzkdCdPP&fccid=8bc01be85b97ce0d&vjs=3",
+        "Job Title": "Sr. Site Reliability Engineer, Data (Application Software)",
+        "Company": "SpaceX",
+        "Date Posted": "N/A",
+        "Location": "Hawthorne, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=1914f8bac7d8b9e2&bb=6K0biAj0zKKK4xJ4PQHvhBBeQF58vvzrvf_mjcfqnH8ghumonNDwo-h0S2R2L8o-Y8rwoP7ORv2KA4kkqjdZleGUIaeIQCC6c9SrtwCFVOi-Qi6EDDeeLbdlbzam5UQk&xkcb=SoAm67M35inGaaAN4j0NbzkdCdPP&fccid=f368300325e8e8bc&vjs=3",
+        "Job Title": "Senior Manager, Software Engineering",
+        "Company": "Snapchat",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA 90291"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=32f6949813dc8724&bb=6K0biAj0zKKK4xJ4PQHvhEENNsrGmlh5HBxq0rzmNZPGON571whhWE7GaTFdev_TiLicTRlLhXwzSBjd5gEe3Ld9NaJ3QKRkVE1BZpP90QUNPxwMRDetdw%3D%3D&xkcb=SoCS67M35inGaaAN4j0MbzkdCdPP&fccid=c1099851e9794854&vjs=3",
+        "Job Title": "Beats - Software/Firmware Engineering Program Manager",
+        "Company": "Apple",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=1ba4e734905284ca&bb=6K0biAj0zKKK4xJ4PQHvhJ_ErdrfcIRVNmlzMeiLNd3RBkKXRFRWDlO5hu9EtMDjmDEFd8ThhyZKsz_ACamYXMw2rbqOvM0eEw_b5xpTVcb4DHO1XtAprg%3D%3D&xkcb=SoB767M35inGaaAN4j0DbzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Sr. Mission Systems Engineer, Kuiper Government Solutions, KGS Mission Systems and Software Engineering Organization",
+        "Company": "KGS LLC",
+        "Date Posted": "N/A",
+        "Location": "Northridge, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=4f134e0583d12752&bb=6K0biAj0zKKK4xJ4PQHvhMfrrc87k4_0kqkGIAsUayUIaQRleFgsFqFihwEFDAP5Rh5d8i13x1jJfEc3-l1Asy8meyekd2PjJKa2XSck9A6_hQ-yGXZ5DlORTMKFZUY9&xkcb=SoDP67M35inGaaAN4j0CbzkdCdPP&fccid=6b0a28b7a8b7d5d0&vjs=3",
+        "Job Title": "Staff Software Engineer, Energy Management Systems",
+        "Company": "Rivian and VW Group Technology",
+        "Date Posted": "N/A",
+        "Location": "Irvine, CA 92606"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=a8d4ac70e63ba891&bb=6K0biAj0zKKK4xJ4PQHvhJ_ErdrfcIRVSsORHDuDTaXcuV5tat3FSMygQKwdsCiO1KL_rEpwn-4JpOFqSfrq7FoPYAnCDzS_TmPeaiQtf2Z5RHm7tizpD4eKcdwp5fwy&xkcb=SoBS67M35inGaaAN4j0BbzkdCdPP&fccid=5c1587f51107a3e0&vjs=3",
+        "Job Title": "Senior Software Developer",
+        "Company": "hive.co",
+        "Date Posted": "N/A",
+        "Location": "Remote in Ontario, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=0d1a9551f5924559&bb=6K0biAj0zKKK4xJ4PQHvhEdN5e9IV9fS9r94BV3XwJfQ0QXr8Z5dgwrv6cvVcJ9LAwR7YhIKgQfNC7ItxV_70yaKD5kNxou3YCdwvT500cHqokaBQDHnHkPj3bsK9SAT&xkcb=SoDm67M35inGaaAN4j0AbzkdCdPP&fccid=429d36c3a4ce79b9&vjs=3",
+        "Job Title": "Dev Ops Engineering Manager",
+        "Company": "Ventura Foods",
+        "Date Posted": "N/A",
+        "Location": "Brea, CA 92821"
+    }
+]

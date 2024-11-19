@@ -22,11 +22,9 @@ country = united_states
 
 driver = configure_webdriver()
 job_positions = ['devops engineer', 'security engineer', 'cloud engineer', 'backend', 'AWS', 'Terraform', 'Gitlab', 'Python', 'Docker', 'Bash', 'systems enginer', 'software engineer']
-# job_positions = ['AWS']
 job_location = '90066'
 date_posted = 1
 pay = '$150,000'
-sorted_df = None
 yearsExperience = '6'
 disqualifySkills = 'sales, hardware, Machine Learning, AI, Blockchain, embedded systems, Top Secret Clearance, VR, Robotics'
 disqualifyTerms = 'BAH, Director, Booz Allen Hamilton'
@@ -55,14 +53,13 @@ by curling client financial data into an Excel spreadsheet.
 the Department of Defense.
 """
 
-# This function creates a search based on the variables above and outputs to a json file. 
+# This function creates a search based on the variables above and outputs to a json file.
 def searchToJson():
     today_date = datetime.today().strftime('%Y-%m-%d')
     filename = f"{today_date}/{today_date}.json"
-    df = scrape_job_data(driver, country)
     dataframes = []
     for job_position in job_positions:
-        full_url = search_jobs(pay, driver, country, job_position, job_location, date_posted)
+        search_jobs(pay, driver, country, job_position, job_location, date_posted)
         df = scrape_job_data(driver, country)
         dataframes.append(df)
     # Concatenate all dataframes and remove duplicates
@@ -74,7 +71,8 @@ def searchToJson():
     with open(filename, "w") as f:
         json.dump(parsed_json, f, indent=4)
 
-# Given a string, return the list of all the bad indexes we want to remove. VERY STRICT WITH THE FORMAT.
+
+# Given a string, return a list of the only index we want to keep. VERY STRICT WITH THE FORMAT.
 def addGoodJobs(partialPrompt):
     print('Adding only best job')
     prompt = f"""
@@ -85,10 +83,9 @@ def addGoodJobs(partialPrompt):
         Disqualify any job that includes proficiency in the following : {disqualifySkills}.
         Disqalify any job that includes these words in the title or company name : {disqualifyTerms}.
         Disqualify any job that is a bad fit for the resume. Example : backend software engineer is fine. Transportation and satellite communication
-        engineer expert is not fine. 
+        engineer expert is not. 
         If none of the jobs qualify, return ONLY []
         Example output : []
-
         Otherwise return a Python integer list of the single best job index in the list.
         Output format: ONLY a list of a single integer, in Python list format. Do not include any explanations, extra text, or code.
         Example output: [13]
@@ -124,8 +121,8 @@ def addGoodJobs(partialPrompt):
 def summarize(jobDescription):
     print('summarizing job description...')
     prompt = f"""
-        Below is a job description, I need to know if I am a good fit. Summarize it in 100 words. 
-        Make sure to include anything necessary to estimate whether or not it's a good fit : all tech, tools, 
+        Below is a job description, I need to know if I am a good fit for it. Summarize the job description in 100 words. 
+        Make sure to include anything necessary to estimate whether or not it's a good fit : tech, tools, 
         requirements, skills etc...
         {jobDescription}
     """
@@ -133,15 +130,15 @@ def summarize(jobDescription):
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You are a technical writer who specializes in software and engineering documentation."},
+            {"role": "system", "content": "You are a technical recruiter who specializes in software engineering."},
             {"role": "user", "content": prompt}
         ],
     )
     return response.choices[0].message.content
 
-# Given a dict : key = company, value = [index, description], return a list of indexes to remove
+# Given a dict : key = company, value = [index, description], return a list of index to keep.
 # Take the unique company names. Then go through dictionary and merge the index and company name in a readable string.
-# Then invoke openAI to return all the indexes except for the most simlar one.
+# Then invoke openAI to return only the best one.
 def addingIndexes(descriptionDict):
     if len(descriptionDict) == 0:
         return set()
@@ -157,38 +154,24 @@ def addingIndexes(descriptionDict):
 # We want a refine stage between the job scrape and the resume building process. 
 # Here is where you put all the conditions you want to include and make sure you don't apply to a job.
 # Initially doing this to ensure we only apply to one job per company per day. We need to select the best one. 
-# This returns a set of indexes of jobs we are removing from the search.
+# This returns a list of index we are keeping (length = 0 or 1).
 # Increasing this now to include jobs that are too senior or include keywords that don't match. This could be
 # done in one prompt. 
-# I am going to pass in the entire job description dict : key = company, value = index, summarized description. 
-
-# Let's change this section to instead of including indexes we want to remove, we will add only the indexes of 
-# jobs we want to apply to.
+# I am going to pass in the entire job description dict : key = company, value = index, summarized description.
 
 def refineJson(filename):
-    companiesCount = {}
-    # companiesDescriptions : key = company name, value = [index, description]
     companiesDescriptions = {}
     added = set()
     with open(filename, "r") as f:
         data = json.load(f)
-        # print('sorting through companies looking for duplicates')
-        # for entry in data:
-        #     company = entry.get("Company")
-        #     if company not in companiesCount:
-        #         companiesCount[company] = 0
-        #     companiesCount[company] += 1
-        # print('company postings = ', companiesCount)
         index = 0
         for entry in data:
             company = entry.get("Company")
             url = entry.get("Link")
-            # if companiesCount[company] > 1:
             if company not in companiesDescriptions:
                 companiesDescriptions[company] = []
             companiesDescriptions[company].append([index, jobDescription(url)])
             index += 1
-
         print('Filtering jobs')
         toAdd = set()
         toAdd = addingIndexes(companiesDescriptions)
@@ -199,7 +182,6 @@ def refineJson(filename):
 
 # This function takes a URL and returns the full description as a string.
 def jobDescription(url):
-    # print('Job description URL = ', url)
     if not url:
         return 'ERROR, No Job Description!'
     try:
@@ -232,7 +214,7 @@ def generate_resume_bullets(job_description):
 
         STEP 3 (do not output anything):
         Create 1-3 bullets: 
-        - Do not include anything that cannot be justified within the resume. Keep it at least tangentially related.
+        - Do not include anything that cannot be justified within the resume. Keep it at least somewhat related.
         - Make sure not to mention hardware.
         - Write in a consice and precise manner. Minimize fluff. Use clear terms. Make it shorter or equal length as the average bullet in the resume.
         - Include as many missing keywords as possible in each bullet.
@@ -279,7 +261,7 @@ def isolateBullets(GPTOutput):
     else:
         print("STEP 6: not found in the input.")
         return 'ERROR'
-
+    
 # From the gpt output, we create a dictonary where key = bullet to replace and value = new bullet. 
 def parse_string_to_dict(input_string):
     lines = input_string.splitlines()

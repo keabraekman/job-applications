@@ -24,3 +24,7 @@ I am looking for jobs in Los Angeles, in person, hybrid, or remote.
 Total compensation > 130k
 
 
+Run these commands: 
+source venv/bin/activate
+pip3 install python-dotenv
+python3 search.py
