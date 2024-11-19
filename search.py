@@ -21,47 +21,44 @@ united_states = 'https://www.indeed.com'
 country = united_states
 
 driver = configure_webdriver()
-job_positions = ['devops engineer', 'security engineer', 'cloud engineer', 'backend', 'AWS', 'Terraform', 'Gitlab', 'Python', 'Docker', 'Bash', 'systems enginer', 'software engineer']
-job_location = '90066'
+job_positions = ['finance analyst', 'business operations', 'strategic finance', 'financial associate', 'technology finance', 'corporate development']
+# job_positions = ['finance analyst']
+# job_location = '90066'
+job_locations = ['Los Angeles', 'New York City', 'San Francisco']
 date_posted = 1
-pay = '$150,000'
-yearsExperience = '6'
-disqualifySkills = 'sales, hardware, Machine Learning, AI, Blockchain, embedded systems, Top Secret Clearance, VR, Robotics'
-disqualifyTerms = 'BAH, Director, Booz Allen Hamilton'
+pay = '$140,000'
+yearsExperience = '7'
+disqualifySkills = ''
+disqualifyTerms = ''
 
 base_resume = """
-A. ▪ Full Services Team - Hybrid Legacy Application Migration to AWS.
-1. o Increased scalability and reliability of 6+ applications by 40%, migrating
-hybrid infrastructure to AWS ECS, ECR, RDS, and MQ with Terraform.
-2. o Reduced end-to-end application deployment time and manual steps by 50% using
-Gitlab CI, Docker, and Terraform.
-3. o Integrated Artifactory with AWS ECR for container image storage, simplifying
-artifact management and versioning for 20+ Dockerized applications.
-B. ▪ Security Services Team - Deployed and Maintained Security Infrastructure.
-4. o Deployed and maintained Tenable SC and Trend Micro across 10+ multi-region AWS
-accounts, significantly decreased vulnerabilities by automating security scans.
-5. o Improved the patching process for security assets which saved 5 hours a week by
-automating updates using AWS Inspector, Lambda, and Step Functions.
-Software Engineer | Dec. 2020 – Sept. 2022
-C. ▪ Foundational Services Team
-6. o Automated TLS certificate creation by developing a Gitlab CI pipeline leveraging
-AWS ACM across 50+ instances.
-D. ▪ Systems Engineer | Aug. 2020 - Dec. 2020
-7. o Developed a web scraping Python bot that saved 160+ hours of manual data entry
-by curling client financial data into an Excel spreadsheet.
-8. o Researched and drafted proposals for Cloud Engineering and FedRAMP projects for
-the Department of Defense.
+A. Silicon Valley Bank, San Francisco, CA | Senior Associate   
+1. •	Led strategic finance initiatives for new transactions of exceeding $50+ million to drive decision making by building liquidity analysis, Excel forecasting models, drafting term sheets to clients, and underwriting the final memo for enterprise software companies that raised Series A through D equity rounds
+2. •	Collaborated with cross-functional teams to design and implement growth strategies for high-value enterprise software clients, driving $150+ million in debt transactions and expanding the debt portfolio by 25%
+3. •	Developed and implemented an Excel-based portfolio tracking system, streamlining KPI reporting and enabling accurate valuation analyses, which improved operational efficiency and data-driven decision-making by 200%
+4. •	Trained and supervised 12+ junior associates in financial accounting, underwriting, portfolio management, and due diligence responsibilities, serving as the go-to resource for ad hoc inquiries 
+5. •	Spearheaded due diligence and investment strategies for 30+ B2B technology clients, presenting detailed business updates and strategic recommendations to senior leadership to enable data-driven decision-making
+B. Bridge Bank, San Francisco, CA | Technology Lending Analyst
+6. •	Assisted in developing innovative debt structures such as venture debt loans and recurring revenue LOC, closing over 15+ deals with total loan commitments exceeding $100+ million, demonstrating strategic financial planning 
+7. •	Streamlined a portfolio management process for 20+ companies by optimizing the collection and analysis of monthly reports, aligning company performances with strategic growth plans 
+8. •	Engaged in due diligence discussions with company executives and investors—covering venture capital, private equity, and strategic investors—to develop capital structure solutions for technology and innovation sectors, honing KPI reporting and financial analysis skills
+C. Wells Fargo & Company, Omaha, NE | Middle Market Banking Analyst
+9. •	Attended a six-month analyst program structured around learning financial modeling, and credit underwriting 
+10. •	Initiated transactions and managed a portfolio of 10+ companies with revenues from $5 million to $2 billion from various industries including investor real estate, private equity, telecommunications, and agriculture 
+11. •	Partnered with relationship teams to structure and propose credit transactions as well as coordinate customer oversight, documentation, and loan closing processes for new and existing customers 
 """
+
 
 # This function creates a search based on the variables above and outputs to a json file.
 def searchToJson():
     today_date = datetime.today().strftime('%Y-%m-%d')
     filename = f"{today_date}/{today_date}.json"
     dataframes = []
-    for job_position in job_positions:
-        search_jobs(pay, driver, country, job_position, job_location, date_posted)
-        df = scrape_job_data(driver, country)
-        dataframes.append(df)
+    for job_location in job_locations:
+        for job_position in job_positions:
+            search_jobs(pay, driver, country, job_position, job_location, date_posted)
+            df = scrape_job_data(driver, country)
+            dataframes.append(df)
     # Concatenate all dataframes and remove duplicates
     merged_df = pd.concat(dataframes).drop_duplicates().reset_index(drop=True)
     merged_df.to_json(filename, orient='records')
@@ -80,10 +77,7 @@ def addGoodJobs(partialPrompt):
         And a list of tuples containing [index, description] {partialPrompt}
         Identify the description that best matches the base resume based on content similarity.
         Disqualify any job that requires more than {str(int(yearsExperience)+4)} years of experience (including college).
-        Disqualify any job that includes proficiency in the following : {disqualifySkills}.
-        Disqalify any job that includes these words in the title or company name : {disqualifyTerms}.
-        Disqualify any job that is a bad fit for the resume. Example : backend software engineer is fine. Transportation and satellite communication
-        engineer expert is not. 
+        Disqualify any job that is a bad fit for the resume.
         If none of the jobs qualify, return ONLY []
         Example output : []
         Otherwise return a Python integer list of the single best job index in the list.
@@ -130,7 +124,7 @@ def summarize(jobDescription):
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You are a technical recruiter who specializes in software engineering."},
+            {"role": "system", "content": "You are a technical recruiter who specializes in financial jobs."},
             {"role": "user", "content": prompt}
         ],
     )
@@ -210,20 +204,19 @@ def generate_resume_bullets(job_description):
         the resume. If none, output 'NO CHANGES'.
 
         STEP 2 (do not output anything):
-        Take the keywords from step 1 and rank them in order of importance in relation to the job. 
+        Take the keywords/skills from step 1 and rank them in order of importance in relation to the job. 
 
         STEP 3 (do not output anything):
-        Create 1-3 bullets: 
+        Create 1-4 bullets: 
         - Do not include anything that cannot be justified within the resume. Keep it at least somewhat related.
-        - Make sure not to mention hardware.
         - Write in a consice and precise manner. Minimize fluff. Use clear terms. Make it shorter or equal length as the average bullet in the resume.
-        - Include as many missing keywords as possible in each bullet.
+        - Include as many missing keywords and skills as possible in each bullet.
         - Make sure each bullet is formatted like the bullets in the resume (in one cohesive manner) : 
             'Improved X by Y through implementation of Z.'
         - Use arbitrary metrics that sound very impressive : Accomplishments, Percentages, milestones, requests etc...
         
         STEP 4 (do not output anything):
-        Find which Section (labeled A-D) is most relevant for each bullet you've created.
+        Find which Section (labeled A-C) is most relevant for each bullet you've created.
 
         STEP 5 (do not output anything):
         Within each Section (from step 4), save the bullet number(s) that is/are least relevant to the job.
@@ -281,14 +274,17 @@ def replaceBullets(doc_path, newBulletDict):
     doc = Document(docx_path)
     # Define the bullet points by number in a dictionary
     bullet_points = {
-        1: 'Increased scalability and reliability of 6+ applications by 40%, migrating hybrid infrastructure to AWS ECS, ECR, RDS, and MQ with Terraform.',
-        2: 'Reduced end-to-end application deployment time and manual steps by 50% using Gitlab CI, Docker, and Terraform.',
-        3: 'Integrated Artifactory with AWS ECR for container image storage, simplifying artifact management and versioning for 20+ Dockerized applications.',
-        4: 'Deployed and maintained Tenable SC and Trend Micro across 10+ multi-region AWS accounts, significantly decreased vulnerabilities by automating security scans.',
-        5: 'Improved the patching process for security assets which saved 5 hours a week by automating updates using AWS Inspector, Lambda, and Step Functions.',
-        6: 'Automated TLS certificate creation by developing a Gitlab CI pipeline leveraging AWS ACM across 50+ instances.',
-        7: 'Developed a web scraping Python bot that saved 160+ hours of manual data entry by curling client financial data into an Excel spreadsheet.',
-        8: 'Researched and drafted proposals for Cloud Engineering and FedRAMP projects for the Department of Defense.'
+        1: 'Led strategic finance initiatives for new transactions of exceeding $50+ million to drive decision making by building liquidity analysis, Excel forecasting models, drafting term sheets to clients, and underwriting the final memo for enterprise software companies that raised Series A through D equity rounds',
+        2: 'Collaborated with cross-functional teams to design and implement growth strategies for high-value enterprise software clients, driving $150+ million in debt transactions and expanding the debt portfolio by 25%',
+        3: 'Developed and implemented an Excel-based portfolio tracking system, streamlining KPI reporting and enabling accurate valuation analyses, which improved operational efficiency and data-driven decision-making by 200%',
+        4: 'Trained and supervised 12+ junior associates in financial accounting, underwriting, portfolio management, and due diligence responsibilities, serving as the go-to resource for ad hoc inquiries',
+        5: 'Spearheaded due diligence and investment strategies for 30+ B2B technology clients, presenting detailed business updates and strategic recommendations to senior leadership to enable data-driven decision-making',
+        6: 'Assisted in developing innovative debt structures such as venture debt loans and recurring revenue LOC, closing over 15+ deals with total loan commitments exceeding $100+ million, demonstrating strategic financial planning',
+        7: 'Streamlined a portfolio management process for 20+ companies by optimizing the collection and analysis of monthly reports, aligning company performances with strategic growth plans',
+        8: 'Engaged in due diligence discussions with company executives and investors—covering venture capital, private equity, and strategic investors—to develop capital structure solutions for technology and innovation sectors, honing KPI reporting and financial analysis skills',
+        9: 'Attended a six-month analyst program structured around learning financial modeling, and credit underwriting',
+        10: 'Initiated transactions and managed a portfolio of 10+ companies with revenues from $5 million to $2 billion from various industries including investor real estate, private equity, telecommunications, and agriculture',
+        11: 'Partnered with relationship teams to structure and propose credit transactions as well as coordinate customer oversight, documentation, and loan closing processes for new and existing customers '
     }
     bullet_numbers = list(newBulletDict.keys())
     # Find the paragraph that contains the bullet point
@@ -297,14 +293,14 @@ def replaceBullets(doc_path, newBulletDict):
             if para.text.strip() == bullet_points[b]:
                 para.text = newBulletDict[b]
                 for run in para.runs:
-                    run.font.name = 'Consolas'
+                    run.font.name = 'Times'
                     run.font.size = Pt(11)
                     # Ensure the font name is correctly applied in Word
                     r = run._element
                     rPr = r.find(qn('w:rPr'))
                     rFonts = OxmlElement('w:rFonts')
-                    rFonts.set(qn('w:ascii'), 'Consolas')
-                    rFonts.set(qn('w:hAnsi'), 'Consolas')
+                    rFonts.set(qn('w:ascii'), 'Times')
+                    rFonts.set(qn('w:hAnsi'), 'Times')
                     rPr.append(rFonts)
     # Save the document with a new name or overwrite the original
     print('saving doc at : ', doc_path)
@@ -377,10 +373,10 @@ def create_folder_if_not_exists(folder_path):
 
 
 
-docx_path = 'Kea Braekman Resume.docx'
-pdf_path = 'Kea Braekman Resume.pdf'
-output_pdf_path = 'Kea Braekman Resume'
-output_docx_path = 'Kea Braekman Resume'
+docx_path = 'Jose Duran Resume.docx'
+pdf_path = 'Jose Duran Resume.pdf'
+output_pdf_path = 'Jose Duran Resume'
+output_docx_path = 'Jose Duran Resume'
 todaysDate = f"{datetime.today().strftime('%Y-%m-%d')}"
 folderPath = '/Users/keabraekman/Documents-Offline/' + todaysDate
 
@@ -407,7 +403,10 @@ for i in range(len(joburls)):
     newBulletDict = parse_string_to_dict(resume_text_bullets)
     # title_first_three_words = ' '.join(titles[i].split()[:3])
     title_first_three_words = ' '.join(re.sub(r'\W+', ' ', titles[i]).split()[:3])
-    filename = '/Users/keabraekman/Documents-Offline/' + todaysDate + '/' + output_docx_path + ' ' + companies[i] + ' ' + title_first_three_words + '.docx'
+    filename = '/Users/keabraekman/Documents-Offline/Jose-Duran/' + todaysDate + '/' + output_docx_path + ' ' + companies[i] + ' ' + title_first_three_words + '.docx'
+    folder_path = '/Users/keabraekman/Documents-Offline/Jose-Duran/' + todaysDate + '/'
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
     print('replacing bullets')
     replaceBullets(filename, newBulletDict)
     print('adding into spreadsheet')
