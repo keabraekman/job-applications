@@ -10,7 +10,10 @@ from docx.oxml import OxmlElement
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
-from fpdf import FPDF
+from openpyxl import Workbook
+from openpyxl import load_workbook
+import re
+from ast import literal_eval
 
 load_dotenv()
 api_key = os.getenv('OPENAI_API_KEY')
@@ -24,6 +27,9 @@ job_location = '90066'
 date_posted = 1
 pay = '$150,000'
 sorted_df = None
+yearsExperience = '6'
+disqualifySkills = 'sales, hardware, Machine Learning, AI, Blockchain, embedded systems, Top Secret Clearance, VR, Robotics'
+disqualifyTerms = 'BAH, Director, Booz Allen Hamilton'
 
 base_resume = """
 A. ▪ Full Services Team - Hybrid Legacy Application Migration to AWS.
@@ -69,17 +75,23 @@ def searchToJson():
         json.dump(parsed_json, f, indent=4)
 
 # Given a string, return the list of all the bad indexes we want to remove. VERY STRICT WITH THE FORMAT.
-def removeBadJobs(partialPrompt):
-    print('prompting to get only best job...')
+def addGoodJobs(partialPrompt):
+    print('Adding only best job')
     prompt = f"""
         Given the following resume {base_resume}
         And a list of tuples containing [index, description] {partialPrompt}
-        Identify the description that best matches the base resume based on content similarity. 
-        Return a Python integer list of all the indexes in the list of tuples, excluding the index with the best-matching 
-        description. 
+        Identify the description that best matches the base resume based on content similarity.
+        Disqualify any job that requires more than {str(int(yearsExperience)+4)} years of experience (including college).
+        Disqualify any job that includes proficiency in the following : {disqualifySkills}.
+        Disqalify any job that includes these words in the title or company name : {disqualifyTerms}.
+        Disqualify any job that is a bad fit for the resume. Example : backend software engineer is fine. Transportation and satellite communication
+        engineer expert is not fine. 
+        If none of the jobs qualify, return ONLY []
+        Example output : []
 
-        Output format: ONLY a list of integers, in Python list format. Do not include any explanations, extra text, or code.
-        Example output: [0, 2, 3]
+        Otherwise return a Python integer list of the single best job index in the list.
+        Output format: ONLY a list of a single integer, in Python list format. Do not include any explanations, extra text, or code.
+        Example output: [13]
     """
     client = OpenAI(api_key=api_key)
     response = client.chat.completions.create(
@@ -89,10 +101,23 @@ def removeBadJobs(partialPrompt):
             {"role": "user", "content": prompt}
         ],
     )
+    print('addGoodJobs prompt response = ', response.choices[0].message.content)
     stringOutput = response.choices[0].message.content.strip()  # Remove any surrounding whitespace
-    print('list of indexes we are removing =', stringOutput)
-    int_list = list(map(int, stringOutput.strip("[]").split(", ")))
-    print('type of indexes we are removing in a int list = ', int_list)
+    print('Index we are adding =', stringOutput)
+    # Check if the string output contains a valid list format
+    try:
+        # Use Python's eval safely with literal_eval to parse the string as a Python list
+        parsed_output = literal_eval(stringOutput)
+        # Ensure the parsed output is a list of integers
+        if isinstance(parsed_output, list) and all(isinstance(i, int) for i in parsed_output):
+            int_list = parsed_output
+        else:
+            # If the parsed output isn't a valid list of integers, return an empty list
+            int_list = []
+    except (ValueError, SyntaxError):
+        # If parsing fails, return an empty list
+        int_list = []
+    print('Job index we are adding = ', int_list)
     return int_list
 
 # given a job description, this function summarizes it. 
@@ -117,7 +142,7 @@ def summarize(jobDescription):
 # Given a dict : key = company, value = [index, description], return a list of indexes to remove
 # Take the unique company names. Then go through dictionary and merge the index and company name in a readable string.
 # Then invoke openAI to return all the indexes except for the most simlar one.
-def indexToRemove(descriptionDict):
+def addingIndexes(descriptionDict):
     if len(descriptionDict) == 0:
         return set()
     result = set()
@@ -126,46 +151,57 @@ def indexToRemove(descriptionDict):
         for job in range(len(descriptionDict[company])):
             partialPrompt += 'INDEX = ' + str(descriptionDict[company][job][0]) + '|' + summarize(descriptionDict[company][job][1])
         print('working on duplicates for company ', company)
-        result.update(removeBadJobs(partialPrompt))
+        result.update(addGoodJobs(partialPrompt))
     return result
 
 # We want a refine stage between the job scrape and the resume building process. 
 # Here is where you put all the conditions you want to include and make sure you don't apply to a job.
 # Initially doing this to ensure we only apply to one job per company per day. We need to select the best one. 
 # This returns a set of indexes of jobs we are removing from the search.
+# Increasing this now to include jobs that are too senior or include keywords that don't match. This could be
+# done in one prompt. 
+# I am going to pass in the entire job description dict : key = company, value = index, summarized description. 
+
+# Let's change this section to instead of including indexes we want to remove, we will add only the indexes of 
+# jobs we want to apply to.
+
 def refineJson(filename):
     companiesCount = {}
     # companiesDescriptions : key = company name, value = [index, description]
     companiesDescriptions = {}
-    removed = set()
+    added = set()
     with open(filename, "r") as f:
         data = json.load(f)
-        print('sorting through companies looking for duplicates')
-        for entry in data:
-            company = entry.get("Company")
-            if company not in companiesCount:
-                companiesCount[company] = 0
-            companiesCount[company] += 1
-        print('company postings = ', companiesCount)
+        # print('sorting through companies looking for duplicates')
+        # for entry in data:
+        #     company = entry.get("Company")
+        #     if company not in companiesCount:
+        #         companiesCount[company] = 0
+        #     companiesCount[company] += 1
+        # print('company postings = ', companiesCount)
         index = 0
         for entry in data:
             company = entry.get("Company")
             url = entry.get("Link")
-            if companiesCount[company] > 1:
-                if company not in companiesDescriptions:
-                    companiesDescriptions[company] = []
-                companiesDescriptions[company].append([index, jobDescription(url)])
+            # if companiesCount[company] > 1:
+            if company not in companiesDescriptions:
+                companiesDescriptions[company] = []
+            companiesDescriptions[company].append([index, jobDescription(url)])
             index += 1
-        print('Removing non ideal jobs')
-        toRemove = set()
-        toRemove = indexToRemove(companiesDescriptions)
-        for r in toRemove:
-            removed.add(r)
-    return removed
+
+        print('Filtering jobs')
+        toAdd = set()
+        toAdd = addingIndexes(companiesDescriptions)
+        for r in toAdd:
+            added.add(r)
+    return added
 
 
 # This function takes a URL and returns the full description as a string.
 def jobDescription(url):
+    # print('Job description URL = ', url)
+    if not url:
+        return 'ERROR, No Job Description!'
     try:
         driver.get(url)
         description_element = driver.find_element(By.XPATH, '//div[contains(@class, "jobsearch-JobComponent-description")]')
@@ -196,8 +232,9 @@ def generate_resume_bullets(job_description):
 
         STEP 3 (do not output anything):
         Create 1-3 bullets: 
+        - Do not include anything that cannot be justified within the resume. Keep it at least tangentially related.
         - Make sure not to mention hardware.
-        - Write in a consice and precise manner. Minimize fluff. Make it shorter or equal length as the average buller in the resume.
+        - Write in a consice and precise manner. Minimize fluff. Use clear terms. Make it shorter or equal length as the average bullet in the resume.
         - Include as many missing keywords as possible in each bullet.
         - Make sure each bullet is formatted like the bullets in the resume (in one cohesive manner) : 
             'Improved X by Y through implementation of Z.'
@@ -292,16 +329,15 @@ def replaceBullets(doc_path, newBulletDict):
     doc.save(doc_path)
 
 # This function takes the json file and returns a list of the urls for all the jobs posted today.
-def getURLCompanyAndTitleList(todayJSON):
-    urls = []
-    companies = []
-    titles = []
+def getURLCompanyTitleAndLocationList(todayJSON):
+    urls, companies, titles, locations = [], [], [], []
     with open(todayJSON, 'r') as f:
         data = json.load(f)
         for entry in data:
             link = entry.get("Link")
             company = entry.get("Company")
             title = entry.get("Job Title")
+            location = entry.get("Location")
             if link:
                 urls.append(link)
             else:
@@ -314,14 +350,48 @@ def getURLCompanyAndTitleList(todayJSON):
                 titles.append(title)
             else:
                 titles.append(None)
-    return [urls, companies, titles]
+            if location:
+                locations.append(location)
+            else:
+                locations.append(None)
+    return [urls, companies, titles, locations]
 
 
 
-from docx2pdf import convert
+# This function will be used to create an excel table with the following columns : company name, job title, location, link
+# We will take in either the json file or the dict we created in refineJson.
+def createXlsxTable(tableName):
+    wb = Workbook()
+    ws = wb.active
+    # Set the headers
+    ws['A1'] = 'Company name'
+    ws['B1'] = 'Job Title'
+    ws['C1'] = 'Location'
+    ws['D1'] = 'Indeed Link'
+    wb.save(f"{tableName}.xlsx")
 
 
+# This function will add a job entry
+def add_job_entry(tableName, company, job_title, location, link):
+    # Load the existing workbook
+    wb = load_workbook(f"{tableName}.xlsx")
+    ws = wb.active
+    # Find the next empty row
+    next_row = ws.max_row + 1
+    # Insert the data
+    ws.cell(row=next_row, column=1, value=company)
+    ws.cell(row=next_row, column=2, value=job_title)
+    ws.cell(row=next_row, column=3, value=location)
+    ws.cell(row=next_row, column=4, value=link)
+    wb.save(f"{tableName}.xlsx")
 
+# This will create the folder where we will add all the resumes and spreadsheet. 
+def create_folder_if_not_exists(folder_path):
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+        print(f"Folder '{folder_path}' created.")
+    else:
+        print(f"Folder '{folder_path}' already exists.")
 
 
 
@@ -330,32 +400,21 @@ pdf_path = 'Kea Braekman Resume.pdf'
 output_pdf_path = 'Kea Braekman Resume'
 output_docx_path = 'Kea Braekman Resume'
 todaysDate = f"{datetime.today().strftime('%Y-%m-%d')}"
+folderPath = '/Users/keabraekman/Documents-Offline/' + todaysDate
 
-
-input_folder = "/Users/keabraekman/Documents-Offline/" + todaysDate + '/'
-output_folder = "/Users/keabraekman/Documents-Offline/" + todaysDate + '/'
-# Ensure the output folder exists
-os.makedirs(output_folder, exist_ok=True)
-# Loop through each .docx file in the input folder
-for filename in os.listdir(input_folder):
-    if filename.endswith(".docx"):
-        input_path = os.path.join(input_folder, filename)
-        output_path = os.path.join(output_folder, filename.replace(".docx", ".pdf"))
-        # Convert each .docx file to a .pdf in the output folder
-        convert(input_path, output_path)
-        print(f"Converted {filename} to PDF.")
-
-print('DONE')
 
 os.makedirs(todaysDate, exist_ok=True)
 searchToJson()
 jsonPath = todaysDate+'/'+todaysDate+'.json'
 refined = refineJson(jsonPath)
 print('refined = ', refined)
-print('STOP')
-joburls, companies, titles = getURLCompanyAndTitleList(jsonPath)
+joburls, companies, titles, locations = getURLCompanyTitleAndLocationList(jsonPath)
+createXlsxTable(todaysDate + '/' + todaysDate)
+
+create_folder_if_not_exists(folderPath)
+
 for i in range(len(joburls)):
-    if not joburls[i] or not companies[i] or i in refined:
+    if not joburls[i] or not companies[i] or i not in refined:
         continue
     print('working on resume for ', companies[i])
     print('scraping description')
@@ -364,14 +423,13 @@ for i in range(len(joburls)):
     resume_text = generate_resume_bullets(description)
     resume_text_bullets = isolateBullets(resume_text)
     newBulletDict = parse_string_to_dict(resume_text_bullets)
-    filename = '/Users/keabraekman/Documents-Offline/' + todaysDate + '/' + output_docx_path + ' ' + companies[i] + ' ' + titles[i][:10] + '.docx'
+    # title_first_three_words = ' '.join(titles[i].split()[:3])
+    title_first_three_words = ' '.join(re.sub(r'\W+', ' ', titles[i]).split()[:3])
+    filename = '/Users/keabraekman/Documents-Offline/' + todaysDate + '/' + output_docx_path + ' ' + companies[i] + ' ' + title_first_three_words + '.docx'
     print('replacing bullets')
     replaceBullets(filename, newBulletDict)
-
-
-# convert("/Users/keabraekman/Documents/Kea Braekman Resume AeroVironment Software E.docx", "/Users/keabraekman/Documents-Offline/Kea Braekman Resume AeroVironment Software E.pdf")
-
-
+    print('adding into spreadsheet')
+    add_job_entry(todaysDate+'/'+todaysDate, companies[i], titles[i], locations[i], joburls[i])
 
 
 driver.quit()

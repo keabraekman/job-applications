@@ -1,0 +1,12 @@
+pandas
+beautifulsoup4
+selenium
+undetected-chromedriver
+selenium-stealth
+webdriver-manager
+fake-useragent
+seleniumbase
+python-dotenv
+openai
+python-docx
+openpyxl
