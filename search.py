@@ -21,31 +21,29 @@ united_states = 'https://www.indeed.com'
 country = united_states
 
 driver = configure_webdriver()
-job_positions = ['finance analyst', 'business operations', 'strategic finance', 'financial associate', 'technology finance', 'corporate development']
-# job_positions = ['finance analyst']
-# job_location = '90066'
-job_locations = ['Los Angeles', 'New York City', 'San Francisco']
-date_posted = 1
-pay = '$140,000'
-yearsExperience = '7'
+job_positions = ['HR']
+job_locations = ['90066']
+date_posted = 3
+pay = '$70,000'
+yearsExperience = '2'
 disqualifySkills = ''
 disqualifyTerms = ''
 
 base_resume = """
-A. Silicon Valley Bank, San Francisco, CA | Senior Associate   
-1. •	Led strategic finance initiatives for new transactions of exceeding $50+ million to drive decision making by building liquidity analysis, Excel forecasting models, drafting term sheets to clients, and underwriting the final memo for enterprise software companies that raised Series A through D equity rounds
-2. •	Collaborated with cross-functional teams to design and implement growth strategies for high-value enterprise software clients, driving $150+ million in debt transactions and expanding the debt portfolio by 25%
-3. •	Developed and implemented an Excel-based portfolio tracking system, streamlining KPI reporting and enabling accurate valuation analyses, which improved operational efficiency and data-driven decision-making by 200%
-4. •	Trained and supervised 12+ junior associates in financial accounting, underwriting, portfolio management, and due diligence responsibilities, serving as the go-to resource for ad hoc inquiries 
-5. •	Spearheaded due diligence and investment strategies for 30+ B2B technology clients, presenting detailed business updates and strategic recommendations to senior leadership to enable data-driven decision-making
-B. Bridge Bank, San Francisco, CA | Technology Lending Analyst
-6. •	Assisted in developing innovative debt structures such as venture debt loans and recurring revenue LOC, closing over 15+ deals with total loan commitments exceeding $100+ million, demonstrating strategic financial planning 
-7. •	Streamlined a portfolio management process for 20+ companies by optimizing the collection and analysis of monthly reports, aligning company performances with strategic growth plans 
-8. •	Engaged in due diligence discussions with company executives and investors—covering venture capital, private equity, and strategic investors—to develop capital structure solutions for technology and innovation sectors, honing KPI reporting and financial analysis skills
-C. Wells Fargo & Company, Omaha, NE | Middle Market Banking Analyst
-9. •	Attended a six-month analyst program structured around learning financial modeling, and credit underwriting 
-10. •	Initiated transactions and managed a portfolio of 10+ companies with revenues from $5 million to $2 billion from various industries including investor real estate, private equity, telecommunications, and agriculture 
-11. •	Partnered with relationship teams to structure and propose credit transactions as well as coordinate customer oversight, documentation, and loan closing processes for new and existing customers 
+A.  9Dot Education Solutions, Pasadena, CA                    					         	  March 2023 - Present
+    HR Associate 
+1. Managed a system of 1000+ employees, serving as a first point-of-contact for HR needs such as employee onboarding, employment changes, policy clarification, compliance monitoring, etc.  
+2. Handled a portfolio of 10-12 client companies simultaneously, conducting regular strategic meetings with company leadership to tailor services based on feedback, driving optimization, fostering strong partnerships, and ensuring long-term client satisfaction and retention.
+3. Onboarded 300+ new employees, led them through the pre-hire process and ensured smooth transitions into their positions while maintaining a flawless track record with zero client complaints.
+4. Created and deployed a Workday HRIS automation system to manage state-mandated training compliance.
+5. Led a 6-month compliance project for 60+ employees, which involved stakeholder management, budget oversight, and development of sustainable processes for continued implementation.
+6. Created standardized training documentation and resource guides to support employee skill development, ensuring consistent knowledge transfer across departments and client companies.
+
+B. U.S. Granules, Plymouth, IN                                  				     	          June 2021 - August 2021
+    HR Intern
+7. Spearheaded company-wide HRIS data migration project, ensuring accurate transfer of all company records.
+8. Regularly reconciled HR & financial spreadsheets (such as time off balances, employee expense reports, monthly invoices, payroll, etc.) and created year-end reports.
+
 """
 
 
@@ -76,7 +74,9 @@ def addGoodJobs(partialPrompt):
         Given the following resume {base_resume}
         And a list of tuples containing [index, description] {partialPrompt}
         Identify the description that best matches the base resume based on content similarity.
-        Disqualify any job that requires more than {str(int(yearsExperience)+4)} years of experience (including college).
+        Disqualify any job that requires more than {str(int(yearsExperience))} years of experience (excluding college).
+        Disqualify any jobs that includes any of the following terms : {disqualifyTerms}
+        Disqualify any jobs that require the following skills : {disqualifySkills}
         Disqualify any job that is a bad fit for the resume.
         If none of the jobs qualify, return ONLY []
         Example output : []
@@ -124,7 +124,7 @@ def summarize(jobDescription):
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You are a technical recruiter who specializes in financial jobs."},
+            {"role": "system", "content": "You are a technical recruiter who specializes in HR jobs."},
             {"role": "user", "content": prompt}
         ],
     )
@@ -207,7 +207,7 @@ def generate_resume_bullets(job_description):
         Take the keywords/skills from step 1 and rank them in order of importance in relation to the job. 
 
         STEP 3 (do not output anything):
-        Create 1-4 bullets: 
+        Create 1-3 bullets: 
         - Do not include anything that cannot be justified within the resume. Keep it at least somewhat related.
         - Write in a consice and precise manner. Minimize fluff. Use clear terms. Make it shorter or equal length as the average bullet in the resume.
         - Include as many missing keywords and skills as possible in each bullet.
@@ -216,7 +216,7 @@ def generate_resume_bullets(job_description):
         - Use arbitrary metrics that sound very impressive : Accomplishments, Percentages, milestones, requests etc...
         
         STEP 4 (do not output anything):
-        Find which Section (labeled A-C) is most relevant for each bullet you've created.
+        Find which Section (labeled A-B) is most relevant for each bullet you've created.
 
         STEP 5 (do not output anything):
         Within each Section (from step 4), save the bullet number(s) that is/are least relevant to the job.
@@ -273,18 +273,28 @@ def parse_string_to_dict(input_string):
 def replaceBullets(doc_path, newBulletDict):
     doc = Document(docx_path)
     # Define the bullet points by number in a dictionary
+#     A.  9Dot Education Solutions, Pasadena, CA                    					         	  March 2023 - Present
+#     HR Associate 
+# 1. Managed a system of 1000+ employees, serving as a first point-of-contact for HR needs such as employee onboarding, employment changes, policy clarification, compliance monitoring, etc.  
+# 2. Handled a portfolio of 10-12 client companies simultaneously, conducting regular strategic meetings with company leadership to tailor services based on feedback, driving optimization, fostering strong partnerships, and ensuring long-term client satisfaction and retention.
+# 3. Onboarded 300+ new employees, led them through the pre-hire process and ensured smooth transitions into their positions while maintaining a flawless track record with zero client complaints.
+# 4. Created and deployed a Workday HRIS automation system to manage state-mandated training compliance.
+# 5. Led a 6-month compliance project for 60+ employees, which involved stakeholder management, budget oversight, and development of sustainable processes for continued implementation.
+# 6. Created standardized training documentation and resource guides to support employee skill development, ensuring consistent knowledge transfer across departments and client companies.
+
+# B. U.S. Granules, Plymouth, IN                                  				     	          June 2021 - August 2021
+#     HR Intern
+# 7. Spearheaded company-wide HRIS data migration project, ensuring accurate transfer of all company records.
+# 8. Regularly reconciled HR & financial spreadsheets (such as time off balances, employee expense reports, monthly invoices, payroll, etc.) and created year-end reports.
     bullet_points = {
-        1: 'Led strategic finance initiatives for new transactions of exceeding $50+ million to drive decision making by building liquidity analysis, Excel forecasting models, drafting term sheets to clients, and underwriting the final memo for enterprise software companies that raised Series A through D equity rounds',
-        2: 'Collaborated with cross-functional teams to design and implement growth strategies for high-value enterprise software clients, driving $150+ million in debt transactions and expanding the debt portfolio by 25%',
-        3: 'Developed and implemented an Excel-based portfolio tracking system, streamlining KPI reporting and enabling accurate valuation analyses, which improved operational efficiency and data-driven decision-making by 200%',
-        4: 'Trained and supervised 12+ junior associates in financial accounting, underwriting, portfolio management, and due diligence responsibilities, serving as the go-to resource for ad hoc inquiries',
-        5: 'Spearheaded due diligence and investment strategies for 30+ B2B technology clients, presenting detailed business updates and strategic recommendations to senior leadership to enable data-driven decision-making',
-        6: 'Assisted in developing innovative debt structures such as venture debt loans and recurring revenue LOC, closing over 15+ deals with total loan commitments exceeding $100+ million, demonstrating strategic financial planning',
-        7: 'Streamlined a portfolio management process for 20+ companies by optimizing the collection and analysis of monthly reports, aligning company performances with strategic growth plans',
-        8: 'Engaged in due diligence discussions with company executives and investors—covering venture capital, private equity, and strategic investors—to develop capital structure solutions for technology and innovation sectors, honing KPI reporting and financial analysis skills',
-        9: 'Attended a six-month analyst program structured around learning financial modeling, and credit underwriting',
-        10: 'Initiated transactions and managed a portfolio of 10+ companies with revenues from $5 million to $2 billion from various industries including investor real estate, private equity, telecommunications, and agriculture',
-        11: 'Partnered with relationship teams to structure and propose credit transactions as well as coordinate customer oversight, documentation, and loan closing processes for new and existing customers '
+        1: 'Managed a system of 1000+ employees, serving as a first point-of-contact for HR needs such as employee onboarding, employment changes, policy clarification, compliance monitoring, etc.',
+        2: 'Handled a portfolio of 10-12 client companies simultaneously, conducting regular strategic meetings with company leadership to tailor services based on feedback, driving optimization, fostering strong partnerships, and ensuring long-term client satisfaction and retention.',
+        3: 'Onboarded 300+ new employees, led them through the pre-hire process and ensured smooth transitions into their positions while maintaining a flawless track record with zero client complaints.',
+        4: 'Created and deployed a Workday HRIS automation system to manage state-mandated training compliance.',
+        5: 'Led a 6-month compliance project for 60+ employees, which involved stakeholder management, budget oversight, and development of sustainable processes for continued implementation.',
+        6: 'Created standardized training documentation and resource guides to support employee skill development, ensuring consistent knowledge transfer across departments and client companies.',
+        7: 'Spearheaded company-wide HRIS data migration project, ensuring accurate transfer of all company records.',
+        8: 'Regularly reconciled HR & financial spreadsheets (such as time off balances, employee expense reports, monthly invoices, payroll, etc.) and created year-end reports.'
     }
     bullet_numbers = list(newBulletDict.keys())
     # Find the paragraph that contains the bullet point
@@ -373,12 +383,12 @@ def create_folder_if_not_exists(folder_path):
 
 
 
-docx_path = 'Jose Duran Resume.docx'
-pdf_path = 'Jose Duran Resume.pdf'
-output_pdf_path = 'Jose Duran Resume'
-output_docx_path = 'Jose Duran Resume'
+docx_path = 'Grace Morris Resume.docx'
+pdf_path = 'Grace Morris Resume.pdf'
+output_pdf_path = 'Grace Morris Resume'
+output_docx_path = 'Grace Morris Resume'
 todaysDate = f"{datetime.today().strftime('%Y-%m-%d')}"
-folderPath = '/Users/keabraekman/Documents-Offline/' + todaysDate
+# folderPath = '/Users/keabraekman/Documents-Offline/' + todaysDate
 
 
 os.makedirs(todaysDate, exist_ok=True)
@@ -389,7 +399,7 @@ print('refined = ', refined)
 joburls, companies, titles, locations = getURLCompanyTitleAndLocationList(jsonPath)
 createXlsxTable(todaysDate + '/' + todaysDate)
 
-create_folder_if_not_exists(folderPath)
+# create_folder_if_not_exists(folderPath)
 
 for i in range(len(joburls)):
     if not joburls[i] or not companies[i] or i not in refined:
@@ -403,8 +413,8 @@ for i in range(len(joburls)):
     newBulletDict = parse_string_to_dict(resume_text_bullets)
     # title_first_three_words = ' '.join(titles[i].split()[:3])
     title_first_three_words = ' '.join(re.sub(r'\W+', ' ', titles[i]).split()[:3])
-    filename = '/Users/keabraekman/Documents-Offline/Jose-Duran/' + todaysDate + '/' + output_docx_path + ' ' + companies[i] + ' ' + title_first_three_words + '.docx'
-    folder_path = '/Users/keabraekman/Documents-Offline/Jose-Duran/' + todaysDate + '/'
+    filename = '/Users/keabraekman/Documents-Offline/Grace-Morris/' + todaysDate + '/' + output_docx_path + ' ' + companies[i] + ' ' + title_first_three_words + '.docx'
+    folder_path = '/Users/keabraekman/Documents-Offline/Grace-Morris/' + todaysDate + '/'
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
     print('replacing bullets')
