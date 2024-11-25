@@ -21,36 +21,100 @@ united_states = 'https://www.indeed.com'
 country = united_states
 
 driver = configure_webdriver()
-job_positions = ['devops engineer', 'security engineer', 'cloud engineer', 'backend', 'AWS', 'Terraform', 'Gitlab', 'Python', 'Docker', 'Bash', 'systems enginer', 'software engineer']
-job_location = '90066'
+job_positions = ['Electrical Engineer']
+job_location = '92037'
 date_posted = 1
 pay = '$150,000'
-yearsExperience = '6'
-disqualifySkills = 'sales, hardware, Machine Learning, AI, Blockchain, embedded systems, Top Secret Clearance, VR, Robotics'
-disqualifyTerms = 'BAH, Director, Booz Allen Hamilton'
+yearsExperience = '15'
+disqualifySkills = ''
+disqualifyTerms = ''
 
 base_resume = """
-A. ▪ Full Services Team - Hybrid Legacy Application Migration to AWS.
-1. o Increased scalability and reliability of 6+ applications by 40%, migrating
-hybrid infrastructure to AWS ECS, ECR, RDS, and MQ with Terraform.
-2. o Reduced end-to-end application deployment time and manual steps by 50% using
-Gitlab CI, Docker, and Terraform.
-3. o Integrated Artifactory with AWS ECR for container image storage, simplifying
-artifact management and versioning for 20+ Dockerized applications.
-B. ▪ Security Services Team - Deployed and Maintained Security Infrastructure.
-4. o Deployed and maintained Tenable SC and Trend Micro across 10+ multi-region AWS
-accounts, significantly decreased vulnerabilities by automating security scans.
-5. o Improved the patching process for security assets which saved 5 hours a week by
-automating updates using AWS Inspector, Lambda, and Step Functions.
-Software Engineer | Dec. 2020 – Sept. 2022
-C. ▪ Foundational Services Team
-6. o Automated TLS certificate creation by developing a Gitlab CI pipeline leveraging
-AWS ACM across 50+ instances.
-D. ▪ Systems Engineer | Aug. 2020 - Dec. 2020
-7. o Developed a web scraping Python bot that saved 160+ hours of manual data entry
-by curling client financial data into an Excel spreadsheet.
-8. o Researched and drafted proposals for Cloud Engineering and FedRAMP projects for
-the Department of Defense.
+Intel San Diego
+A. Senior Electrical Engineer 09/2020 – 02/2024
+1. Configured, managed, and inspected a wide range of equipment and instrumentation, ensuring their optimal
+performance and accuracy.Validated and tested equipment according to established protocols, ensuring compliance
+with industry standards and specifications. Investigated and diagnosed the root causes of equipment anomalies,
+utilizing troubleshooting techniques and analysis tools. Developed and maintained test automation scripts using
+C#, C++ and Python, reducing manual testing time by 40 present. Created custom tools for validation testing,
+enabling automated and comprehensive testing from specifications.
+2. Led silicon validation efforts for multicore processors, coordinating across multiple teams to ensure seamless
+integration of software and hardware components.Supported all stages of development and prototype production,
+ensuring smooth operations and timely delivery.
+3. Utilized National Instrument measurement tools and software, including Labview, Python, WinSCP, putty, and
+RHEL, to carry out measurement tasks and data analysis.
+4. Led the PCB layout process, driving projects to the successful release of PCBA fabrication packages using
+
+Allegro, Cadence, Multisim.
+B. Benchmark Electronics Moorpark, CA
+Sustain Test Engineer/Circuit Analyzer and Troubleshooter 09/2019 – 09/2020
+5. Managed engineering documentation in SAP, BOMs, and processing change orders.
+6. Programming, Configuring, Testing, Troubleshooting (SMT line, Flying Probe, ATU, Chamber, ICT).
+7. Skilled in functional safety practices and their implementation to ensure reliable systems.
+8. Hands-on lab experience, including soldering and operating various lab equipment.
+9. Expertise in board and system-level testing and characterization, ensuring top-notch product functionality.
+10. Strong problem-solving skills, both technically and organizationally, enabling effective issue resolution.
+11. Experience in managing both prototype and high-volume contract manufacturing, ensuring quality and efficiency.
+
+Electromotion Fresno, CA
+C. Lead Engineer 06/2016 – 07/2019
+12. Directed and mentored electrical engineers and designers, fostering their growth and development to design for
+commercial buildings, Solar, Lab rooms, remote patient monitoring, IT rooms, Network wiring, Remote SCADA,
+Agricultural sensor controlling and monitoring, PLC, water treatment stand wiring.
+13. Guided and supervised the electrical team, emphasizing mentorship.
+14. Leveraged Zoom/Microsoft Teams for effective communication and collaborated with stakeholders, utilizing
+Tableau for data analysis and generating insightful project reports crucial for informed decision-making and project
+success. Led and developed a team of electrical engineers and designers, nurturing their professional growth to
+innovate and design diverse commercial infrastructures encompassing.
+
+Batis Part Co Tehran, IR
+D. Hardware Engineer 2010 – 2015
+15. Analyze and repair of RF circuit boards in devices such as repeaters, transmitters, receivers, UHF/VHF BTS,
+Bluetooth, Wi-Fi, RF power amplifiers, Mobile, portable radios, and Trunked network diagnostics.
+16. Experienced hardware/board design engineer with a strong background in high-density interconnect (HDI) and
+multi-layer moderate to complex SoCs. Proficient in architecting boards from specifications, PDN design
+17. Collaborated with cross-functional teams to achieve a final solution for control board designing.
+18. Maintained accurate records, documents, and reports related to design, test, diagnose.
+19. Proficient in using circuit design and simulation tools, ensuring the accuracy and reliability of designs.
+20. Skilled in schematic design and PCB layout tool Altium, facilitating efficient and precise PCB designs.
+Relevant Coursework: Computer Architecture, Operating Systems, Embedded Systems, Software Engineering Skills
+Programming Languages: C, Python, Test Automation: Test script development, Custom tool creation.
+
+Com-Ertebatat Co Tehran, IR
+E. Design and Repair Department Manager 2005 – 2009
+21. Configured telecommunication systems, specifically base stations, according to project requirements.
+22. Installed and linked base stations, ensuring proper connectivity and system integration.
+23. Conducted comprehensive field measurements to maintain accurate records of system performance.
+24. Identified and resolved system problems through effective faultfinding techniques.
+25. Managed local network repairs, including repairing damaged radiophones, RF, microwave, and power amplifiers.
+26. Assisted in testing and verifying system functionality during commissioning processes.
+27. Maintained documentation of measurements, fault findings, and problem resolutions for reference and future
+analysis. Demonstrated track record of successful product delivery, meeting and exceeding project goals.
+Diagnose and repair faulty boards and bring to product line - Inspecting of electronic control boards for POS
+machines based on IPC protocols. - Calibrating touch screen monitors and displays. - Building test fixtures to
+test PCB boards for quick repairs. - Using automatic test units, providing report for damaged boards. -
+In-Circuit tests, In Circuit Test for manufactured boards. - Fault finding, system troubleshooting. - Repairing,
+and designing RF power amplifiers, and high speed control modules - Hi Pot testing, chamber testing, and
+function testing.
+
+F. Professional Skills
+28. I have experience in : embedded systems design and firmware development for multi-controller architectures, including
+ARM, PLC, and AVR microcontrollers.
+29. Analog design: troubleshooting for electromechanical devices, Design tools for schematic capture, PCBA, Wired and
+wireless connectivity and communication (LAN, WAN, Lin,RS232 RS485, I2C, I3C, JTAG, SPI, Wi-Fi, Can, RFID)
+30. Wireless Communications: Practical experience in point-to-point and point-to-multipoint wireless communication
+31. Electrical Expertise: Skilled in electrical work, including wiring, electrician tasks, and knowledge of RG58, RG45,
+coaxial cables, power (AC and DC), and PABX systems PCB Design: Broad knowledge of FPGA, Gate Array
+controllers, Microcontroller, and practical experience in electronic board and PCB design
+32. Soft Skills:Problem-Solving, Project management, Independent, Teamwork, Hardware Troubleshooting, Work Flexible
+Hours, Hard working, Able to travel
+33. Proficient with electronic test equipment network analyzer, digital sampling Oscilloscopes, Signal generators, spectrum
+analyzers, frequency meter, A-DMM, Power meter, Mager, NI measurement, Radio Tested
+34. Repair of analog and digital RF electronic circuits boards and analysis of electronic circuits in Radio Wireless
+35. Expert in analog conventional and trunk radio systems (Motorola, Tait, Canon)
+36. Radio solution provider in analog and digital systems. (Conventional and trunked radio)
+37. Familiarity with automotive Sensors/controls in EV/AV, contributing to cutting-edge technological advancements.
+38. Broad knowledge of FPGA, Gate Array controllers, micro controllers
 """
 
 # This function creates a search based on the variables above and outputs to a json file.
@@ -82,8 +146,7 @@ def addGoodJobs(partialPrompt):
         Disqualify any job that requires more than {str(int(yearsExperience)+4)} years of experience (including college).
         Disqualify any job that includes proficiency in the following : {disqualifySkills}.
         Disqalify any job that includes these words in the title or company name : {disqualifyTerms}.
-        Disqualify any job that is a bad fit for the resume. Example : backend software engineer is fine. Transportation and satellite communication
-        engineer expert is not. 
+        Disqualify any job that is a bad fit for the resume.
         If none of the jobs qualify, return ONLY []
         Example output : []
         Otherwise return a Python integer list of the single best job index in the list.
@@ -130,7 +193,7 @@ def summarize(jobDescription):
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You are a technical recruiter who specializes in software engineering."},
+            {"role": "system", "content": "You are a technical recruiter who specializes in electrical engineering."},
             {"role": "user", "content": prompt}
         ],
     )
@@ -213,9 +276,8 @@ def generate_resume_bullets(job_description):
         Take the keywords from step 1 and rank them in order of importance in relation to the job. 
 
         STEP 3 (do not output anything):
-        Create 1-3 bullets: 
+        Create 1-10 bullets: 
         - Do not include anything that cannot be justified within the resume. Keep it at least somewhat related.
-        - Make sure not to mention hardware.
         - Write in a consice and precise manner. Minimize fluff. Use clear terms. Make it shorter or equal length as the average bullet in the resume.
         - Include as many missing keywords as possible in each bullet.
         - Make sure each bullet is formatted like the bullets in the resume (in one cohesive manner) : 
@@ -223,7 +285,7 @@ def generate_resume_bullets(job_description):
         - Use arbitrary metrics that sound very impressive : Accomplishments, Percentages, milestones, requests etc...
         
         STEP 4 (do not output anything):
-        Find which Section (labeled A-D) is most relevant for each bullet you've created.
+        Find which Section (labeled A-F) is most relevant for each bullet you've created.
 
         STEP 5 (do not output anything):
         Within each Section (from step 4), save the bullet number(s) that is/are least relevant to the job.
@@ -281,14 +343,44 @@ def replaceBullets(doc_path, newBulletDict):
     doc = Document(docx_path)
     # Define the bullet points by number in a dictionary
     bullet_points = {
-        1: 'Increased scalability and reliability of 6+ applications by 40%, migrating hybrid infrastructure to AWS ECS, ECR, RDS, and MQ with Terraform.',
-        2: 'Reduced end-to-end application deployment time and manual steps by 50% using Gitlab CI, Docker, and Terraform.',
-        3: 'Integrated Artifactory with AWS ECR for container image storage, simplifying artifact management and versioning for 20+ Dockerized applications.',
-        4: 'Deployed and maintained Tenable SC and Trend Micro across 10+ multi-region AWS accounts, significantly decreased vulnerabilities by automating security scans.',
-        5: 'Improved the patching process for security assets which saved 5 hours a week by automating updates using AWS Inspector, Lambda, and Step Functions.',
-        6: 'Automated TLS certificate creation by developing a Gitlab CI pipeline leveraging AWS ACM across 50+ instances.',
-        7: 'Developed a web scraping Python bot that saved 160+ hours of manual data entry by curling client financial data into an Excel spreadsheet.',
-        8: 'Researched and drafted proposals for Cloud Engineering and FedRAMP projects for the Department of Defense.'
+        1: 'Configured, managed, and inspected a wide range of equipment and instrumentation, ensuring their optimal performance and accuracy.Validated and tested equipment according to established protocols, ensuring compliance with industry standards and specifications. Investigated and diagnosed the root causes of equipment anomalies,utilizing troubleshooting techniques and analysis tools. Developed and maintained test automation scripts using C#, C++ and Python, reducing manual testing time by 40 present. Created custom tools for validation testing, enabling automated and comprehensive testing from specifications.',
+        2: 'Led silicon validation efforts for multicore processors, coordinating across multiple teams to ensure seamless integration of software and hardware components.Supported all stages of development and prototype production, ensuring smooth operations and timely delivery.',
+        3: 'Utilized National Instrument measurement tools and software, including Labview, Python, WinSCP, putty, and RHEL, to carry out measurement tasks and data analysis.',
+        4: 'Led the PCB layout process, driving projects to the successful release of PCBA fabrication packages using Allegro, Cadence, Multisim.',
+        5: 'Managed engineering documentation in SAP, BOMs, and processing change orders.',
+        6: 'Programming, Configuring, Testing, Troubleshooting (SMT line, Flying Probe, ATU, Chamber, ICT).',
+        7: 'Skilled in functional safety practices and their implementation to ensure reliable systems.',
+        8: 'Hands-on lab experience, including soldering and operating various lab equipment.',
+        9: 'Expertise in board and system-level testing and characterization, ensuring top-notch product functionality.',
+        10: 'Strong problem-solving skills, both technically and organizationally, enabling effective issue resolution.',
+        11: 'Experience in managing both prototype and high-volume contract manufacturing, ensuring quality and efficiency.',
+        12: 'Directed and mentored electrical engineers and designers, fostering their growth and development to design for commercial buildings, Solar, Lab rooms, remote patient monitoring, IT rooms, Network wiring, Remote SCADA, Agricultural sensor controlling and monitoring, PLC, water treatment stand wiring.',
+        13: 'Guided and supervised the electrical team, emphasizing mentorship.',
+        14: 'Leveraged Zoom/Microsoft Teams for effective communication and collaborated with stakeholders, utilizing Tableau for data analysis and generating insightful project reports crucial for informed decision-making and project success. Led and developed a team of electrical engineers and designers, nurturing their professional growth to innovate and design diverse commercial infrastructures encompassing.',
+        15: 'Analyze and repair of RF circuit boards in devices such as repeaters, transmitters, receivers, UHF/VHF BTS, Bluetooth, Wi-Fi, RF power amplifiers, Mobile, portable radios, and Trunked network diagnostics.',
+        16: 'Experienced hardware/board design engineer with a strong background in high-density interconnect (HDI) and multi-layer moderate to complex SoCs. Proficient in architecting boards from specifications, PDN design',
+        17: 'Collaborated with cross-functional teams to achieve a final solution for control board designing.',
+        18: 'Maintained accurate records, documents, and reports related to design, test, diagnose.',
+        19: 'Proficient in using circuit design and simulation tools, ensuring the accuracy and reliability of designs.',
+        20: 'Skilled in schematic design and PCB layout tool Altium, facilitating efficient and precise PCB designs. Relevant Coursework: Computer Architecture, Operating Systems, Embedded Systems, Software Engineering Skills Programming Languages: C, Python, Test Automation: Test script development, Custom tool creation.',
+        21: 'Configured telecommunication systems, specifically base stations, according to project requirements.',
+        22: 'Installed and linked base stations, ensuring proper connectivity and system integration.',
+        23: 'Conducted comprehensive field measurements to maintain accurate records of system performance.',
+        24: 'Identified and resolved system problems through effective faultfinding techniques.',
+        25: 'Managed local network repairs, including repairing damaged radiophones, RF, microwave, and power amplifiers.',
+        26: 'Assisted in testing and verifying system functionality during commissioning processes.',
+        27: 'Maintained documentation of measurements, fault findings, and problem resolutions for reference and future analysis. Demonstrated track record of successful product delivery, meeting and exceeding project goals. Diagnose and repair faulty boards and bring to product line - Inspecting of electronic control boards for POS machines based on IPC protocols. - Calibrating touch screen monitors and displays. - Building test fixtures to test PCB boards for quick repairs. - Using automatic test units, providing report for damaged boards. - In-Circuit tests, In Circuit Test for manufactured boards. - Fault finding, system troubleshooting. - Repairing, and designing RF power amplifiers, and high speed control modules - Hi Pot testing, chamber testing, and function testing.',
+        28: 'I have experience in : embedded systems design and firmware development for multi-controller architectures, including ARM, PLC, and AVR microcontrollers.',
+        29: 'Analog design: troubleshooting for electromechanical devices, Design tools for schematic capture, PCBA, Wired and wireless connectivity and communication (LAN, WAN, Lin,RS232 RS485, I2C, I3C, JTAG, SPI, Wi-Fi, Can, RFID)',
+        30: 'Wireless Communications: Practical experience in point-to-point and point-to-multipoint wireless communication.',
+        31: 'Electrical Expertise: Skilled in electrical work, including wiring, electrician tasks, and knowledge of RG58, RG45, coaxial cables, power (AC and DC), and PABX systems PCB Design: Broad knowledge of FPGA, Gate Array controllers, Microcontroller, and practical experience in electronic board and PCB design',
+        32: 'Soft Skills:Problem-Solving, Project management, Independent, Teamwork, Hardware Troubleshooting, Work Flexible Hours, Hard working, Able to travel',
+        33: 'Proficient with electronic test equipment network analyzer, digital sampling Oscilloscopes, Signal generators, spectrum analyzers, frequency meter, A-DMM, Power meter, Mager, NI measurement, Radio Tested',
+        34: 'Repair of analog and digital RF electronic circuits boards and analysis of electronic circuits in Radio Wireless.',
+        35: 'Expert in analog conventional and trunk radio systems (Motorola, Tait, Canon)',
+        36: 'Radio solution provider in analog and digital systems. (Conventional and trunked radio)',
+        37: 'Familiarity with automotive Sensors/controls in EV/AV, contributing to cutting-edge technological advancements.',
+        38: 'Broad knowledge of FPGA, Gate Array controllers, micro controllers'
     }
     bullet_numbers = list(newBulletDict.keys())
     # Find the paragraph that contains the bullet point
@@ -377,12 +469,12 @@ def create_folder_if_not_exists(folder_path):
 
 
 
-docx_path = 'Kea Braekman Resume.docx'
-pdf_path = 'Kea Braekman Resume.pdf'
-output_pdf_path = 'Kea Braekman Resume'
-output_docx_path = 'Kea Braekman Resume'
+docx_path = 'Mohsen Shirazi Resume.docx'
+pdf_path = 'Mohsen Shirazi Resume.pdf'
+output_pdf_path = 'Mohsen Shirazi Resume'
+output_docx_path = 'Mohsen Shirazi Resume'
 todaysDate = f"{datetime.today().strftime('%Y-%m-%d')}"
-folderPath = '/Users/keabraekman/Documents-Offline/' + todaysDate
+folderPath = '/Users/keabraekman/Documents-Offline/Mohsen-Shirazi' + todaysDate
 
 
 os.makedirs(todaysDate, exist_ok=True)
