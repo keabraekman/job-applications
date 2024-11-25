@@ -1,4 +1,35 @@
 # job-applications
+
+Description for Jose Duran branch. 
+Jose is a friend and wanted to use this script. I created a new branch. 
+I am using this opportunity to also clean up the repo since it's getting very messy. 
+Here are his requirements : 
+Key Words: 
+- Finance Analyst
+- Business Operations
+- Strategic Finance 
+- Financial Associate 
+- Technology Finance
+- Corporate Development
+
+Location: 
+- Los Angeles
+- New York
+- San Francisco
+
+
+Minimum Pay Range: 
+- $140k 
+
+
+And I'll add his resume in this repo. 
+
+
+
+
+
+BELOW is the readme for job-applications
+
 I am making a repo to help with the job application process : job search, resume edits, and job applying. 
 
 
