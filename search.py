@@ -21,15 +21,16 @@ united_states = 'https://www.indeed.com'
 country = united_states
 
 driver = configure_webdriver()
-job_positions = ['finance analyst', 'business operations', 'strategic finance', 'financial associate', 'technology finance', 'corporate development']
-# job_positions = ['finance analyst']
+# job_positions = ['finance analyst', 'business operations', 'strategic finance', 'financial associate', 'technology finance', 'corporate development']
+# job_positions = ['finance analyst', 'financial analyst', 'strategic finance', 'finance associate']
+job_positions = ['Strategic finance']
 # job_location = '90066'
 job_locations = ['Los Angeles', 'New York City', 'San Francisco']
 date_posted = 1
-pay = '$140,000'
-yearsExperience = '7'
-disqualifySkills = ''
-disqualifyTerms = ''
+pay = '$130,000'
+yearsExperience = '4'
+disqualifySkills = 'Director, partner, lead, VP, Vice President, Manager, Equity Research, underwriting'
+disqualifyTerms = 'Director, partner, lead, VP, Vice President, Manager, Equity Research, underwriting'
 
 base_resume = """
 A. Silicon Valley Bank, San Francisco, CA | Senior Associate   
@@ -73,16 +74,19 @@ def searchToJson():
 def addGoodJobs(partialPrompt):
     print('Adding only best job')
     prompt = f"""
-        Given the following resume {base_resume}
-        And a list of tuples containing [index, description] {partialPrompt}
-        Identify the description that best matches the base resume based on content similarity.
-        Disqualify any job that requires more than {str(int(yearsExperience)+4)} years of experience (including college).
-        Disqualify any job that is a bad fit for the resume.
-        If none of the jobs qualify, return ONLY []
-        Example output : []
-        Otherwise return a Python integer list of the single best job index in the list.
-        Output format: ONLY a list of a single integer, in Python list format. Do not include any explanations, extra text, or code.
-        Example output: [13]
+        Given the following base resume: {base_resume} 
+        And a list of job descriptions with indices: {partialPrompt} 
+        
+        For each job description:
+        1. Check if the estimated years of experience exceed {yearsExperience}. If yes, DISQUALIFY.
+        2. Check if the job is not a good fit for the resume based on role similarity (key skills, responsibilities, and title overlap). If yes, DISQUALIFY.
+        3. Check if the job title or description contains any of these disqualify terms: {disqualifyTerms}. If yes, DISQUALIFY.
+        4. Check if the job is not strictly a finance role (FP&A, finance analyst/strategy). If yes, DISQUALIFY.
+        5. Check if the company is not tech-focused. If yes, DISQUALIFY.
+
+        If a job is disqualified, skip it. If multiple jobs pass, return the index of the most relevant job based on role similarity. If no jobs pass, return an empty list.
+
+        Output format: Return only a single integer in a Python list (e.g., [13]). Do not include any explanations or additional text.
     """
     client = OpenAI(api_key=api_key)
     response = client.chat.completions.create(
@@ -115,9 +119,14 @@ def addGoodJobs(partialPrompt):
 def summarize(jobDescription):
     print('summarizing job description...')
     prompt = f"""
-        Below is a job description, I need to know if I am a good fit for it. Summarize the job description in 100 words. 
-        Make sure to include anything necessary to estimate whether or not it's a good fit : tech, tools, 
-        requirements, skills etc...
+        Below is a job description. Summarize it in no more than 200 words by identifying:
+        1. Job Title
+        2. Primary technologies, tools, and skills required
+        3. Years of experience required
+        4. Key responsibilities
+        5. Whether it specifies industry knowledge (e.g., finance, healthcare)
+
+        Job description:
         {jobDescription}
     """
     client = OpenAI(api_key=api_key)
