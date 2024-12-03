@@ -25,7 +25,8 @@ driver = configure_webdriver()
 # job_positions = ['finance analyst', 'financial analyst', 'strategic finance', 'finance associate']
 job_positions = ['Strategic finance']
 # job_location = '90066'
-job_locations = ['Los Angeles', 'New York City', 'San Francisco']
+# job_locations = ['Los Angeles', 'New York City', 'San Francisco']
+job_locations = ['Los Angeles']
 date_posted = 1
 pay = '$130,000'
 yearsExperience = '4'
@@ -74,19 +75,32 @@ def searchToJson():
 def addGoodJobs(partialPrompt):
     print('Adding only best job')
     prompt = f"""
-        Given the following base resume: {base_resume} 
-        And a list of job descriptions with indices: {partialPrompt} 
-        
+            Given the following details:
+            Base resume: {base_resume}
+            List of job descriptions with indices: {partialPrompt}
+            Years of experience threshold: {yearsExperience}
+            Disqualify terms: {disqualifyTerms}
+
+        Instructions:
         For each job description:
-        1. Check if the estimated years of experience exceed {yearsExperience}. If yes, DISQUALIFY.
-        2. Check if the job is not a good fit for the resume based on role similarity (key skills, responsibilities, and title overlap). If yes, DISQUALIFY.
-        3. Check if the job title or description contains any of these disqualify terms: {disqualifyTerms}. If yes, DISQUALIFY.
-        4. Check if the job is not strictly a finance role (FP&A, finance analyst/strategy). If yes, DISQUALIFY.
-        5. Check if the company is not tech-focused. If yes, DISQUALIFY.
 
-        If a job is disqualified, skip it. If multiple jobs pass, return the index of the most relevant job based on role similarity. If no jobs pass, return an empty list.
+            If the estimated years of experience exceed {yearsExperience}, mark the job as DISQUALIFIED.
+            If the job is not a good fit for the resume, mark the job as DISQUALIFIED.
+            If the job title or description contains any of the disqualify terms, mark the job as DISQUALIFIED.
+            If the job is not strictly a finance role (FP&A, finance analyst/strategy), mark the job as DISQUALIFIED.
+            If the company is not tech-focused, mark the job as DISQUALIFIED.
 
-        Output format: Return only a single integer in a Python list (e.g., [13]). Do not include any explanations or additional text.
+        Final Output:
+
+            If a job is DISQUALIFIED for ANY reason, exclude it from consideration.
+            From the remaining jobs, choose the most relevant job based on role similarity (key skills, responsibilities, and title overlap).
+            If no jobs are suitable, return an empty list.
+
+        Output format:
+
+            Return only the index of the most relevant job in a Python list (e.g., [13]).
+            If no jobs qualify, return an empty list (e.g., []).
+            Do not include any explanations, additional text, or formatting beyond the specified output format.
     """
     client = OpenAI(api_key=api_key)
     response = client.chat.completions.create(
