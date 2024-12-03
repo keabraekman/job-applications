@@ -90,18 +90,25 @@ def addGoodJobs(partialPrompt):
             If the job is not strictly a finance role (FP&A, finance analyst/strategy), mark the job as DISQUALIFIED.
             If the company is not tech-focused, mark the job as DISQUALIFIED.
 
-        Final Output:
+            If none of the jobs are qualified, output : []
+            
+            Otherwise output the job with best fit in a python array like this : [13]
 
-            If a job is DISQUALIFIED for ANY reason, exclude it from consideration.
-            From the remaining jobs, choose the most relevant job based on role similarity (key skills, responsibilities, and title overlap).
-            If no jobs are suitable, return an empty list.
-
-        Output format:
-
-            Return only the index of the most relevant job in a Python list (e.g., [13]).
-            If no jobs qualify, return an empty list (e.g., []).
             Do not include any explanations, additional text, or formatting beyond the specified output format.
-    """
+            """
+
+    #     Final Output:
+
+    #         If a job is DISQUALIFIED for ANY reason, exclude it from consideration.
+    #         From the remaining jobs, choose the most relevant job based on role similarity (key skills, responsibilities, and title overlap).
+    #         If no jobs are suitable, return an empty list.
+
+    #     Output format:
+
+    #         Return only the index of the most relevant job in a Python list (e.g., [13]).
+    #         If no jobs qualify, return an empty list (e.g., []).
+    #         Do not include any explanations, additional text, or formatting beyond the specified output format.
+    # """
     client = OpenAI(api_key=api_key)
     response = client.chat.completions.create(
         model="gpt-4",
