@@ -1,0 +1,1332 @@
+[
+    {
+        "Link": "",
+        "Job Title": "",
+        "Company": "",
+        "Date Posted": "",
+        "Location": ""
+    },
+    {
+        "Link": "https://www.indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0BmNNPUxG0xugtqr9_lvDC5kkhm2GMFpmuR5M4xKMKfqU_r_3sqQMNlSEX2D-KkrS09iV7OWK52Fzxkl2bIjsWAf84DnI7mwZ1FEQuX-Kv_0i0q9HUkb5BsswneNTa2bAv43_1hHY5ureWvlb9wQP-w9BSCmfqmDNk0ZiPTtCxpRttus98wxPAuvdrb3aRLlh0OMzKxaNoKVsFmCTNPopuxfvCpyqhblmUDBv0RWgzH74CyBjkbpNhXiHWHWOcxqfAAuiXykIjkEOucZxcQb-CEeq2BHrm09nX-XH9Dy5piM0uYBxaZD5pfJ4oLFem2CR8T6FphtJeRirkgCTQMjFIDORw45DdfkvBwkIejQEgPjxP7GYdtBkQgX-kfY7fZod49_5AacTD42lADzd8WoyeDrMj5SO14T8YsLLk4HMbYCBOiI5RFCqZbIx7oKI_HLXSHX2jocqycSRX1iXIET3Qf4RHE06t5DPD_Ax98L1ei-SQw_VgLwzoV3SyYrXHU1_dcm7ehe7I52TH9QyjVkq_vAlPPrS3Rcmxm7SUigu2wCukCqurLi7phtIpy2GLasOYPcTTqWOqMXwh7gFzyeKtHEvFKEkqWLEMruvRcIabsd3e9fYzZrkWTsuB1AlapgnBnDeS_h0r_zQ0KuPwuPVl_LqCCt7uzccFFS0FcFZ7h2A==&xkcb=SoCT6_M359I70UQvxZ0LbzkdCdPP&camk=nUmJqO2E8rhdBkYpdoNwlw==&p=0&fvj=0&vjs=3",
+        "Job Title": "Software Development Manager",
+        "Company": "Purple Lemon Recruitment LTD",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA 90245"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=46b2a3d8a5f526c5&bb=Jy7qX8Kxg6Yzk8137K9qyUBQzOj_6ysdQg5MTeRckHFZ5kUUAC2fTFEmTxptrqjg61W2bR8NfDWWyf8rLCkK-QiNZZzCkVNZygYOkki9SFVwroPQ4FWNfXlXjbNRxL9H&xkcb=SoDT67M359I70UQvxZ0KbzkdCdPP&fccid=e483dd8837483fc5&vjs=3",
+        "Job Title": "Systems Engineer",
+        "Company": "EVgo",
+        "Date Posted": "N/A",
+        "Location": "El Segundo, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=8ad7b734cecfe597&bb=Jy7qX8Kxg6Yzk8137K9qyVV5U9s6oXWUW_lY25XwlgCKMO1ybAL9z37NWjuhEKXsqlBgnIMc-JqNW7h5IsYf8B1GcVap-ANiQLIdizRmIt4yxiQ8N94jFg%3D%3D&xkcb=SoBO67M359I70UQvxZ0JbzkdCdPP&fccid=4163ab3516afff56&vjs=3",
+        "Job Title": "Principal, IT Software Engineer 1 (ForgeRock Dev Lead)",
+        "Company": "DIRECTV",
+        "Date Posted": "N/A",
+        "Location": "Remote in El Segundo, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=d14c1f66d4e8339c&bb=Jy7qX8Kxg6Yzk8137K9qyeRkgW3Pa0giGQKHlpEggNpbiM9NCKIBn0xn2dT3x0WdWPp8EaKkt60qZYa-oHn9Z41XMIsrhjkJXs7eZ4ZaBykzkV5vwoLVzBlZdTb0bL_w&xkcb=SoD667M359I70UQvxZ0IbzkdCdPP&fccid=b2a3cf44b4993311&cmp=Red-Cat-Holdings-Inc&ti=Staff+Software+Engineer&vjs=3",
+        "Job Title": "Sr./Staff Embedded Linux SWE",
+        "Company": "Red Cat Holdings Inc",
+        "Date Posted": "N/A",
+        "Location": "Santa Monica, CA 90403"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=15bffe2dcf9b4b2e&bb=Jy7qX8Kxg6Yzk8137K9qydLicOJk34qZV2Gob6nTOG1cmr7M5Y2FTriTj3nH9T6enDIthgAsZh5naTQe1LqwWNTdZEYi0fMyI7Nvq7IZSGkLaZQRGrBd-w%3D%3D&xkcb=SoB067M359I70UQvxZ0PbzkdCdPP&fccid=f3b836e645f9b36d&vjs=3",
+        "Job Title": "Chief of Platform Operations",
+        "Company": "SAIC",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA 90011"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=f6f8ce9e9a3d51d6&bb=Jy7qX8Kxg6Yzk8137K9qyZmWz0MLJjj1eF6daeHVwxGg_7FMsd6phjeWJM5I7ifFVU33EA0XVzBCo7Ug5hYjUTXkFr3FFMNw4GAC0YLugekCeCOS78jIqXCx8vhAsI1V&xkcb=SoDA67M359I70UQvxZ0ObzkdCdPP&fccid=37d6c64c5394a728&vjs=3",
+        "Job Title": "Sr. Product Manager, Developer Platform & API",
+        "Company": "Tickets.com",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in El Segundo, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=b206a98a04233cfd&bb=Jy7qX8Kxg6Yzk8137K9qyZmWz0MLJjj1sLcaNdq_06xVIitsRi39G6oAUvI-776FAD5Eb8qNAT5O36xZvnsUXu2zAA5u6uziQ7pQLZ4CDmGOu1CKvmP8wXE1a-oD9RRO&xkcb=SoBd67M359I70UQvxZ0NbzkdCdPP&fccid=caed318a9335aac0&vjs=3",
+        "Job Title": "Site Reliability Engineer, Eng Support - USDS",
+        "Company": "TikTok",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=d59bea0aeab67d73&bb=Jy7qX8Kxg6Yzk8137K9qyTN0nVwQ22rPj2WRJdlGFYN60_4Uli7rKBZ-tr24Tml6mDEcIJZbPVs6LLgeOKf26m4N-wKb2WQDfjg_MUONc1dGzQTFMmrB2w%3D%3D&xkcb=SoDp67M359I70UQvxZ0MbzkdCdPP&fccid=11619ce0d3c2c733&vjs=3",
+        "Job Title": "Flight Dynamics Software Developer",
+        "Company": "Northrop Grumman",
+        "Date Posted": "N/A",
+        "Location": "Manhattan Beach, CA 90266"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=467b6b727a201396&bb=Jy7qX8Kxg6Yzk8137K9qydfneftJPX32A4QYbQUqcDNGSfc0O7qGtgRPpXjr6iEEPb1UPBEHVpkOz8_xWGHqIb5C360wu8wIKJFBxoJlpl9QauVHKu9D3w%3D%3D&xkcb=SoAA67M359I70UQvxZ0DbzkdCdPP&fccid=f3b836e645f9b36d&vjs=3",
+        "Job Title": "Chief Platform Architect",
+        "Company": "SAIC",
+        "Date Posted": "N/A",
+        "Location": "El Segundo, CA 90245"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=920bc837e99c9c91&bb=Jy7qX8Kxg6Yzk8137K9qyWGrAKe82p1xx9klY4g7UZRllv0M74I5DZpqv6PDXNdI8qxlyjOMBDY_li3z8dcbHFdb1DWMQf7rB9G1KE2wdqCichNE59DS3zjhHoNd5xtn&xkcb=SoC067M359I70UQvxZ0CbzkdCdPP&fccid=0562f887e2bed9ea&vjs=3",
+        "Job Title": "Prisma Cloud Sales Specialist, Enterprise Acquisition",
+        "Company": "Palo Alto Networks",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=806befddf0549b86&bb=Jy7qX8Kxg6Yzk8137K9qyackEcYe16prxZ19pVBOtI5o4UfUTz3H4w74MeItaBkacH7OUUHzUGlFSIuKoFBzXA_ik982uzt2krF3afvfyaKv_vDb2mcD3w%3D%3D&xkcb=SoAp67M359I70UQvxZ0BbzkdCdPP&fccid=11619ce0d3c2c733&vjs=3",
+        "Job Title": "Flight Dynamics Software Developer",
+        "Company": "Northrop Grumman",
+        "Date Posted": "N/A",
+        "Location": "Manhattan Beach, CA 90266"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=eaef6c58dbd8ae33&bb=Jy7qX8Kxg6Yzk8137K9qyUlqd1nmw8TpTIYUNpN8sZhEZyd4eTVHj1W06IeNE4i6R8sigfDsLA_2HqGbdYVQejgscKS7jVHewi6GVES3jd6TKfJJd0Ptrg%3D%3D&xkcb=SoCd67M359I70UQvxZ0AbzkdCdPP&fccid=a4e4e2eaf26690c9&vjs=3",
+        "Job Title": "ServiceNow Tech Arch Manager",
+        "Company": "Accenture",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA 90013"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=600eb71886d29a42&bb=cx0jC17NfzG922EP9CbqfZf1jE5VTZq4xrRe_dQPj15dd3f66Duo4MVbV3OzXSJ5kfLiAl0736UzmrwWbQctB_3TUDysSA5k-aswAG-uf_2tyn1vHFgB3Q%3D%3D&xkcb=SoAj67M359I7rsSkJJ0LbzkdCdPP&fccid=edae4285faf6c2f0&vjs=3",
+        "Job Title": "Systems Engineer",
+        "Company": "BOEING",
+        "Date Posted": "N/A",
+        "Location": "El Segundo, CA 90245"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=458678fcf816dc6c&bb=cx0jC17NfzG922EP9CbqfVnKJTqmB9scZLnHsNZKF8uctSd0n62vtTbk6iuqYNFwEejobyBPh9DZdrG6qh3-A7gx_ftUw5pTM1ifGVZWvaz0Q2LihvDRDQ%3D%3D&xkcb=SoCX67M359I7rsSkJJ0KbzkdCdPP&fccid=9e215d88a6b33622&vjs=3",
+        "Job Title": "Information System Security Engineer (Active Secret Clearance, Pt. Hueneme, CA)",
+        "Company": "Deloitte",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=83656f1dbb7cdc57&bb=cx0jC17NfzG922EP9CbqfedWc8jylT9YvHcz827HIddipNLUxshUv9EUVkIqWHEqSnC-m6OCXjTPe_X4R3rhaBn1-DYuyYhaa1jJTdU8D6CM9hgiaky-lg%3D%3D&xkcb=SoAK67M359I7rsSkJJ0JbzkdCdPP&fccid=a5b4499d9e91a5c6&vjs=3",
+        "Job Title": "Data Center Designer",
+        "Company": "Google",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA\u00a0(Venice area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=46b2a3d8a5f526c5&bb=cx0jC17NfzG922EP9CbqfVJ8wU0sSXr41vx56D4SV_s6EPVSQMbRUM5ECu7eXO319mGkuJLjMFxu16mqLoEqxEkLRWvxyn1ysEy1SgCPV6ueOoL47flPDmX3P2BrkVSV&xkcb=SoC-67M359I7rsSkJJ0IbzkdCdPP&fccid=e483dd8837483fc5&vjs=3",
+        "Job Title": "Systems Engineer",
+        "Company": "EVgo",
+        "Date Posted": "N/A",
+        "Location": "El Segundo, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=aadc92318c5f6530&bb=cx0jC17NfzG922EP9CbqfSBD8Py4KGCfEHuYS_ZCkkCA_tczYp_0NnInX19eIrrWp8die41NDiU2KwDnLZzLvJxAAxLYkjWb6ioBPRg9zGD_ODThZjNuVgmSIR4LAJ_E&xkcb=SoAw67M359I7rsSkJJ0PbzkdCdPP&fccid=146443e77d8c0778&cmp=Virtusa&ti=Safety+Engineer&vjs=3",
+        "Job Title": "Safety Engineer - Aerospace",
+        "Company": "virtusa",
+        "Date Posted": "N/A",
+        "Location": "Long Beach, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=e218787059342adb&bb=cx0jC17NfzG922EP9CbqfXr79BONh0BC-xLTmPON37IARiAEM2sRIeYCqkTdvuxkAOCwm-ss7IgEcVyl6V2pc1W5qV1uTzeCvVU1q9evJlKlCAQKwJu-vw%3D%3D&xkcb=SoCE67M359I7rsSkJJ0ObzkdCdPP&fccid=aa53b551f9df0210&vjs=3",
+        "Job Title": "Cyber Security Analyst - Top Secret - onsite El Segundo, CA",
+        "Company": "Raytheon",
+        "Date Posted": "N/A",
+        "Location": "El Segundo, CA 90245"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=294b2bf2dba13acc&bb=cx0jC17NfzG922EP9Cbqfd0cx3HfHZ0201YesWClzai7zgxu0qtWgFjRtOjKA96etVQe8XHhkqeTiPsgQrdfLPNvoMQgHrKMZyMthVNbU65Xfpo9EkSsxeJhAcc43Bh0&xkcb=SoAZ67M359I7rsSkJJ0NbzkdCdPP&fccid=35b344bbcc14dd68&vjs=3",
+        "Job Title": "Portfolio Software Engineer",
+        "Company": "Auria",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in El Segundo, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=b2a066d33f7099fb&bb=cx0jC17NfzG922EP9CbqfXWCVH2GiLZMNqZYfnydN5C8BTjdZfOtybjuUBGyVITIBxajl0H2pv-p1cfYEDvHgBSGstcwMhIKBu3MxP8jei4QY_hzi4CnUA%3D%3D&xkcb=SoCt67M359I7rsSkJJ0MbzkdCdPP&fccid=dfc44f3b8c44a6db&vjs=3",
+        "Job Title": "Solutions Engineer-Enterprise Sales, L.A./Orange County",
+        "Company": "Cisco Systems",
+        "Date Posted": "N/A",
+        "Location": "Glendale, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=b206a98a04233cfd&bb=cx0jC17NfzG922EP9CbqfUO4BiX6hz9tBuNCWWrZzrbWfTI85VrND1tEVkp4q-uCh4q-ZXn0ItvNn6MmbaLlFNVzFRVSIwWT1xRUG3VZ4jBE22KcpBebmwSqnRSM9pdn&xkcb=SoBE67M359I7rsSkJJ0DbzkdCdPP&fccid=caed318a9335aac0&vjs=3",
+        "Job Title": "Site Reliability Engineer, Eng Support - USDS",
+        "Company": "TikTok",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=2fac8d029a66d2ef&bb=cx0jC17NfzG922EP9CbqfXeobMDRK3wjZ7AvBn2XqM_wpv1BG5P5g02vTv3w8aOXi2HaJ-olghLulNc9GyKV1V3iF0RKhXWq0-sYkhkFJifBnnm7VQ3B9w%3D%3D&xkcb=SoDw67M359I7rsSkJJ0CbzkdCdPP&fccid=8bc01be85b97ce0d&vjs=3",
+        "Job Title": "Sr. Radiation Effects Engineer",
+        "Company": "SpaceX",
+        "Date Posted": "N/A",
+        "Location": "Hawthorne, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=5dd3b09b52cbf0ba&bb=cx0jC17NfzG922EP9CbqfbOnDhtyT5gO7WY73sHbw5zSHUBjf0kHs5wBzwqYtP8fNDYEzLaoSUgt6-5JbRvtPJlBwZhX9o0osQkGlSXmdMz2gAlC5Jrfk329ha7Y5oQy&xkcb=SoBt67M359I7rsSkJJ0BbzkdCdPP&fccid=5e964c4afc56b180&vjs=3",
+        "Job Title": "SAP Security and Controls Manager",
+        "Company": "PRICE WATERHOUSE COOPERS",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=8040fc7a9982e8d1&bb=cx0jC17NfzG922EP9CbqfRoXmLAsCmf7yQDghAlYFznbgsxvkDixCCqUuPRj6S1Fx4LU6-RYMbyAgoolOoQgBAjkrW77MKUfTcDJGqs4plzVwec77E66m8l1Szj09ulf&xkcb=SoDZ67M359I7rsSkJJ0AbzkdCdPP&fccid=14b0875a29abcd9f&vjs=3",
+        "Job Title": "Principal - Senior Electrical Engineer/Designer (MEP) - Los Angeles",
+        "Company": "Interface Engineering, Inc.",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA 90017"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=4c0805bed58e18e7&bb=cx0jC17NfzG922EP9CbqfWMlTXrCxfWbDV3-SsVd64lnLOnf3GZqGGAE8r70lwRdvI8tZC01WQ6kC3g0NGO8UBv3xDBydoBfHIAKsBxXChWdTcnWPa7aXsSlFl6JUZKH&xkcb=SoBX67M359I7rsSkJJ0HbzkdCdPP&fccid=6a1266895409f9c8&vjs=3",
+        "Job Title": "Senior Fire Protection Engineer",
+        "Company": "Ignis Global Recruitment",
+        "Date Posted": "N/A",
+        "Location": "Glendale, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=87a305b79b1d739c&bb=WVdnmF6PEbvaHYpFLx0tLkg4ZYN7e6Zy9XcX3dQduGeXdmxbt2O0Z9SSJA4uoIZZCGHT9iAtyvYjiH6kjQNLddvW7d3R8qxYh3uLq94eY2YLYAaeWQgexw%3D%3D&xkcb=SoDv67M359I7BASg9p0LbzkdCdPP&fccid=c1099851e9794854&vjs=3",
+        "Job Title": "Live Stream Event Engineer",
+        "Company": "Apple",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=4286c32a5fe9128a&bb=WVdnmF6PEbvaHYpFLx0tLuiTg1UN9BKAHHyCR8B-kiO3pyQkkBnrWHfwBR2k1lp4pmOf4xVRPcQxO5Q_XLlBuOzgrm9zBtsjQUazsOlCZJJccIwJ9hggkQ%3D%3D&xkcb=SoBb67M359I7BASg9p0KbzkdCdPP&fccid=c1099851e9794854&vjs=3",
+        "Job Title": "Software Integrity Engineer",
+        "Company": "Apple",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=600eb71886d29a42&bb=WVdnmF6PEbvaHYpFLx0tLigmSmxvdoPuSDjkfTFE677MsoJ_TznZI52GL3gSXeyQKF4rGlq-5HPJNhU6Qwsh0LNmdA0rhLuN7LN-ATfFEAoGKfLqsWdakw%3D%3D&xkcb=SoDG67M359I7BASg9p0JbzkdCdPP&fccid=edae4285faf6c2f0&vjs=3",
+        "Job Title": "Systems Engineer",
+        "Company": "BOEING",
+        "Date Posted": "N/A",
+        "Location": "El Segundo, CA 90245"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=d23bf02ce1625baf&bb=WVdnmF6PEbvaHYpFLx0tLjrVSxRkE6lXJsRvs2uB3kC0IPgHWxVPk3Oi6j-0QEQ_-dBWeZhVgrgxI18-Sr9YQOhdVt2BM4pQP166xFjAU56jysj__bD_44jVTA74Smyf&xkcb=SoBy67M359I7BASg9p0IbzkdCdPP&fccid=a0ba1788fee5b9f4&vjs=3",
+        "Job Title": "Senior Specialty Solutions - Network",
+        "Company": "AHEAD",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=83656f1dbb7cdc57&bb=WVdnmF6PEbvaHYpFLx0tLopc-1VYaeRaUehW26z8QF3vBk2TBWGS-n8x94vCjNMtwk25cW6CF_vlhfNFNmwtMPcu-vZdhx-n3bVdkb6i_CB5stiJPLJHZQ%3D%3D&xkcb=SoD867M359I7BASg9p0PbzkdCdPP&fccid=a5b4499d9e91a5c6&vjs=3",
+        "Job Title": "Data Center Designer",
+        "Company": "Google",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA\u00a0(Venice area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=46b2a3d8a5f526c5&bb=WVdnmF6PEbvaHYpFLx0tLkJcj0nyWKXlVU-ofH54Z9qyxKd0jxYlLOclj5_IpCR7hSUsOs0PP-CV88VT4DJVEOXBvCqooFiHday1FeOeIau0WEikMN9Frz_zudmjC3ZH&xkcb=SoBI67M359I7BASg9p0ObzkdCdPP&fccid=e483dd8837483fc5&vjs=3",
+        "Job Title": "Systems Engineer",
+        "Company": "EVgo",
+        "Date Posted": "N/A",
+        "Location": "El Segundo, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=8ad7b734cecfe597&bb=WVdnmF6PEbvaHYpFLx0tLumtqLjlTxW2rb0Xq2S9oeXjp05AXc9qnZuh7KNHt4TnnFp3eeKhAAgQ9-VMs2JiTde-o66A5BxkzHpQ6DJOQ_vDXIPqv8N6gA%3D%3D&xkcb=SoDV67M359I7BASg9p0NbzkdCdPP&fccid=4163ab3516afff56&vjs=3",
+        "Job Title": "Principal, IT Software Engineer 1 (ForgeRock Dev Lead)",
+        "Company": "DIRECTV",
+        "Date Posted": "N/A",
+        "Location": "Remote in El Segundo, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=d14c1f66d4e8339c&bb=WVdnmF6PEbvaHYpFLx0tLqkTTa7mS_kz6zZ5cYEOOd6f5-FC2YxB-RMkzzlNR7kwEBStbF2PqhKkdiUBgKa2l6WavGLIcnVZ91mW1mXoHhJhMl3XnzrDLoR5ZjKVsxuZ&xkcb=SoBh67M359I7BASg9p0MbzkdCdPP&fccid=b2a3cf44b4993311&cmp=Red-Cat-Holdings-Inc&ti=Staff+Software+Engineer&vjs=3",
+        "Job Title": "Sr./Staff Embedded Linux SWE",
+        "Company": "Red Cat Holdings Inc",
+        "Date Posted": "N/A",
+        "Location": "Santa Monica, CA 90403"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=5618e16980943290&bb=WVdnmF6PEbvaHYpFLx0tLjQ41syHFNzOQZrmxBc94fqBJY8qSs6jo0WiZPZtawhLPza52NArTgn7ZuEXS5TFT7SHwUfcS-XWCDlSA72pN2PI1U-pU3BspxAdkMQ4Dhe8&xkcb=SoCI67M359I7BASg9p0DbzkdCdPP&fccid=b2a3cf44b4993311&cmp=Red-Cat-Holdings-Inc&ti=Senior+Mechanical+Engineer&vjs=3",
+        "Job Title": "Sr. Mechanical Engineer",
+        "Company": "Red Cat Holdings Inc",
+        "Date Posted": "N/A",
+        "Location": "Santa Monica, CA 90403"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=131aeb442481fc0b&bb=WVdnmF6PEbvaHYpFLx0tLn0syiD0TUU73TzmHuyiW15puU4f_hr3cc7ujXpXqQgnbqxTlVJXZMpSeARQWVdfyQskuIa53u5-kxBtvHbdk4-NTNwzczBfWWKla4SSu-e4&xkcb=SoA867M359I7BASg9p0CbzkdCdPP&fccid=7ae5de8f02a3e815&vjs=3",
+        "Job Title": "Sr Salesforce Marketing Cloud Engineer",
+        "Company": "AXS",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=f20bd91000ba8ffc&bb=WVdnmF6PEbvaHYpFLx0tLqEXhJ8f32KR7sbWitK09tLCiwbGNwnRbWB0ay9RkKL9oKkD8KYv0XOqriiZyzHMRo-4_3ssBx4z-h8NkZG2JvXABwNcWDDJphmpPAfkEx_4&xkcb=SoCh67M359I7BASg9p0BbzkdCdPP&fccid=03f2a5b399bd6f67&vjs=3",
+        "Job Title": "Senior GNC Engineer - Navigation & System Integration",
+        "Company": "Hermeus",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA\u00a0(Los Angeles International Airport area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=e56d3f5d5d395e74&bb=WVdnmF6PEbvaHYpFLx0tLqUlqohycHWwWdv0BJ-M9VPqIQeGb4PuC5FVLAq-KXrN0hH7hG0Ovaw-24qOFy8fuqHoi1m0w4S0np3RCRfMNZBMyrOYdvpWyH5-PB5kOgLh&xkcb=SoAV67M359I7BASg9p0AbzkdCdPP&fccid=820ac147e8dc015b&vjs=3",
+        "Job Title": "Lead Software Engineer",
+        "Company": "Disney Entertainment & ESPN Technology",
+        "Date Posted": "N/A",
+        "Location": "Santa Monica, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=aadc92318c5f6530&bb=WVdnmF6PEbvaHYpFLx0tLgJxltFkPEED2yZ2YoeTp6xpktPUNKCS7nWg878Hr74j9bsduuBeTPS3HvygNWS9XmO3wftC37IleDIU3HglPhNzj8oCM-cvbUNiui1DpTd8&xkcb=SoCb67M359I7BASg9p0HbzkdCdPP&fccid=146443e77d8c0778&cmp=Virtusa&ti=Safety+Engineer&vjs=3",
+        "Job Title": "Safety Engineer - Aerospace",
+        "Company": "virtusa",
+        "Date Posted": "N/A",
+        "Location": "Long Beach, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=3c16ba664f659564&bb=WVdnmF6PEbvaHYpFLx0tLo1GixIdGK1bRcnvMw5YFi0HTRI6s3tTR4erP5nVxL0mYQWaATssOIVMyuvIiZLVZk7oavvQqQo21nLK-TAUEjeKwfrGfHI8lg%3D%3D&xkcb=SoAv67M359I7BASg9p0GbzkdCdPP&fccid=a5b4499d9e91a5c6&vjs=3",
+        "Job Title": "Senior Software Engineer, Infrastructure, Google Assistant",
+        "Company": "Google",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA\u00a0(Venice area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=2dfedc57fbebaf16&bb=WVdnmF6PEbvaHYpFLx0tLq9PEpw2mi_53SIOJ3u4uY-tGvBRPuO5XJ5CONoRFojszib_kCAKyHkpLmAtDsAOpzweSnsZccsixdwRY1XZdgtLHMYLmqrlbA%3D%3D&xkcb=SoCy67M359I7BASg9p0FbzkdCdPP&fccid=c1099851e9794854&vjs=3",
+        "Job Title": "Sr. Algorithm Engineer, Home and Audio Devices",
+        "Company": "Apple",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=9cbd209f13eb0650&bb=vWQTjn68jyb4go44CTfMIrCO_HVXJScebss1PGg8n3DKeASa4kbN9ozl6f6kF9v3ALUq2ary49fVXa9av2rmRBt1xRo2D9rDRymWpQfj1zyHOLyx-EHarUvMw99e_l8z&xkcb=SoDt67M359I6nlwvxZ0LbzkdCdPP&fccid=c53638d6a8d4a3e7&vjs=3",
+        "Job Title": "Senior Additive Manufacturing Engineer",
+        "Company": "Vast",
+        "Date Posted": "N/A",
+        "Location": "Hawthorne, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=787e7fe35f40a1bd&bb=vWQTjn68jyb4go44CTfMIoPyJ99K27fD6VaVWeunDh9brGk_h-HtnTqGTrknAY6aDiGR0LjRUeA_F3-Cn8-spvgNWmG42k_ITb_mdL2bpbcEfWxSd_h3dQ%3D%3D&xkcb=SoBZ67M359I6nlwvxZ0KbzkdCdPP&fccid=3c6c62c1f9964388&vjs=3",
+        "Job Title": "Sr. Watershed & Stormwater Engineer - California",
+        "Company": "Black & Veatch Corporation",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=f6f8ce9e9a3d51d6&bb=vWQTjn68jyb4go44CTfMIkRSyM3FKmQInTYyodt7_JOUmBGEu8LcfEQsnT5gTRfjxh8ypSMzdYJfi0LAaFsCmbNp8ZD3naokoTTscJw_s5EmRtY6Qt8FiIw2JUfCydsy&xkcb=SoDE67M359I6nlwvxZ0JbzkdCdPP&fccid=37d6c64c5394a728&vjs=3",
+        "Job Title": "Sr. Product Manager, Developer Platform & API",
+        "Company": "Tickets.com",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in El Segundo, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=6f8ccc826de136d5&bb=vWQTjn68jyb4go44CTfMIkqLNSIffDGFxM5cL86-d-ylfUotQJJOtnOnBACGbhv7Gwoftzc9756F8T3gLiGUOn_V1ZIVfV4_kNGaeKMbGe7yDc8AhTqf0w-yA5HseOey&xkcb=SoBw67M359I6nlwvxZ0IbzkdCdPP&fccid=ebe5fd6b0c142b5e&cmp=Dabri%2C-Inc.&ti=Senior+Design+Engineer&vjs=3",
+        "Job Title": "Senior Roadway Design Engineer",
+        "Company": "Dabri, Inc.",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA 90045\u00a0(Los Angeles International Airport area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=e3485262aed3e2a3&bb=vWQTjn68jyb4go44CTfMIlB_6utRk_qcMsEHW6-oec8nNfE5SvMVF7n9DWwkHhllS8ml1bGtOO6WZKcuSRcKE2ojbvbuCdniEn7tvnL4AO24HFYal-kbZkmZSlWr3nDI&xkcb=SoD-67M359I6nlwvxZ0PbzkdCdPP&fccid=4640437a3109c91f&vjs=3",
+        "Job Title": "Sales Engineer, West",
+        "Company": "Dataiku Misc Postings",
+        "Date Posted": "N/A",
+        "Location": "Remote in Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=b2a066d33f7099fb&bb=vWQTjn68jyb4go44CTfMItJRPmQwyo8OJF0EIJk7qXOsRkJXtMeULyJW8TZZIAinhFHVyPz5WI-ukrjMSoKngaQUZIUZfqcX5cmhLqkqhQZj_vDsNC7sLg%3D%3D&xkcb=SoBK67M359I6nlwvxZ0ObzkdCdPP&fccid=dfc44f3b8c44a6db&vjs=3",
+        "Job Title": "Solutions Engineer-Enterprise Sales, L.A./Orange County",
+        "Company": "Cisco Systems",
+        "Date Posted": "N/A",
+        "Location": "Glendale, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=fccf2564dd7231d2&bb=vWQTjn68jyb4go44CTfMIkqLNSIffDGF1ysvwenZjsFMeD5aFvfvND59BcBVVZSTcVUojMBOqA1i29SdZtojaOn4RQ8DbV3sfJB5ujanYS0uuP6SovHLbICGxRpPrMGi&xkcb=SoDX67M359I6nlwvxZ0NbzkdCdPP&fccid=dd616958bd9ddc12&vjs=3",
+        "Job Title": "Perception Engineer",
+        "Company": "AndrenaM",
+        "Date Posted": "N/A",
+        "Location": "Hawthorne, CA 90250"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=b206a98a04233cfd&bb=vWQTjn68jyb4go44CTfMIkRSyM3FKmQISsBRZaiPfDHDkcIhuvMU3RJyonT7sFZnKJJrcM6GWYhTMz2siSclcYFjP_KMNXgqWbdh-dQSnuo1HiH0w7W1bkgMjTQjTyDL&xkcb=SoBj67M359I6nlwvxZ0MbzkdCdPP&fccid=caed318a9335aac0&vjs=3",
+        "Job Title": "Site Reliability Engineer, Eng Support - USDS",
+        "Company": "TikTok",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=d59bea0aeab67d73&bb=vWQTjn68jyb4go44CTfMIiavJWtqyFVeZo8_c0yMNVr2fRd-Kg8ypuJSbkq3lRVwX9FQwfa2v59OCQwtLaASyTklhwjS0IdYhQmAwJ9H4wzha-r6sdTbng%3D%3D&xkcb=SoCK67M359I6nlwvxZ0DbzkdCdPP&fccid=11619ce0d3c2c733&vjs=3",
+        "Job Title": "Flight Dynamics Software Developer",
+        "Company": "Northrop Grumman",
+        "Date Posted": "N/A",
+        "Location": "Manhattan Beach, CA 90266"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=467b6b727a201396&bb=vWQTjn68jyb4go44CTfMIucRffFEFM5Ukr_424UL-LRg-wcTCj8RaHYDa0z3CrGRXocuMioFJbE6V0QAeODmyJnbvJskrtShmiSrFQCUZ5jezRGXVtf10w%3D%3D&xkcb=SoAX67M359I6nlwvxZ0AbzkdCdPP&fccid=f3b836e645f9b36d&vjs=3",
+        "Job Title": "Chief Platform Architect",
+        "Company": "SAIC",
+        "Date Posted": "N/A",
+        "Location": "El Segundo, CA 90245"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=aef6eb4b5caae65f&bb=vWQTjn68jyb4go44CTfMIne5A7GOIatd27UabDUoOgPmeaX7lM4lZKFQQWAYLdYsKfugzoZDxKbgZ--T0iZN6tkWGU7pvCYB78bXWSCPjse_9ade_6g2kw%3D%3D&xkcb=SoAt67M359I6nlwvxZ0GbzkdCdPP&fccid=a5b4499d9e91a5c6&vjs=3",
+        "Job Title": "Senior Software Engineer, Full Stack, Google Ads",
+        "Company": "Google",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA\u00a0(Venice area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=34b72a1944bb7646&bb=vWQTjn68jyb4go44CTfMIhM3M7iYp9723LujtfHypRCSVkb_fZFgQBdarXaT1V9qiMkxWzj0OCqsMmB6Xs6CWwcVGUKLNEPirVnIVgYrbtSURzGfbYySGA%3D%3D&xkcb=SoCX67M359I6nlwvxZ0abzkdCdPP&fccid=827f7af01a31028e&vjs=3",
+        "Job Title": "Project Engineer, Aviation Infrastructure",
+        "Company": "HNTB Corporation",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA 90006"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=920bc837e99c9c91&bb=vWQTjn68jyb4go44CTfMImIWA0EP1PdnRc5JgTGzAuUm862RWnohXrhWKQhYHpb5CYv2VdbiNXTrnG52xgoLvX_xgR97fw9WqchdECsMvOBr3zrE_RXKsJjuTBqH47AT&xkcb=SoC-67M359I6nlwvxZ0YbzkdCdPP&fccid=0562f887e2bed9ea&vjs=3",
+        "Job Title": "Prisma Cloud Sales Specialist, Enterprise Acquisition",
+        "Company": "Palo Alto Networks",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=2fac8d029a66d2ef&bb=vWQTjn68jyb4go44CTfMImquYd2kWbKnL_zDQ7IOvIMhHB76aAeYTS65h46z539uTEoSLYlMWsv7xpXWLi50pPutScYJwIfPX1oR0DlPr77_JcRMTWfB-w%3D%3D&xkcb=SoCE67M359I6nlwvxZ0ebzkdCdPP&fccid=8bc01be85b97ce0d&vjs=3",
+        "Job Title": "Sr. Radiation Effects Engineer",
+        "Company": "SpaceX",
+        "Date Posted": "N/A",
+        "Location": "Hawthorne, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=51063778badc5d88&bb=vWQTjn68jyb4go44CTfMIjXYWUJ-POMcSgnbg32SQI5_IciXN8JRI-Z9m_5UeBN9OiZzFLFi9K6Irja9n5iorJ8qIiWpIyShBr_cHXdrGbwJbEwcDome5Q%3D%3D&xkcb=SoBE67M359I6nlwvxZ0TbzkdCdPP&fccid=a5b4499d9e91a5c6&vjs=3",
+        "Job Title": "Software Engineer III, Quantum Error Correction",
+        "Company": "Google",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA\u00a0(Venice area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=8177f43e72ab2421&bb=VtaoJYqK00b0bNpK3i-t2Q82J2e-Inb0Si0ZvskSAns4YKp5mLsJcRvAV3DQzYScKEe7cNSfWSsYpmKzZn1GyPXz-TUmAIbN0sf-zPdcr19eltRDWOKUgfQOq_jcAVE_&xkcb=SoAs67M359I6cSQGbZ0LbzkdCdPP&fccid=c5d7a61d97ace003&vjs=3",
+        "Job Title": "Senior Civil Design Engineer / Project Manager",
+        "Company": "David Evans and Associates, Inc.",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=e47cf3a597d754c9&bb=VtaoJYqK00b0bNpK3i-t2bwCmO1d2eAyYMIJwZNAS4f6oGXd8Wm8SQ4puXBGS2RQSFD952J9_MPt09c46wV0ri1bW1afblFPfB_7bQNBzuhseg54kzLl0g%3D%3D&xkcb=SoCY67M359I6cSQGbZ0KbzkdCdPP&fccid=9e215d88a6b33622&vjs=3",
+        "Job Title": "Oracle Cloud AMS Cross-Functional Senior Consultant",
+        "Company": "Deloitte",
+        "Date Posted": "N/A",
+        "Location": "Inglewood, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=16e8d719e3e44f36&bb=VtaoJYqK00b0bNpK3i-t2Q82J2e-Inb02l07brC_ioblWCHCRBxifdJ9_ENT7AseXO78ygUtBStL5RiOphS4W68ghesmEwjDcxV_hUSV9YP5jknnlmAuQw%3D%3D&xkcb=SoAF67M359I6cSQGbZ0JbzkdCdPP&fccid=9e215d88a6b33622&vjs=3",
+        "Job Title": "Oracle HCM Cloud Specialist Senior",
+        "Company": "Deloitte",
+        "Date Posted": "N/A",
+        "Location": "Inglewood, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=806befddf0549b86&bb=VtaoJYqK00b0bNpK3i-t2R0CKTJm6nPE8eyMaLCrkdqoqA294hGOAaA9MIh22r6kIxAa4ovJLEyCEpnTySZkrdEfTX_JhT1ZeA2TIrau3OfycD2O5B_ZOA%3D%3D&xkcb=SoCx67M359I6cSQGbZ0IbzkdCdPP&fccid=11619ce0d3c2c733&vjs=3",
+        "Job Title": "Flight Dynamics Software Developer",
+        "Company": "Northrop Grumman",
+        "Date Posted": "N/A",
+        "Location": "Manhattan Beach, CA 90266"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=8040fc7a9982e8d1&bb=VtaoJYqK00b0bNpK3i-t2USHJnpSoGt-wGHtayxQmOdEerHHtXgmNY-l9vZSjTpwC_1OpwkfiBi60K9soE2Vwz5yXy1-d799_GQtIxDoVqPsuD_G-MKFsozpMIELj7Um&xkcb=SoA_67M359I6cSQGbZ0PbzkdCdPP&fccid=14b0875a29abcd9f&vjs=3",
+        "Job Title": "Principal - Senior Electrical Engineer/Designer (MEP) - Los Angeles",
+        "Company": "Interface Engineering, Inc.",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA 90017"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=3d0ca6f4a47ff02e&bb=VtaoJYqK00b0bNpK3i-t2c31K7sPbdPZWtPNJYJoJ1BGgZ1bc01DGMLu3rRnCF64vIbKhf-VBTRwKz1HXLjZX3KJRjne5skAW6S0CLEXqRcM0BUkXIR2wg%3D%3D&xkcb=SoCL67M359I6cSQGbZ0ObzkdCdPP&fccid=a4e4e2eaf26690c9&vjs=3",
+        "Job Title": "Enterprise Architect Manager/Senior Manager - Health & Public Services",
+        "Company": "Accenture",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA 90013\u00a0(Downtown area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=b2b7ca83f8eb5bc6&bb=VtaoJYqK00b0bNpK3i-t2YlZl3DR0yoA1gQ_6wcFjCg4TF5Ms6KiPuAKHsywgIk-GpxMc0klI5qh0ywg5r8jj1PIhNyWKBxBAB7UvjXWC0b-mYJ-8dKqZg%3D%3D&xkcb=SoAW67M359I6cSQGbZ0NbzkdCdPP&fccid=9e215d88a6b33622&vjs=3",
+        "Job Title": "Oracle HCM Cloud Manager",
+        "Company": "Deloitte",
+        "Date Posted": "N/A",
+        "Location": "Inglewood, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=eaef6c58dbd8ae33&bb=VtaoJYqK00b0bNpK3i-t2XzkbiFQ9C-HLwXZ39rSa30A0kqUtC51w3Nh1KcPrJKSaxkwn2dIF9GQpZCxzqN-vR2iOe3W-qVCd862Mgbxrt6o29VXsikgDg%3D%3D&xkcb=SoCi67M359I6cSQGbZ0MbzkdCdPP&fccid=a4e4e2eaf26690c9&vjs=3",
+        "Job Title": "ServiceNow Tech Arch Manager",
+        "Company": "Accenture",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA 90013"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=4c0805bed58e18e7&bb=VtaoJYqK00b0bNpK3i-t2SU7tkFwp8e0b6fm1Ep7oBTRJlYr6pyPha6pYBpBfk_KuE-ZXEB8ENCcbZ0yZPDwEmjWaNs8Y4zRgCgumzHd_kWWCnouHGsFLIVK4h0dWMwo&xkcb=SoBL67M359I6cSQGbZ0DbzkdCdPP&fccid=6a1266895409f9c8&vjs=3",
+        "Job Title": "Senior Fire Protection Engineer",
+        "Company": "Ignis Global Recruitment",
+        "Date Posted": "N/A",
+        "Location": "Glendale, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=9c85341a949eba70&bb=_jzxV8-UCNXWJQwGns884WcTchEDCG4nXJYQUoVwTJL4qq8tP_UKiJ-TX1BEtr0P-uPc6scLdL0Js2NHKzlYOETCoFqvS0K7EX4a00nV-hhDeT2JzhDZ--vTvkWKtApo&xkcb=SoA_67M359I50uwGbZ0LbzkdCdPP&fccid=f038e4ff896db5a2&cmp=Foisystem&ti=Full+Stack+Developer&vjs=3",
+        "Job Title": "Sr. Full Stack Developer",
+        "Company": "Surging phoenix enterprises",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Irvine, CA 92602"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=7d6da71caf1eab92&bb=_jzxV8-UCNXWJQwGns884WNj9rn48gfLch1oYu_TkX-BOFCTuyB9lWKYCoud7tPEJIWw5rF8q8wEvJeJ-DhKTvsa-LS1bd1Affwg2W_OXwCeC4YC-fG2YjDdIj9NPGce&xkcb=SoCL67M359I50uwGbZ0KbzkdCdPP&fccid=0ceb45fd03e5f886&vjs=3",
+        "Job Title": "Growth Engineer",
+        "Company": "Replenysh",
+        "Date Posted": "N/A",
+        "Location": "Orange County, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=a42485b1a6c00a1d&bb=_jzxV8-UCNXWJQwGns884QWuD-BJWcaPt6dxBe_eeggsELykMsVLgLoMntfC9pMa7hsJfMimwwS295iD3pfXX771PIL1M_MlAr6BcccdHro4clKOi-Rgyg%3D%3D&xkcb=SoAW67M359I50uwGbZ0JbzkdCdPP&fccid=644000bf52ae09d4&vjs=3",
+        "Job Title": "Homes.com - Senior Software Engineer (API/Database/C#)",
+        "Company": "CoStar Group",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Orange County, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=e56d3f5d5d395e74&bb=_jzxV8-UCNXWJQwGns884WXww1xA4X61aSLnj_pWdQoVY8f58y9hB7kqmXkBNvawmGMwWRr9i9epLcKFvZ5qNAxzutynT5CcBk-H5PciG17vg7f8N8OPgpgEQgLFUDBe&xkcb=SoCi67M359I50uwGbZ0IbzkdCdPP&fccid=820ac147e8dc015b&vjs=3",
+        "Job Title": "Lead Software Engineer",
+        "Company": "Disney Entertainment & ESPN Technology",
+        "Date Posted": "N/A",
+        "Location": "Santa Monica, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=84d2c6b95b34485c&bb=_jzxV8-UCNXWJQwGns884ZpKJcSb1b_hY6jECUhT9No1hTXi1qhydpoBuZmIBQ5VFg68nDsHEbhCoqwJN4j38zYOsi68oeoE6bsdo1cx70wyJFf9dvqhcg%3D%3D&xkcb=SoAs67M359I50uwGbZ0PbzkdCdPP&fccid=a892c8c946e25608&vjs=3",
+        "Job Title": "Platform Engineer III",
+        "Company": "Capital Group Companies",
+        "Date Posted": "N/A",
+        "Location": "Irvine, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=aef6eb4b5caae65f&bb=_jzxV8-UCNXWJQwGns884T9tjvx9vG1BB6ph_8W35k5z6W6aV0mlvBkUCxrquaAEN1hRbXIFygx3mTKJY6vZ1L637VHTu4JgjEBG7OLkic3Kvk3fhWPQBQ%3D%3D&xkcb=SoCY67M359I50uwGbZ0ObzkdCdPP&fccid=a5b4499d9e91a5c6&vjs=3",
+        "Job Title": "Senior Software Engineer, Full Stack, Google Ads",
+        "Company": "Google",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA\u00a0(Venice area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=8c2dfe08781af711&bb=K3RVH2gckna1wDfvzaFB_J22eqCjQcQkBdja7c62lIToUfvv28q2K77H5p_W7e38Hw95s0Utr0-ar6-6k062LECF6IuTP7pKHEKOAv0if24Y0qH2LUJ7Xg%3D%3D&xkcb=SoA-67M359I5VDTxbh0LbzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Marketing Analytics Lead, Amazon Music DISCO",
+        "Company": "Amazon.com Services LLC",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA 90230"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=b61aca87350a21c6&bb=K3RVH2gckna1wDfvzaFB_E6rB4STEHzKsXs2uHejBddX1WwC2inUL-6j366ClXeQN6are-xg0l9roB_q04jKmqO2MAjoglRpdvYZA1nBCcloB3_5HztAESKRVaD4Zcd8&xkcb=SoCK67M359I5VDTxbh0KbzkdCdPP&fccid=32b5130f0a93f226&vjs=3",
+        "Job Title": "Coordinator III, Little Black GENIUSes & Families (GENIUS- Genuine Empathy & Nurturing Intellect for Underserved Students)",
+        "Company": "Los Angeles County Office of Education",
+        "Date Posted": "N/A",
+        "Location": "Downey, CA 90242"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=aed490f9611a63ac&bb=K3RVH2gckna1wDfvzaFB_GtJv5f4v7PDK83-atituugbfUYJMG3-ARBUyQXcIvI0XSF0GXXzk-nF3lX_FQ5byxCagRlz1h3dv0WmITQP9337EnEvNHHaj5OeO4lw032c&xkcb=SoAX67M359I5VDTxbh0JbzkdCdPP&fccid=4f514c35c6df91ea&vjs=3",
+        "Job Title": "Systems Administrator",
+        "Company": "Terray Therapeutics, Inc.",
+        "Date Posted": "N/A",
+        "Location": "Monrovia, CA 91016"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=45d7cbf4f9db324f&bb=K3RVH2gckna1wDfvzaFB_L8GmPk_oUoqemsIXUTdNmKcmosYcrKO-XUuUivqmyZsBHkDITi_pKv1tKh27qXYcRdjE7GMLehDrTktS-Kqlmlrk3zAwZdYyYkaiWMyVHUd&xkcb=SoCj67M359I5VDTxbh0IbzkdCdPP&fccid=85ac7fb3b19d15f1&vjs=3",
+        "Job Title": "Senior Manager, Media Services",
+        "Company": "The National Football League",
+        "Date Posted": "N/A",
+        "Location": "Inglewood, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=182824c6ec2e06ac&bb=K3RVH2gckna1wDfvzaFB_Fovk0AJgAPD-xV78eogEyxZKg5Ux53Wls6RBrCa8ua6_3A7FLCWKnuKjfhajMNQsUWij0m9T0M593Ef90OATxcrxoz8xiqJkg%3D%3D&xkcb=SoAt67M359I5VDTxbh0PbzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Manager, Portfolio Strategist - AMER, AMER Strategy and Planning",
+        "Company": "Amazon.com Services LLC",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA 90230"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=d23bf02ce1625baf&bb=K3RVH2gckna1wDfvzaFB_CwOmpVvIf0Yh9RNk3hpkK5sOThpEqf9xdKdIPzPfrbzyUAKE8ey9HpsIGZ5Bwu3F90VcVn0XTv5FMbg53LSxZhcxzXTOmqkZsRrhVvhb-YX&xkcb=SoCZ67M359I5VDTxbh0ObzkdCdPP&fccid=a0ba1788fee5b9f4&vjs=3",
+        "Job Title": "Senior Specialty Solutions - Network",
+        "Company": "AHEAD",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=791b8922d3a6e829&bb=K3RVH2gckna1wDfvzaFB_AtKL7Rl7aK_dM96If8fZssXx-9DGr7LL2mtxOL7xAZXIPFVsS3AsXVpdNa1OIkwRYifYrScaRa6_bc2mfBeqKw3-MqZ1f75NTf_I5SwWe6k&xkcb=SoAE67M359I5VDTxbh0NbzkdCdPP&fccid=a321096b9f1b3c50&vjs=3",
+        "Job Title": "Sales Executive Media & Entertainment",
+        "Company": "Slalom Consulting",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=d75ffcf3aba9b1dd&bb=K3RVH2gckna1wDfvzaFB_My083ejoBRZjUxHaNzI4UF0Ad-o7VODCiTZjdmTxN96pagDzfJDg3WHrvR6_yY56ekQNlsuqQP3YrW_oJ8Ro2H-d9DE3UI2-HDL2GosFUd0&xkcb=SoCw67M359I5VDTxbh0MbzkdCdPP&fccid=1b0692814cc13474&vjs=3",
+        "Job Title": "Principal Applied Scientist - Remote USA (*eligible states)",
+        "Company": "The RealReal",
+        "Date Posted": "N/A",
+        "Location": "Remote in Bellflower, CA 90706"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=7c3eb8493815c1f0&bb=K3RVH2gckna1wDfvzaFB_KKC_C27Jdp0MxT39cOSkTiM0-6mPM4HcTH1wxAySGoOr60JU0CGRx9-V7O4JEcqRM0QvvlAqEnf9ngkYeSAe8abzxCfTp1W0G_ZEbV582qD&xkcb=SoBZ67M359I5VDTxbh0DbzkdCdPP&fccid=b27e6fc6d7424c31&vjs=3",
+        "Job Title": "Healthcare Data Engineer (LANES)",
+        "Company": "Heluna Health",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA 90012"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=908d854c51537616&bb=K3RVH2gckna1wDfvzaFB_JYraXBTSKDeKON3MzytdyRVGelULD6uW-qH4XEdxII4D333vEy_S3Q1I5xxTAfM3CfBLUtTp7z3aB7Q-DTiKH6PIGYcGa7OgL6xCwHjvuKr&xkcb=SoDt67M359I5VDTxbh0CbzkdCdPP&fccid=d4516b0473944594&vjs=3",
+        "Job Title": "Enterprise Architect",
+        "Company": "Centerfield",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=8ad7b734cecfe597&bb=K3RVH2gckna1wDfvzaFB_PjbUQZ7Exn7zdx7wknwa99JwyzildJf6Vfqdrc3fP0lLJHxX1SZd-WJEyF2HjVY4C8_-6q6uK7ADBr5BPv-Buk40WuBoiv97A%3D%3D&xkcb=SoBw67M359I5VDTxbh0BbzkdCdPP&fccid=4163ab3516afff56&vjs=3",
+        "Job Title": "Principal, IT Software Engineer 1 (ForgeRock Dev Lead)",
+        "Company": "DIRECTV",
+        "Date Posted": "N/A",
+        "Location": "Remote in El Segundo, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=bb0fc15d93717155&bb=K3RVH2gckna1wDfvzaFB_BJN3daJmOY9N6WgePISPUntLp9tT-hlHA8XvuDeRDWUmM-MIzkUNxn3Z2BKKsvAY0CLW2AKcfBdCch01Db9jKSba_5ajmwIeg%3D%3D&xkcb=SoDE67M359I5VDTxbh0AbzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Principal, eCommerce & IP Devt, Franchise Development",
+        "Company": "Wondery LLC",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=e78c14491182ea2d&bb=K3RVH2gckna1wDfvzaFB_Fovk0AJgAPDtCN-72e6wYbYTnc_IXPVgH_rt0wTKgdFU9C00VLZzgYxVzD1mQ3hl-8GK1BLz0HzxvHTFVNZHQ9NFQvWjxCGGg%3D%3D&xkcb=SoBK67M359I5VDTxbh0HbzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "RF Engineer, Kuiper Government Solutions",
+        "Company": "KGS LLC",
+        "Date Posted": "N/A",
+        "Location": "Northridge, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=e56d3f5d5d395e74&bb=K3RVH2gckna1wDfvzaFB_PXF0zlsd2g1G48eO-Jn4dW0J80DNC7DGYawmXn9OBlylFzd41DLKJB_6FzxD6bg9h3wk6QTbS4H7FaUX__R9V5khthoExCnd8CsWN5dk2fC&xkcb=SoD-67M359I5VDTxbh0GbzkdCdPP&fccid=820ac147e8dc015b&vjs=3",
+        "Job Title": "Lead Software Engineer",
+        "Company": "Disney Entertainment & ESPN Technology",
+        "Date Posted": "N/A",
+        "Location": "Santa Monica, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=fdf351790da4ede1&bb=K3RVH2gckna1wDfvzaFB_AuRkp_qRESuJs5PqRoupNXnWwgXUn3Mg6fW2GGstmf34Q_OejZNtU9j3DrrzDiyZWsCD9G14HHbDkic9WB3LnJiC2AjiLUNKg%3D%3D&xkcb=SoBj67M359I5VDTxbh0FbzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Sr. Product Manager - Tech, Ring",
+        "Company": "Amazon.com Services LLC",
+        "Date Posted": "N/A",
+        "Location": "Hawthorne, CA 90250\u00a0(North Hawthorne area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=f6f8ce9e9a3d51d6&bb=5dj4WoOyx6cTsAiwS7RPq1l_ucdV7pBhlqiA5DZaP5idUSV9MeV7-4SJBn6ee4wcQVosFEoWsRR4bvsK6bBg0tdR6aRzn99fjcIpPRNQ5HDvi4hXZDVm9XI6iy0OvF1q&xkcb=SoAD67M359I5LcwGXx0LbzkdCdPP&fccid=37d6c64c5394a728&vjs=3",
+        "Job Title": "Sr. Product Manager, Developer Platform & API",
+        "Company": "Tickets.com",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in El Segundo, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=41118a692353034c&bb=5dj4WoOyx6cTsAiwS7RPq7032fYMNVHeo6RfLUkadIj-nI_NeQTu4BTzJo7M9socBsi-GlA2sZNHsnvqhhbZWd5BFaqcPzY05EC7L4S06Q0wAMCYACY_dg%3D%3D&xkcb=SoC367M359I5LcwGXx0KbzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Occupancy Planning Area Lead (AMER \u2013 Area 4), GREF \u2013 Regional Portfolio Management (RPM)",
+        "Company": "Amazon.com Services LLC",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA 90230"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=a07dedc20e6e139c&bb=5dj4WoOyx6cTsAiwS7RPq_wd2c5Ll2cAf4KO1gZ7b_2UVwR3GEVAXR9nY4BvfyJ-lpL2_hByTeA_nYls-JxZc4swYO2Rau4QZSwzgm6663rKvDaCk5mVNAV6zueE_8zr&xkcb=SoAq67M359I5LcwGXx0JbzkdCdPP&fccid=dd616958bd9ddc12&vjs=3",
+        "Job Title": "Senior Data Scientist",
+        "Company": "AscentDS Services LLC",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA 91436"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=fccf2564dd7231d2&bb=5dj4WoOyx6cTsAiwS7RPq3ge4_l0oBJ184AghduCxUA6ipmlIoT3pDZuDEWbXXRjWOtVSXEOLZViqHkxSXnZv9BbwLZCZ05Q45Ah5opQXVUrwmsUEs9g7PJoq3FzpzHf&xkcb=SoCe67M359I5LcwGXx0IbzkdCdPP&fccid=dd616958bd9ddc12&vjs=3",
+        "Job Title": "Perception Engineer",
+        "Company": "AndrenaM",
+        "Date Posted": "N/A",
+        "Location": "Hawthorne, CA 90250"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=b206a98a04233cfd&bb=5dj4WoOyx6cTsAiwS7RPq1l_ucdV7pBhU33v4XbJVtoXCG8Ku0tNDe2Qc9HkPVMQnd4wvajEmfVNHsZOhASBJtJuHPk8cD5MglsfSsCnQE_g52c-r14maM0GQQQ27Wou&xkcb=SoAQ67M359I5LcwGXx0PbzkdCdPP&fccid=caed318a9335aac0&vjs=3",
+        "Job Title": "Site Reliability Engineer, Eng Support - USDS",
+        "Company": "TikTok",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=467b6b727a201396&bb=5dj4WoOyx6cTsAiwS7RPq_0sfFS77xWORuV4HbsikZfC703BlN3R3fpmZgWV9BNw7AmBoTgQ2lXti2ILbxb-m4D0aELkKmh8VuunOEi_OO46D--HKDr4Sg%3D%3D&xkcb=SoCk67M359I5LcwGXx0ObzkdCdPP&fccid=f3b836e645f9b36d&vjs=3",
+        "Job Title": "Chief Platform Architect",
+        "Company": "SAIC",
+        "Date Posted": "N/A",
+        "Location": "El Segundo, CA 90245"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=920bc837e99c9c91&bb=5dj4WoOyx6cTsAiwS7RPq2F2hKUKLdyb-ZsEpIQoA38YBiOdlVdM0UdWyN6uPEm2rZx1jfBy_YERwhuABD7QJmqUsu1qItuWMKwweKlVN37O2xVZdSGJlRus7M3OwczE&xkcb=SoA567M359I5LcwGXx0NbzkdCdPP&fccid=0562f887e2bed9ea&vjs=3",
+        "Job Title": "Prisma Cloud Sales Specialist, Enterprise Acquisition",
+        "Company": "Palo Alto Networks",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=b02d2941d6208381&bb=5dj4WoOyx6cTsAiwS7RPqz2VcFcoy6BsjRtYOhzmqz3by83pLtx_A5cZaoYQu3ohSSFueInpdKis4lB99FXkLH9QnWHNRD3wEQFyt6zhm2vlP5lPyepnKQ%3D%3D&xkcb=SoCN67M359I5LcwGXx0MbzkdCdPP&fccid=a4e4e2eaf26690c9&vjs=3",
+        "Job Title": "Enterprise Architect Manager/Senior Manager - Products (Consumer Goods & Services, Retail, Travel, Industrial/Automotive, Life Sciences)",
+        "Company": "Accenture",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA 90013\u00a0(Downtown area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=16e8d719e3e44f36&bb=5dj4WoOyx6cTsAiwS7RPq4sJ0fxoKGnhPC5PkKT7FF3OBk9TaSE1Xp4Yyq5y8fIw6aNJG1BAYreZj8AD2GASL4Qr_XP4h7_zsSFJmwoKVQ_OrP09d6_29w%3D%3D&xkcb=SoBk67M359I5LcwGXx0DbzkdCdPP&fccid=9e215d88a6b33622&vjs=3",
+        "Job Title": "Oracle HCM Cloud Specialist Senior",
+        "Company": "Deloitte",
+        "Date Posted": "N/A",
+        "Location": "Inglewood, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=b2b7ca83f8eb5bc6&bb=5dj4WoOyx6cTsAiwS7RPq5UUxq6-yzfGxwz6Bzikb90p_y6CrFSTGxHOf8M66-xibz729Z-EurfH8IyzY1J5VMnVm-04mzQc8_YK_907fJyo_m54pMk4Bg%3D%3D&xkcb=SoDQ67M359I5LcwGXx0CbzkdCdPP&fccid=9e215d88a6b33622&vjs=3",
+        "Job Title": "Oracle HCM Cloud Manager",
+        "Company": "Deloitte",
+        "Date Posted": "N/A",
+        "Location": "Inglewood, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=eaef6c58dbd8ae33&bb=5dj4WoOyx6cTsAiwS7RPq1SbSy-tznFX1c12g4Sxn84YbE0AHaBTieUDOvRqeX1ztls5QvmqI0a24P2abswhnJeNXJ866Y-wDdA1K60f-hEw-is_URfxBg%3D%3D&xkcb=SoBN67M359I5LcwGXx0BbzkdCdPP&fccid=a4e4e2eaf26690c9&vjs=3",
+        "Job Title": "ServiceNow Tech Arch Manager",
+        "Company": "Accenture",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA 90013"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=aed490f9611a63ac&bb=jQuwb10hgCvJQ3HJe9h4u1dTVV-7LFLnaqxLNMqIPc0emyLE4rujh2GyXft244lvs-Vpi_bYJ5tzanzX0OEedLJUGLOXsZaOZpUH4ekLnmgUk_QiJr6xEFnoyQFg32_G&xkcb=SoAH67M359I4joykM50LbzkdCdPP&fccid=4f514c35c6df91ea&vjs=3",
+        "Job Title": "Systems Administrator",
+        "Company": "Terray Therapeutics, Inc.",
+        "Date Posted": "N/A",
+        "Location": "Monrovia, CA 91016"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=e39c8690fcc9bf29&bb=jQuwb10hgCvJQ3HJe9h4u3rZ-HLmYOIek-smx2fjR-mub6HntjycwCa4hwOWW-UMgS1uyl6PPx4FV3-yWY3GjhzC6mMAJt0Nc2-Vs0u2xcb2Q3hv7fV4af0BTZ1kcGhe&xkcb=SoCz67M359I4joykM50KbzkdCdPP&fccid=66794c381b813eb7&cmp=Velosys&ti=Active+Directory+Engineer&vjs=3",
+        "Job Title": "Active Directory/Exchange/Azure Manager",
+        "Company": "Velosys",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Newport Beach, CA 92660"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=84d2c6b95b34485c&bb=jQuwb10hgCvJQ3HJe9h4u2jJMCQyeKASBnjVOaIvB2rpfV7zggPkAtrO1YyCZgs0Sl-2AMum6Xu77NSZaBmr3kw5TfoPf9gfaWM6B1fYv7ynRntPN8GD7A%3D%3D&xkcb=SoAu67M359I4joykM50JbzkdCdPP&fccid=a892c8c946e25608&vjs=3",
+        "Job Title": "Platform Engineer III",
+        "Company": "Capital Group Companies",
+        "Date Posted": "N/A",
+        "Location": "Irvine, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=294b2bf2dba13acc&bb=jQuwb10hgCvJQ3HJe9h4u7fyphtMKEZK5MdMnh604Oy0hvlxGZZADLiYaVcwSNxT-4p0kupKIkq0OVAGYDtRiFNGDargyNhlzBHoP2gVvrRAZS8xSWMIu8mQmIKjySAz&xkcb=SoCa67M359I4joykM50IbzkdCdPP&fccid=35b344bbcc14dd68&vjs=3",
+        "Job Title": "Portfolio Software Engineer",
+        "Company": "Auria",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in El Segundo, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=def40b870cb46f54&bb=jQuwb10hgCvJQ3HJe9h4u5fn5uDhFGh7hi2OvZab511ZcdJm042krGAK-KSS713rKi32jcMUpc7p9p3PKO6ovO0iwuVk-X5BvpekFTROn8OtnTKicPkUYN3syGgeKQb3&xkcb=SoAU67M359I4joykM50PbzkdCdPP&fccid=6f02cfee714f9307&vjs=3",
+        "Job Title": "Senior Project Controls Engineer - 25% percent travel",
+        "Company": "Aegis Project Controls",
+        "Date Posted": "N/A",
+        "Location": "Irvine, CA 92612"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=467b6b727a201396&bb=jQuwb10hgCvJQ3HJe9h4u436sq90m-yuHyiO1FIT8uUc79ucDlN5EDTVRuBzJiMr2R3BXLpsJhSBBemAWeRnHSWgNYhflN1zzMO_q1BN0XL2deIiTf7mTA%3D%3D&xkcb=SoCg67M359I4joykM50ObzkdCdPP&fccid=f3b836e645f9b36d&vjs=3",
+        "Job Title": "Chief Platform Architect",
+        "Company": "SAIC",
+        "Date Posted": "N/A",
+        "Location": "El Segundo, CA 90245"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=eaef6c58dbd8ae33&bb=jQuwb10hgCvJQ3HJe9h4u_MhfWAKzWSRLsiZ2G-WemP4K9BeGtd_E3sEEktvWPGbWan1Cap2jTYJjAj4Y_Eak2cl7HTLStkckL5t-c-298bLTp3fch1YUw%3D%3D&xkcb=SoA967M359I4joykM50NbzkdCdPP&fccid=a4e4e2eaf26690c9&vjs=3",
+        "Job Title": "ServiceNow Tech Arch Manager",
+        "Company": "Accenture",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA 90013"
+    },
+    {
+        "Link": "https://www.indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0B1bNt2Sa2Dgn_D2cnA-iRTzMpUZa-w9gILfylxQmhZbI00pM4SWyZgoWgVQUZ-wj93PnWERQTTWahuuX3j1jGQquoHx0GLb0xhNYU4WqfcXYRXQKyriztFJaPgQgVl8wYAZofR9T7FRlmRB8GXTlC-SIgZPVHeXFh16Gx2p-2MvwOmUHszpC6DgVG650ISFWGV8pqhAnZhFmuHK4uSPW9EjpM50hORrL4LUM15Tq_tz4WF3MyXV4S4IIrSgBAHN3i6Bm5If5EVxs_tPsFTmKKvROthUnPGQD2uz2nKbo72WJA_3mlwU0DW0G03CR8rkCjdsWYh-ygLAJva9kOrGwhQU16Fj7ohxAklmzp1B0JpglxGvz6mVWPCyGu1XUhBVZ3ouXC6h7bFyBFIIiihYcpoZcH8rdwiZ7-gV5pCezjCMFUJc23A3jVsws7nH-CRy-UbXNPc0Z6CaYLA3Bmk0w8J8da7M8N2d-WLzRN1UnzapJOb4b3bcmS45ocBkr30SzArwNe1ajdjtb2UhkxbQ4kH2fuedn6TPmA6WtuKZ7tMEghSnJ6-wDut7881FlV-Shsca5Daw5FbR32r-S1tj92GorW8tXnqU9nix-_QG-kgBjkc4A0xf5FIRNq4flQgxRE=&xkcb=SoDH6_M359I4G4Sg9p0LbzkdCdPP&camk=nUmJqO2E8rhquifzUXKNvA==&p=0&fvj=0&vjs=3",
+        "Job Title": "Travel Cath Lab Tech",
+        "Company": "Aya Healthcare",
+        "Date Posted": "N/A",
+        "Location": "West Hills, CA 91307"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=787e7fe35f40a1bd&bb=JhgNkUK4Z-74KgYuNXemGD1WXearef1Yw_CHFeVX4pTU6gRcP5vWeFCXoOyReBrQV1WHTnaWEgJtPVYJCrHZGCoZ5kP64_zK1GHB35KdWTlBF8PhHFF6Aw%3D%3D&xkcb=SoCH67M359I4G4Sg9p0KbzkdCdPP&fccid=3c6c62c1f9964388&vjs=3",
+        "Job Title": "Sr. Watershed & Stormwater Engineer - California",
+        "Company": "Black & Veatch Corporation",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=8c2dfe08781af711&bb=Ok3QcM0hkRHASGORZzQX--Wn63XBuz9OpIe8w3LUj2B8M1A96DvzCMwXa0ibTnhawelTxUYT7I18CHw4VUWjttk8dVFUMI1FwY0aQHj1wJRMNh3MCxmgDQ%3D%3D&xkcb=SoDl67M359I3liykM50IbzkdCdPP&fccid=fe2d21eef233e94a&vjs=3",
+        "Job Title": "Marketing Analytics Lead, Amazon Music DISCO",
+        "Company": "Amazon.com Services LLC",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA 90230"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=87a305b79b1d739c&bb=Ok3QcM0hkRHASGORZzQX-33NWLq4bEQLeXO2vlx_5uW3pkbeCWa_ogEfKdkG6S4SFUonkfHbYZGxw8wYcOtI9C3Ssi-6t0T3QDISAKHakwEVchkqv8gjtQ%3D%3D&xkcb=SoBR67M359I3ltSkM50LbzkdCdPP&fccid=c1099851e9794854&vjs=3",
+        "Job Title": "Live Stream Event Engineer",
+        "Company": "Apple",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=61c58b487cec1554&bb=Ok3QcM0hkRHASGORZzQX-7PgoQbeg88vtt7XefXkjWgwM_IDIhKSVrw8o2Ts2Pt1F_53U2pyZY-m-zLiwdLbDOCHq7_xfKESfOL1r1D2dm3DZNh58V2qRA%3D%3D&xkcb=SoDl67M359I3ltSkM50KbzkdCdPP&fccid=48ecd526e3aa3225&vjs=3",
+        "Job Title": "Data Reporting and Analytics Consultant V, Programming",
+        "Company": "Kaiser Permanente",
+        "Date Posted": "N/A",
+        "Location": "Pasadena, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=6444a933516c9bd6&bb=Ok3QcM0hkRHASGORZzQX-wTmKgRIg8eaFAOUUQtQBpe3Eqxho4nHXlgDTpbJMa5noVkxAmF3kikyQ3S5YEzdUG1YQ-HOJrYOpmwUVW5YlvNQzBCAmjrGO5m0w5sz5Omd&xkcb=SoB467M359I3ltSkM50JbzkdCdPP&fccid=86e9be6ce380173e&vjs=3",
+        "Job Title": "Aeroacoustics Engineer",
+        "Company": "Tesla",
+        "Date Posted": "N/A",
+        "Location": "Hawthorne, CA\u00a0(North Hawthorne area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=4286c32a5fe9128a&bb=Ok3QcM0hkRHASGORZzQX-1uyFTAVWEiufOx7ZPX_fnQv2my54qbo_bd0hh8u3ZZ6qhLbsKh3CuYDnZzpThEUcLFT1k5QddQHPr15DbithmNAsIg24vFn0A%3D%3D&xkcb=SoDM67M359I3ltSkM50IbzkdCdPP&fccid=c1099851e9794854&vjs=3",
+        "Job Title": "Software Integrity Engineer",
+        "Company": "Apple",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=c1eeb37680959ff0&bb=Ok3QcM0hkRHASGORZzQX-5Tfe7cRMdIfC5TeJwPMxmN7A0jBZupNLRovUi6ysbIP5ytd3jngG-yZ6GHj5lFSQkgczcaeekMEZc_URfGEBtERhfVHluCHbg%3D%3D&xkcb=SoBC67M359I3ltSkM50PbzkdCdPP&fccid=c1099851e9794854&vjs=3",
+        "Job Title": "Senior Houdini Technical Director",
+        "Company": "Apple",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=f1ba526333cae30a&bb=Ok3QcM0hkRHASGORZzQX-wOnVwgueLAOvmhJz2FcSqMmcQSjyXnI5u0TZHLMKYJGg_T3If_9VQtNNoDPxNv-Rq5QwIuwZRLmnMIDZGqmJYK7dt0R_eE48Q%3D%3D&xkcb=SoD267M359I3ltSkM50ObzkdCdPP&fccid=9e215d88a6b33622&vjs=3",
+        "Job Title": "Cyber Red Team Lead Operator (Active Secret Clearance, Pt. Hueneme, CA)",
+        "Company": "Deloitte",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=d75ffcf3aba9b1dd&bb=Ok3QcM0hkRHASGORZzQX-x6n9l-RHPMncJNNbwikC8BkaGe8ve3RbrcGMx8-esgFRWXjS5v8wGUROiguzyMZy8965YTAmxU5_DPWuoSlGiDHenCW77r48gp1V0pUFL2I&xkcb=SoBr67M359I3ltSkM50NbzkdCdPP&fccid=1b0692814cc13474&vjs=3",
+        "Job Title": "Principal Applied Scientist - Remote USA (*eligible states)",
+        "Company": "The RealReal",
+        "Date Posted": "N/A",
+        "Location": "Remote in Bellflower, CA 90706"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=46cda0112fa28dee&bb=Ok3QcM0hkRHASGORZzQX-9CUBsTTKn-RVgwhg0SezXx-n-h7p6wDzvuIwE64wy9ibqZGcrbFGBaSry0Qw0Yl2mjd5Vs0BP9TEioenaexe6-rliFtPsyKPA%3D%3D&xkcb=SoDf67M359I3ltSkM50MbzkdCdPP&fccid=c1099851e9794854&vjs=3",
+        "Job Title": "Wireless SoC RF Integration and Validation Engineer",
+        "Company": "Apple",
+        "Date Posted": "N/A",
+        "Location": "Irvine, CA 92618\u00a0(Irvine Health and Science Complex area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=9c85341a949eba70&bb=Ok3QcM0hkRHASGORZzQX-33NWLq4bEQLIl-QomNUQEouIaGSYWWpMEz9P7rUGFly3k6OKLijEyEjdqEDETsvFu5NVHs52b6hYALn2JkvUqVnFYXJAiP-sMK70ViNQxgk&xkcb=SoA267M359I3ltSkM50DbzkdCdPP&fccid=f038e4ff896db5a2&cmp=Foisystem&ti=Full+Stack+Developer&vjs=3",
+        "Job Title": "Sr. Full Stack Developer",
+        "Company": "Surging phoenix enterprises",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Irvine, CA 92602"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=474779aae78eafe9&bb=Ok3QcM0hkRHASGORZzQX-8Ry4Ip5j6vU4qm5JbS57_nuXX1zXjsSRppPpB2wrQ2hTqP-mEPMarE7GYBipXz5-TtZZdY8Rnoz80SK8IXEbhB0EdKHU11a4xzVRGkMvNpC&xkcb=SoCC67M359I3ltSkM50CbzkdCdPP&fccid=dd616958bd9ddc12&vjs=3",
+        "Job Title": "Director, Data Engineering",
+        "Company": "AscentDS Services LLC",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA 91436"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=7d6da71caf1eab92&bb=Ok3QcM0hkRHASGORZzQX-yhuSQF7-vDX_Whq7GB5T01lkjPtkUWnVUqhnTsZ1K3mFPI6UbGk9ZPRtjyVhHFPy9SfcSlcAN09KBb29v2MqcrTEl7TC4xgNvH1P2f2ZzwU&xkcb=SoAf67M359I3ltSkM50BbzkdCdPP&fccid=0ceb45fd03e5f886&vjs=3",
+        "Job Title": "Growth Engineer",
+        "Company": "Replenysh",
+        "Date Posted": "N/A",
+        "Location": "Orange County, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=46b2a3d8a5f526c5&bb=Ok3QcM0hkRHASGORZzQX-0LH955RJcSK8VlG6j0xe4r2S6ox64jDQNuf-Tlxn5srva1ECBwS5O4VmuiOc52VdKltvCAqJeYmo4EkMOu9LM-fPCmi-gd1Xw0U9y4wARk5&xkcb=SoCr67M359I3ltSkM50AbzkdCdPP&fccid=e483dd8837483fc5&vjs=3",
+        "Job Title": "Systems Engineer",
+        "Company": "EVgo",
+        "Date Posted": "N/A",
+        "Location": "El Segundo, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=2dfedc57fbebaf16&bb=Ok3QcM0hkRHASGORZzQX-3SxcgPNPQ1SwguNR_w7uhid75io0V8GcWnWQBt2DC-rz_htuoZA-ODah8J5CysCE9pA9H0j6w3MTl0CboOwfWo-ubtrMwV9LQ%3D%3D&xkcb=SoAl67M359I3ltSkM50HbzkdCdPP&fccid=c1099851e9794854&vjs=3",
+        "Job Title": "Sr. Algorithm Engineer, Home and Audio Devices",
+        "Company": "Apple",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=abc5715ed2851bfa&bb=Ok3QcM0hkRHASGORZzQX-7jSOWfpKT07NHrgbfnBBY6xBcdP04hWq08EhPqGbh4uDn8Xc-DWxhebRgwfPTKKqQmt9LSBvGsFYMS8IUS0ZwpxBlNUaIC1XdRrY5JmTE2i&xkcb=SoCR67M359I3ltSkM50GbzkdCdPP&fccid=4974107f0d26209a&vjs=3",
+        "Job Title": "Sr. Hardware Data Acquisition Engineer",
+        "Company": "TAE Technologies, Inc.",
+        "Date Posted": "N/A",
+        "Location": "Foothill Ranch, CA 92610"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=ecc6919964a44e67&bb=Tm_kaGQauWYke_HDwS5hjLbFOxE1ei-BEBLXifC00vKophWL6beQqm1zj5vDLcs4jCwkhlUh8r4g9NQk_tu-bVx3-144P3DUdXLgk7azZntUxl5bKq_Pmw%3D%3D&xkcb=SoAm67M359I3biykM50KbzkdCdPP&fccid=bafa4b35e9cd20ce&vjs=3",
+        "Job Title": "Manager, Economic Development & Urban Policy",
+        "Company": "AECOM",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=f7f0359ea9c052bb&bb=Tm_kaGQauWYke_HDwS5hjJP8AmGW1UN2r1TkuRmGLjRUasF52AymXIzPODZd_92bQHWSfS9vDeiKBR5OiYY-E8HJ9KPLhrP_a1cr25XgmCbKheqtI_-ckmbBnCOBlXDP&xkcb=SoC767M359I3biykM50JbzkdCdPP&fccid=3f7b0eacc8de6549&vjs=3",
+        "Job Title": "Applied Machine Learning Engineer",
+        "Company": "Anduril Industries",
+        "Date Posted": "N/A",
+        "Location": "Costa Mesa, CA 92626"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=5da0e80c76d88769&bb=Tm_kaGQauWYke_HDwS5hjBV2OyDODILbd-6VIY9Fq19RCwDFHoPbGyVi6ttbUCZP5bChJKeP0X28NvmUnyuIBXvG2a1DkeUAq1OHAmfpS-qJViKhlua9Zt-N8IXhMLRG&xkcb=SoAP67M359I3biykM50IbzkdCdPP&fccid=e7a75b310a06e458&vjs=3",
+        "Job Title": "Lead Color and Imaging Engineer",
+        "Company": "Skydance",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=50290debb5eed3e6&bb=Tm_kaGQauWYke_HDwS5hjNNwKwILZ4Zzt9DXXd8L5k8_M5h-YB6ULfdpbEKvufliw7v86Lk2sHDkNhrk6YH3bubfNqa_37bJE1B-bWdzrJ1w_GKaMQkZqTPhT_39BpGe&xkcb=SoCB67M359I3biykM50PbzkdCdPP&fccid=4974107f0d26209a&vjs=3",
+        "Job Title": "Plasma Control Scientist",
+        "Company": "TAE Technologies, Inc.",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Irvine, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=3f774ccb2d7ebd3d&bb=Tm_kaGQauWYke_HDwS5hjKCJQGVqDEJMDhARRlM6tw32nYAPuA4d2zuh3fDILerNrMqd6FNQFDmDex0KauSFv5TiHg1eS5uiw-s8raEcuBATIjsv4qBPnhyhgPd1hoc9&xkcb=SoA167M359I3biykM50ObzkdCdPP&fccid=3f7b0eacc8de6549&vjs=3",
+        "Job Title": "Machine Learning Infrastructure Engineer",
+        "Company": "Anduril Industries",
+        "Date Posted": "N/A",
+        "Location": "Costa Mesa, CA 92626"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=49b1e0977ff26aed&bb=Tm_kaGQauWYke_HDwS5hjPYsz397mxtICVPyQkSYzK9oWbweeaA84FA3JdaaSJkgBmk9-UdtIGHkvWaH6TdhagEUztaU8BRtshyU1Ew5vC1Ps4qAqvQvVW7vFWTauBpQ&xkcb=SoCo67M359I3biykM50NbzkdCdPP&fccid=c867ee1e397304f7&vjs=3",
+        "Job Title": "Temp to Perm Unreal Developer, Lead",
+        "Company": "Designory",
+        "Date Posted": "N/A",
+        "Location": "Long Beach, CA 90802"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=f20bd91000ba8ffc&bb=Tm_kaGQauWYke_HDwS5hjLbFOxE1ei-BNv6dSPgaGx8P_6YSKwYTEAtBA98_uIg0OgMnB1ScuMuvzBKaCVvijMN0vIFus3QsdObPExAOCZ7oENNFnbEMlzx1XiKqCxgN&xkcb=SoAc67M359I3biykM50MbzkdCdPP&fccid=03f2a5b399bd6f67&vjs=3",
+        "Job Title": "Senior GNC Engineer - Navigation & System Integration",
+        "Company": "Hermeus",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA\u00a0(Los Angeles International Airport area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=bb567d3cab81c999&bb=Tm_kaGQauWYke_HDwS5hjJYwRXCKgV3OgWE7OBIyBVoLHb0xH0qVBKGCYJilWn7nZsavNUhauBkd8bwDCaj-wp43i3FuYlelSvQPXvOQq7Z2_S9OJB8YBhJDkuQUlsME&xkcb=SoD167M359I3biykM50DbzkdCdPP&fccid=dd616958bd9ddc12&vjs=3",
+        "Job Title": "Senior Data Scientist",
+        "Company": "AscentDS Services LLC",
+        "Date Posted": "N/A",
+        "Location": "Irvine, CA 92614"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=84d2c6b95b34485c&bb=Tm_kaGQauWYke_HDwS5hjP0752FOU32XSarXP4Rr4AcGKUHlCjOCzt364Fx2GZBUIAf6RZs76xaPw7iujT8v0o_QiTOQ-qag16T4qavRVQYYp6p2L6qd5A%3D%3D&xkcb=SoBB67M359I3biykM50CbzkdCdPP&fccid=a892c8c946e25608&vjs=3",
+        "Job Title": "Platform Engineer III",
+        "Company": "Capital Group Companies",
+        "Date Posted": "N/A",
+        "Location": "Irvine, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=f6f8ce9e9a3d51d6&bb=Tm_kaGQauWYke_HDwS5hjPLzLXmBG00ef2gu3OHdml-Nj8eEWr8wuIVHixYq7GSTB3_02zijxJBZZ53iN-yj571Em2VP13XdQz1ePf8mNj7NQYEJPDaoKj3JUD0vYbB7&xkcb=SoDc67M359I3biykM50BbzkdCdPP&fccid=37d6c64c5394a728&vjs=3",
+        "Job Title": "Sr. Product Manager, Developer Platform & API",
+        "Company": "Tickets.com",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in El Segundo, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=5da849be37cefab6&bb=Tm_kaGQauWYke_HDwS5hjFMYtWApM50AjBvu2ok02UnHaLtGEStzDTPFhhnVBA6DZIhwsMKmHsi74xNmt5ZiHINDZlDs0SWfO7S-4CeM24wDL9PGT6wQpzXaup8fsnUP&xkcb=SoBo67M359I3biykM50AbzkdCdPP&fccid=6b0a28b7a8b7d5d0&vjs=3",
+        "Job Title": "Staff Electrical System Engineer",
+        "Company": "Rivian and VW Group Technology",
+        "Date Posted": "N/A",
+        "Location": "Irvine, CA 92606"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=4c6ea06d03eef74a&bb=Tm_kaGQauWYke_HDwS5hjDvHpsXSBPSAxOxkjszulTYZH9XS9QZBq-wG4xPfXSqcx_D7cih3y-3Zpd6u0xiKKT0Qbz3o39hTrcG4reCjYpqtRv07EGKLVO8mz_1no5fA&xkcb=SoDm67M359I3biykM50HbzkdCdPP&fccid=ece75e0fc7cb31e4&vjs=3",
+        "Job Title": "Partnership Consultant - Strategy & Analytics",
+        "Company": "Two Circles",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=e5767a8e3b5c9605&bb=Tm_kaGQauWYke_HDwS5hjGTxPxCMHcDfH7vViv_mPNkR6M6Eqrx5ONn_Tcl_1Qw5Njb5sMZ8f3wd2nVqFW8lIqtIvdocHJD5-ji6uRsFNh0Kuwjive_ig6CG5VqurVpb&xkcb=SoBS67M359I3biykM50GbzkdCdPP&fccid=2d949908fcb6b985&vjs=3",
+        "Job Title": "Lead Software Developer \u2013 Issuance Platform",
+        "Company": "PIMCO",
+        "Date Posted": "N/A",
+        "Location": "Newport Beach, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=858d6a43e2a5ae99&bb=Tm_kaGQauWYke_HDwS5hjI3x0Vv3D7L5M5HUGnuaGYw9asEuJ8l6Z782dhaMvZWuY6YVm2nunK-9BXCioqngBgqQO8lxMVJ4WI3mJ-K9J6aJ2PTPkPOCbbS8UJmngFCZ&xkcb=SoDP67M359I3biykM50FbzkdCdPP&fccid=8ab48fdb81b0d696&vjs=3",
+        "Job Title": "Senior Research Scientist",
+        "Company": "Leonardo.Ai",
+        "Date Posted": "N/A",
+        "Location": "Remote in Ontario, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=b206a98a04233cfd&bb=Tm_kaGQauWYke_HDwS5hjPLzLXmBG00e87lGbwFo4mt3Zuhswa1mrNAig73_Dk75-YsTMkiAGoQgDUMR1Ow2maD226ygBmJPDEXmaLaGejfoy4XLmDwZAUB5URs1l2Vm&xkcb=SoBc67M359I3biykM50bbzkdCdPP&fccid=caed318a9335aac0&vjs=3",
+        "Job Title": "Site Reliability Engineer, Eng Support - USDS",
+        "Company": "TikTok",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=fccf2564dd7231d2&bb=QPKIw04XgCsl07hzifE9KEfw7-anGiaP5BCRLVlL5fp8U10YekRJ_EhFRFRbmfTzgGBcuSjBHTvTzwg37tN4R7byOs3nGUHF6LOFsy8YkcnRP8FHBcWa-lW3KLKFtoW9&xkcb=SoAm67M359I2z_SkJJ0LbzkdCdPP&fccid=dd616958bd9ddc12&vjs=3",
+        "Job Title": "Perception Engineer",
+        "Company": "AndrenaM",
+        "Date Posted": "N/A",
+        "Location": "Hawthorne, CA 90250"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=994f5774f7532e66&bb=QPKIw04XgCsl07hzifE9KDlrUZn2P1j-ydY9d-41Ybyl4YB9Q4ek39awDkYXBtfc6PXwghZw1qu0UgX6yBRzmUrWwXaiHIIJhxVpBV6KnVhdwmzRXFN1HQ%3D%3D&xkcb=SoCS67M359I2z_SkJJ0KbzkdCdPP&fccid=a9021c35fcef6968&vjs=3",
+        "Job Title": "Technical Product Manager, Support Systems, YouTube",
+        "Company": "YouTube",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA\u00a0(Playa Vista area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=43cb018941796cd6&bb=QPKIw04XgCsl07hzifE9KM6j5GTw82rlcfrQO6ujzenoFJWSBWqfWzV_GJmenCEippuZ6sPZOUC8uqwyzEsPnGFX7erEXtp0ANnkFNZyGUN3FrkIt9FrTAjeqr1QKBPo&xkcb=SoAP67M359I2z_SkJJ0JbzkdCdPP&fccid=2a9a2e125b88c2c8&vjs=3",
+        "Job Title": "Image Optimization Engineer",
+        "Company": "DeepSight Technology",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA 90044"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=a425c4f2cd4cd3c1&bb=QPKIw04XgCsl07hzifE9KCWg70e3QCQyfLLPyWgBo6EJkNf9bkYVw1qUIOkW0PgMje6Tv2mzRlB-FF8qEKYpwt5Gb-9qX0zYGsdBzuYFvx9btZpzaFg7tzUAcnR4HBvb&xkcb=SoC767M359I2z_SkJJ0IbzkdCdPP&fccid=820ac147e8dc015b&vjs=3",
+        "Job Title": "Lead Machine Learning Engineer, Ad Platforms",
+        "Company": "Disney Entertainment & ESPN Technology",
+        "Date Posted": "N/A",
+        "Location": "Santa Monica, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=2fac8d029a66d2ef&bb=QPKIw04XgCsl07hzifE9KLWhuqiL8AWKJ08sDIEm4Q6gUB5IqPMn5pSnYJwdWPfj7iqAmxJIYqaJref00t6gDqyYBTWdpOM2v7VcVtGeIH5SteM_8sGPbA%3D%3D&xkcb=SoA167M359I2z_SkJJ0PbzkdCdPP&fccid=8bc01be85b97ce0d&vjs=3",
+        "Job Title": "Sr. Radiation Effects Engineer",
+        "Company": "SpaceX",
+        "Date Posted": "N/A",
+        "Location": "Hawthorne, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=d59bea0aeab67d73&bb=QPKIw04XgCsl07hzifE9KMr9jfDK3jZ6iNp9gNd4Iyl2qaezbUFSUiV8xSIDCXAROQxd3SRTsHGEmVOTN9h8lRhnSyK6WYYNFPfLQQNgIl09S5WEvVZNqQ%3D%3D&xkcb=SoCB67M359I2z_SkJJ0ObzkdCdPP&fccid=11619ce0d3c2c733&vjs=3",
+        "Job Title": "Flight Dynamics Software Developer",
+        "Company": "Northrop Grumman",
+        "Date Posted": "N/A",
+        "Location": "Manhattan Beach, CA 90266"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=51063778badc5d88&bb=QPKIw04XgCsl07hzifE9KM-lvSY7yn3fIs47tGqjXW9XBpOIlNVjkhOyor1DUgfcTN14I7Mhs-oiexpUPrLGKzX4zK0-unsFhkhCp0vg4NBKvBOb0WoU6g%3D%3D&xkcb=SoAc67M359I2z_SkJJ0NbzkdCdPP&fccid=a5b4499d9e91a5c6&vjs=3",
+        "Job Title": "Software Engineer III, Quantum Error Correction",
+        "Company": "Google",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA\u00a0(Venice area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=aef6eb4b5caae65f&bb=QPKIw04XgCsl07hzifE9KKRP-Rj5yC5yoGkmPLHVC3JPhkTDRY8aEK4J2-wPxj5BeGNv8E_8LHVkS4H7rTqvansPcF9uYZvkAVl6WQY883ZhHKnJKMgpXg%3D%3D&xkcb=SoCo67M359I2z_SkJJ0MbzkdCdPP&fccid=a5b4499d9e91a5c6&vjs=3",
+        "Job Title": "Senior Software Engineer, Full Stack, Google Ads",
+        "Company": "Google",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA\u00a0(Venice area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=806befddf0549b86&bb=QPKIw04XgCsl07hzifE9KI12x1WDkx4eNHcY7grIbB0TKTetLMVTvPBKsopJnd2ll5hjhSAGiBQWgAKpidRZoR38f05lzgqoORBNrXPQWfu9A5-Ctpyeaw%3D%3D&xkcb=SoBB67M359I2z_SkJJ0DbzkdCdPP&fccid=11619ce0d3c2c733&vjs=3",
+        "Job Title": "Flight Dynamics Software Developer",
+        "Company": "Northrop Grumman",
+        "Date Posted": "N/A",
+        "Location": "Manhattan Beach, CA 90266"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=15bffe2dcf9b4b2e&bb=WOCHLrdUyFsh1f_nSiGt_ND0HsH3weekurDD-90QNS-0eIncYW1jTx-PFsS52Bc8T4V4IZyMFU7FPiLV7baFn3u6oCl1olCPlvLA7OixYpfNt71-xEYSrg%3D%3D&xkcb=SoCt67M359I2r-zS2h0LbzkdCdPP&fccid=f3b836e645f9b36d&vjs=3",
+        "Job Title": "Chief of Platform Operations",
+        "Company": "SAIC",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA 90011"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=fccf2564dd7231d2&bb=WOCHLrdUyFsh1f_nSiGt_P9iDffbQ_fpXPERCjb0o9rtKEyj2yQnhXS89wAYVCu30FPfGjS8KE6VVrgkfpEGI_FYvyFUifTj7wKa9hNoyIy_zyIXqOzUmgfkOyzQemOI&xkcb=SoAZ67M359I2r-zS2h0KbzkdCdPP&fccid=dd616958bd9ddc12&vjs=3",
+        "Job Title": "Perception Engineer",
+        "Company": "AndrenaM",
+        "Date Posted": "N/A",
+        "Location": "Hawthorne, CA 90250"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=467b6b727a201396&bb=WOCHLrdUyFsh1f_nSiGt_Gw8ZJfQlJNH4vmfvBITRANsqkhqGylLyK6nPcvuoaHOIJXI_-guqr3T22xBLOW_cohbPrxT35xTl-EQ1zxLZsPo3Yw2P83MDA%3D%3D&xkcb=SoCE67M359I2r-zS2h0JbzkdCdPP&fccid=f3b836e645f9b36d&vjs=3",
+        "Job Title": "Chief Platform Architect",
+        "Company": "SAIC",
+        "Date Posted": "N/A",
+        "Location": "El Segundo, CA 90245"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=87a305b79b1d739c&bb=Pr37j_hG48Vd263SJOxeq2fS_1IZMqJmurHrGLG8zDn-T1iflfMiq0WvAEza597glD7ypr2QTO-boSnRRZz3EJvdh2gJ2H5e-hRZDOQLQ1KBPZpf_CH0vA%3D%3D&xkcb=SoBm67M359I2ISTS2h0LbzkdCdPP&fccid=c1099851e9794854&vjs=3",
+        "Job Title": "Live Stream Event Engineer",
+        "Company": "Apple",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=f1ba526333cae30a&bb=Pr37j_hG48Vd263SJOxeqyM1MtffzVWtAMh3PgCcZjWwQIc8V6qbt70rlC3QzjRoG_uytKjsMKcYvjYayMziKryaycdlTeGVewGzMacFD2fuDVWBoE5CeA%3D%3D&xkcb=SoDS67M359I2ISTS2h0KbzkdCdPP&fccid=9e215d88a6b33622&vjs=3",
+        "Job Title": "Cyber Red Team Lead Operator (Active Secret Clearance, Pt. Hueneme, CA)",
+        "Company": "Deloitte",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=6444a933516c9bd6&bb=Pr37j_hG48Vd263SJOxeqzB-mnrphoogpoj3tvnPpJ1LcL_DhmTXenmTod3K4Uyfa5DbeAAQhtXA5QZaNUkMz_rzXuyh1HRAK7qNf2z9FDAgRrVLo9HgPPclMMyp-CvN&xkcb=SoBP67M359I2ISTS2h0JbzkdCdPP&fccid=86e9be6ce380173e&vjs=3",
+        "Job Title": "Aeroacoustics Engineer",
+        "Company": "Tesla",
+        "Date Posted": "N/A",
+        "Location": "Hawthorne, CA\u00a0(North Hawthorne area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=600eb71886d29a42&bb=UtGDOD8ViFkgDU-vSKYQA4l28zToYodevWNZ51HnPb2Q0wYgLoAn9IHMV7B-EM1GgLFpIPjG5pgUhETnXKxt4WxtxkOmqgxOxCrTcqrY0URWP2aQMzodDg%3D%3D&xkcb=SoDW67M359I1ubSg9p0LbzkdCdPP&fccid=edae4285faf6c2f0&vjs=3",
+        "Job Title": "Systems Engineer",
+        "Company": "BOEING",
+        "Date Posted": "N/A",
+        "Location": "El Segundo, CA 90245"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=46b2a3d8a5f526c5&bb=UtGDOD8ViFkgDU-vSKYQA6qnU26Z6fJPNO9jfMVRXzPAnKujwK9ny2K2vTyCLz-ndbJI_Sna4KY3BiWM3cr8zGmdPmqz_nt38RkU7J_OpB9BEf3cMCgPODtsTheaMird&xkcb=SoBi67M359I1ubSg9p0KbzkdCdPP&fccid=e483dd8837483fc5&vjs=3",
+        "Job Title": "Systems Engineer",
+        "Company": "EVgo",
+        "Date Posted": "N/A",
+        "Location": "El Segundo, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=994f5774f7532e66&bb=UtGDOD8ViFkgDU-vSKYQAzVjhsoc8KzhFihxqF0qkINs2kc5mOZyfD_f1l_W6f1KN5-5jm1MxrvRzJULnATTp-vsnkHzHkUkL1OaPVly5Y8_EhlxGrsVTw%3D%3D&xkcb=SoD_67M359I1ubSg9p0JbzkdCdPP&fccid=a9021c35fcef6968&vjs=3",
+        "Job Title": "Technical Product Manager, Support Systems, YouTube",
+        "Company": "YouTube",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA\u00a0(Playa Vista area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=44c5440e6886ae79&bb=CxSh97Tif60vLU8VIQd4Waw6TK89aCKQup9GhB6NHyxUQ1vVauka8Q0ufFcUWAFHISsMf086HLJ6wlEVAcHBK4J1Z6qZt5ZpQjOy0grPSHQlx8d6jYFStKe4tgYtEc-u&xkcb=SoDt67M359I1EFQyQ50PbzkdCdPP&fccid=66794c381b813eb7&cmp=Velosys&ti=Senior+Java+Developer&vjs=3",
+        "Job Title": "Sr Java Developer",
+        "Company": "Velosys",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Newport Beach, CA 92660"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=d778bb9af30e6dd3&bb=CxSh97Tif60vLU8VIQd4WdKIf0CSI9f48-B12QqpneJUdtf6a__qqjCq2dpKEdevGBXjLZYC91d-yopWCT0z3qBhe469Iu0ox-7M1_97GHIzoJDY0jHtpziFGmZUo3zN&xkcb=SoBZ67M359I1EFQyQ50ObzkdCdPP&fccid=84e58a78c57abb8a&cmp=The-Ascent-Group%2C-Inc.&ti=Software+Engineer&vjs=3",
+        "Job Title": "Software Engineer",
+        "Company": "The Ascent Group, Inc.",
+        "Date Posted": "N/A",
+        "Location": "Irvine, CA 92612"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=4286c32a5fe9128a&bb=CxSh97Tif60vLU8VIQd4WXN9pMlrFyM18AmoZ_GGjeFWtipniJBYIv6kci_KdTu3-9v2oNywAJ4Hc6zZogWcGGDUAt-4fV9i65iPtTlypvoADT25Jixl_w%3D%3D&xkcb=SoC767M359I1EFwyQ50LbzkdCdPP&fccid=c1099851e9794854&vjs=3",
+        "Job Title": "Software Integrity Engineer",
+        "Company": "Apple",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=600eb71886d29a42&bb=CxSh97Tif60vLU8VIQd4WWQSETQU56D-0W3LnJD0JY4cyo8Bkgeq241XFb3g644LdJc1R78HYun-KZkGUuYhYr-5rPka-Ful7cxPqUMJPt33WH_wGlUwtA%3D%3D&xkcb=SoAP67M359I1EFwyQ50KbzkdCdPP&fccid=edae4285faf6c2f0&vjs=3",
+        "Job Title": "Systems Engineer",
+        "Company": "BOEING",
+        "Date Posted": "N/A",
+        "Location": "El Segundo, CA 90245"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=a0c26bfe03b52807&bb=CxSh97Tif60vLU8VIQd4WW4qZeqf8kWWp2HiXwfzcik7chrCe9-vit07ZFAVPyQJMU6b2jh_fX2kKEYdyZ3M4iB4ININoyn2APl_zNOtR7VnoqHdd2QlGzg6mQt6lbIy&xkcb=SoCS67M359I1EFwyQ50JbzkdCdPP&fccid=0ceb45fd03e5f886&vjs=3",
+        "Job Title": "Design Engineer",
+        "Company": "Replenysh",
+        "Date Posted": "N/A",
+        "Location": "Orange County, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=7d6da71caf1eab92&bb=CxSh97Tif60vLU8VIQd4WRw8aInyRKlbE7YcWiX977dFtohEx1uhv6VDrEFua0_88l470QmQscT1yOK7DNbZQFnr1mLwniIILV63jRQaQ3qiaZEwI1Qr74snpPUqXJvO&xkcb=SoAm67M359I1EFwyQ50IbzkdCdPP&fccid=0ceb45fd03e5f886&vjs=3",
+        "Job Title": "Growth Engineer",
+        "Company": "Replenysh",
+        "Date Posted": "N/A",
+        "Location": "Orange County, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=9a5a1f0c43cd633e&bb=CxSh97Tif60vLU8VIQd4Wf_W51KdU1PuN3oeGCLTLbP-3wIhbc_op1RhsukMsXoQNawriqIsQOVRjGXUKIOidgeuiRcAsKPMjnH9MTy3Y_shaTsBlFHMh2dLARoX700u&xkcb=SoCo67M359I1EFwyQ50PbzkdCdPP&fccid=a23e5e2f20b1aac4&vjs=3",
+        "Job Title": "Head of Applications Development",
+        "Company": "West Coast University",
+        "Date Posted": "N/A",
+        "Location": "Irvine, CA 92617\u00a0(UC Irvine area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=d14c1f66d4e8339c&bb=CxSh97Tif60vLU8VIQd4WcG05d-tDc14e9q8Z6nAvZiswCKm1KNWY2xx-FYOM9_LPXyd2rD7Zfn-zqVvS6roaCwOkBfuxLmIGkRaqF8sLvU1YnqOrK-zMWuKRyvZihnT&xkcb=SoAc67M359I1EFwyQ50ObzkdCdPP&fccid=b2a3cf44b4993311&cmp=Red-Cat-Holdings-Inc&ti=Staff+Software+Engineer&vjs=3",
+        "Job Title": "Sr./Staff Embedded Linux SWE",
+        "Company": "Red Cat Holdings Inc",
+        "Date Posted": "N/A",
+        "Location": "Santa Monica, CA 90403"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=9c85341a949eba70&bb=CxSh97Tif60vLU8VIQd4WW8t-zvXwGjdJ3rUYnWgYuTkSWmAMdJlYqE5H9suwYTVYCaKhTgIT5-8FlrGJJEV-EfO2BCCPzGAq0NxYYsjEmdzdgy3cV7ExoWkQFOXmHe6&xkcb=SoCB67M359I1EFwyQ50NbzkdCdPP&fccid=f038e4ff896db5a2&cmp=Foisystem&ti=Full+Stack+Developer&vjs=3",
+        "Job Title": "Sr. Full Stack Developer",
+        "Company": "Surging phoenix enterprises",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Irvine, CA 92602"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=46b2a3d8a5f526c5&bb=CxSh97Tif60vLU8VIQd4Wf6lZwQZss_wNOUVzpF6CHRaXaAIiSWDbxaB_9i-K8dy8rmk79KMLsFHfgQsZ-FrA0NuRv3rDRr_PWlqV0rfDq1WLvaYmXlsx9FcTBh_-8E6&xkcb=SoA167M359I1EFwyQ50MbzkdCdPP&fccid=e483dd8837483fc5&vjs=3",
+        "Job Title": "Systems Engineer",
+        "Company": "EVgo",
+        "Date Posted": "N/A",
+        "Location": "El Segundo, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=8ad7b734cecfe597&bb=CxSh97Tif60vLU8VIQd4WToTdsIItPMVUj2Gfu2sIgbu6QZvzKlW3Kr72RktTOLhKgSd6onzK5qeOgFj-L9eaee86ROU3FQYc1C72nn8ZjDQ6qb9q2Diiw%3D%3D&xkcb=SoDc67M359I1EFwyQ50DbzkdCdPP&fccid=4163ab3516afff56&vjs=3",
+        "Job Title": "Principal, IT Software Engineer 1 (ForgeRock Dev Lead)",
+        "Company": "DIRECTV",
+        "Date Posted": "N/A",
+        "Location": "Remote in El Segundo, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=b5afa91072425f69&bb=CxSh97Tif60vLU8VIQd4WcrVRCjGFDOUw7yxftrLtfnat7hlpqeGEbxrNlPJMxdHFh5jQv6LfbmmI7_vhsqtJD25n7eSbydkgANXQgmcYedg4bCRxXbvDpcDI_OkHp5j&xkcb=SoBo67M359I1EFwyQ50CbzkdCdPP&fccid=ac6fac4e4e05c5e2&cmp=Quantum--Systems&ti=Software+Engineer&vjs=3",
+        "Job Title": "Software Engineer",
+        "Company": "Quantum Systems Inc",
+        "Date Posted": "N/A",
+        "Location": "Moorpark, CA 93021"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=f7f0359ea9c052bb&bb=CxSh97Tif60vLU8VIQd4WW4qZeqf8kWWs3gBAmF_vxsHEl_KJRA__S4s9kCUiMyly-gmTqqm3d_jhEeh2u4vPeHRtleSLyLiELhYR5dc0j8ZlGCg3moiQ1AsbBu0kYvU&xkcb=SoD167M359I1EFwyQ50BbzkdCdPP&fccid=3f7b0eacc8de6549&vjs=3",
+        "Job Title": "Applied Machine Learning Engineer",
+        "Company": "Anduril Industries",
+        "Date Posted": "N/A",
+        "Location": "Costa Mesa, CA 92626"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=49b1e0977ff26aed&bb=CxSh97Tif60vLU8VIQd4WSGRfXh__CKsn4grzAvwm26iEfYMH8UEfmkCbfHOOhhmKgdcyoBNmApLd6OTkXYvk9IyS-dQWj_C8vsy7YrG87K4WFHePlO6L0vXBIcTNNty&xkcb=SoBB67M359I1EFwyQ50AbzkdCdPP&fccid=c867ee1e397304f7&vjs=3",
+        "Job Title": "Temp to Perm Unreal Developer, Lead",
+        "Company": "Designory",
+        "Date Posted": "N/A",
+        "Location": "Long Beach, CA 90802"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=a42485b1a6c00a1d&bb=CxSh97Tif60vLU8VIQd4WZEqilthTIPkfUbeaA154aCTX8KZN1C5FFD8M1-8wVQZ7TWdwh7EY39Iso6PCZMH393N2mwe0PeHMNHdBf02UeETAgAIEr2W1A%3D%3D&xkcb=SoDP67M359I1EFwyQ50HbzkdCdPP&fccid=644000bf52ae09d4&vjs=3",
+        "Job Title": "Homes.com - Senior Software Engineer (API/Database/C#)",
+        "Company": "CoStar Group",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Orange County, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=3c16ba664f659564&bb=XBLDIcl6XN9Th4Lmgyx2R3wHUhVEMw83e9aellajArUkhvWPovMpxDX7XEvMWRE4TWBrb3VlhNA0SEhUjDd1Mcao0-gUcHJYBZ8QC2qomtp5h9Fb_g96pw%3D%3D&xkcb=SoAd67M359I06uyg9p0CbzkdCdPP&fccid=a5b4499d9e91a5c6&vjs=3",
+        "Job Title": "Senior Software Engineer, Infrastructure, Google Assistant",
+        "Company": "Google",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA\u00a0(Venice area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=131aeb442481fc0b&bb=XBLDIcl6XN9Th4Lmgyx2R0pKLmeNqeLdYHJhBcffw2dxl7RAtNMX_sTuMnmbca8VDdtGfcwqqt2qSTr0AUk56eK1SdrsMgQ53NOiH7Hfv8cxltO2BGE8kE8_tqIrrm-w&xkcb=SoCT67M359I06uyg9p0FbzkdCdPP&fccid=7ae5de8f02a3e815&vjs=3",
+        "Job Title": "Sr Salesforce Marketing Cloud Engineer",
+        "Company": "AXS",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=e56d3f5d5d395e74&bb=XBLDIcl6XN9Th4Lmgyx2R8Jh2kjcy2vMf988crUXZuYmWMllZ7vDRXcDcxKJbpAEi3whkC8doKHe0DyGo5lPpZQsjb7nH9WQjgECj8a3hBCnF9e0BLYXenMC5qxQdmv4&xkcb=SoAp67M359I06uyg9p0ZbzkdCdPP&fccid=820ac147e8dc015b&vjs=3",
+        "Job Title": "Lead Software Engineer",
+        "Company": "Disney Entertainment & ESPN Technology",
+        "Date Posted": "N/A",
+        "Location": "Santa Monica, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=2dfedc57fbebaf16&bb=XBLDIcl6XN9Th4Lmgyx2R_ttsqyvgFVIVte2csKrj9J4qEl5qYe2ZaWZCofgFeeATZTObxJQGl4yDrxZ3hnDvaDkTffDfzspVbaRfB5gW8L6cmuSUcE8EQ%3D%3D&xkcb=SoCd67M359I06uyg9p0YbzkdCdPP&fccid=c1099851e9794854&vjs=3",
+        "Job Title": "Sr. Algorithm Engineer, Home and Audio Devices",
+        "Company": "Apple",
+        "Date Posted": "N/A",
+        "Location": "Culver City, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=89c8b58f350eb396&bb=XBLDIcl6XN9Th4Lmgyx2R9Vb9lYG8i6H8jiUh5tqekHBbm0T15PDa6X1XnRDXRqQlR94uXYXj_XolzE0S6YFR0eNdQ9vzc5ZS_EkpBsCfIVio95JwbdPgR2ob87MRFMe&xkcb=SoAT67M359I06uyg9p0fbzkdCdPP&fccid=f3ae724e6ab17be8&vjs=3",
+        "Job Title": "Principal Software Developer",
+        "Company": "Mechanics Bank",
+        "Date Posted": "N/A",
+        "Location": "Irvine, CA 92612\u00a0(San Joaquin Marsh area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=f6f8ce9e9a3d51d6&bb=XBLDIcl6XN9Th4Lmgyx2RwNG1cYE_JU7atDM5aMAM2Vy9Inv2NdRmHvlrlx0hRN3Nosx-vvaZTbaqhR5wBl--2U9El80_O6g30em9Dv0A_bVSq4KkIQ0Qu9eQHS1AQMA&xkcb=SoCn67M359I06uyg9p0ebzkdCdPP&fccid=37d6c64c5394a728&vjs=3",
+        "Job Title": "Sr. Product Manager, Developer Platform & API",
+        "Company": "Tickets.com",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in El Segundo, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=84d2c6b95b34485c&bb=XBLDIcl6XN9Th4Lmgyx2R3UuH1SUFpA3_EffA9kmZivoNVhS4MWcixVPl2bRRiBptzIHv3OlmJl-NA1Z5QGuStIHEAAmfvznlgSGnZDmrxUuchDC_-hY4A%3D%3D&xkcb=SoA667M359I06uyg9p0dbzkdCdPP&fccid=a892c8c946e25608&vjs=3",
+        "Job Title": "Platform Engineer III",
+        "Company": "Capital Group Companies",
+        "Date Posted": "N/A",
+        "Location": "Irvine, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=e5767a8e3b5c9605&bb=XBLDIcl6XN9Th4Lmgyx2Rz4KNL1fd-bd3xPQIFjbcKTuexfQ9n97CHozcYvIGkn4aZV3etnQp515ZqukH7opYZQm_yrGSlj9UEIoULcXQKz79h3eW8QL47YR2qsHLuqQ&xkcb=SoCO67M359I06uyg9p0cbzkdCdPP&fccid=2d949908fcb6b985&vjs=3",
+        "Job Title": "Lead Software Developer \u2013 Issuance Platform",
+        "Company": "PIMCO",
+        "Date Posted": "N/A",
+        "Location": "Newport Beach, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=fccf2564dd7231d2&bb=XBLDIcl6XN9Th4Lmgyx2R5wIXDMfzMeMLagu7e8bGd7zVBBDYkKbSiJKb3bm4lZe_f9L5L3djr-Wr9FJ_NN4ruFt5E4bvf5bqPfC6p_cqjdkHfWIi4XcXd0goob5gRgY&xkcb=SoBn67M359I06uyg9p0TbzkdCdPP&fccid=dd616958bd9ddc12&vjs=3",
+        "Job Title": "Perception Engineer",
+        "Company": "AndrenaM",
+        "Date Posted": "N/A",
+        "Location": "Hawthorne, CA 90250"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=294b2bf2dba13acc&bb=XBLDIcl6XN9Th4Lmgyx2Rz3wqk9sOysO4y_hyTw0_5Wi4tN0lsTR_cFIEajJndDEhHykrpLO2NEf29rhR23GQeYYP70biLOVw2_NHEhsdyeEsuATYhnu7V8s1gwFsNYw&xkcb=SoDT67M359I06uyg9p0SbzkdCdPP&fccid=35b344bbcc14dd68&vjs=3",
+        "Job Title": "Portfolio Software Engineer",
+        "Company": "Auria",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in El Segundo, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=b206a98a04233cfd&bb=XBLDIcl6XN9Th4Lmgyx2RwNG1cYE_JU70Kq2UUrAAPSdmM-Jp1zpqxuzX-DHaegeOWDODjJ1HhHwC7ei2I7qP8S1Exyp_Ks0gcydARGmFGU5Trt9bls8J-HB9j2hl67S&xkcb=SoBO67M359I06uyg9p0RbzkdCdPP&fccid=caed318a9335aac0&vjs=3",
+        "Job Title": "Site Reliability Engineer, Eng Support - USDS",
+        "Company": "TikTok",
+        "Date Posted": "N/A",
+        "Location": "Hybrid work in Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=994f5774f7532e66&bb=XBLDIcl6XN9Th4Lmgyx2R1hs72mx6tBmnBacfL-fCcyNuxBImkfP_nOR3xXIGAtOo_Blug1gPu2zWdvT4siQvD52lSECkIA_vypzmYMcU4Vv99CqnzsYrQ%3D%3D&xkcb=SoD667M359I06uyg9p0QbzkdCdPP&fccid=a9021c35fcef6968&vjs=3",
+        "Job Title": "Technical Product Manager, Support Systems, YouTube",
+        "Company": "YouTube",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA\u00a0(Playa Vista area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=467b6b727a201396&bb=XBLDIcl6XN9Th4Lmgyx2R6-ZqZ4P9RNhW4YhI75hWpYXYB8s3gCQF-0WW85Sh1xUbrLsilVTsg5ft1eSbGhT1cn_tdwq8aAHMklbZFUiQsZV7n5odCz_CA%3D%3D&xkcb=SoB067M359I06uyg9p0XbzkdCdPP&fccid=f3b836e645f9b36d&vjs=3",
+        "Job Title": "Chief Platform Architect",
+        "Company": "SAIC",
+        "Date Posted": "N/A",
+        "Location": "El Segundo, CA 90245"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=e3485262aed3e2a3&bb=XBLDIcl6XN9Th4Lmgyx2R6OS-As_nFFCzt8l0MK_uZVje0Zuy7Qfd5MIL8kg9X3nNw-USUwIUWSLviPaGb8z68HOT4DrdxWhs61iz9meGmDEoJ8jbAf6bIM3jmUSS4Y6&xkcb=SoDA67M359I06uyg9p0WbzkdCdPP&fccid=4640437a3109c91f&vjs=3",
+        "Job Title": "Sales Engineer, West",
+        "Company": "Dataiku Misc Postings",
+        "Date Posted": "N/A",
+        "Location": "Remote in Los Angeles, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=d59bea0aeab67d73&bb=XBLDIcl6XN9Th4Lmgyx2RxfxXTdl6ad7e3hPsKx12zoDKkYYY-BFBc4hC_jCLfd4CwYHyUrRT6eIpu4-6o2WrhPpcOW-wojHwcz9Lsl8TN1B5VrGpJedFw%3D%3D&xkcb=SoBd67M359I06uyg9p0VbzkdCdPP&fccid=11619ce0d3c2c733&vjs=3",
+        "Job Title": "Flight Dynamics Software Developer",
+        "Company": "Northrop Grumman",
+        "Date Posted": "N/A",
+        "Location": "Manhattan Beach, CA 90266"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=a425c4f2cd4cd3c1&bb=VpSRf7WZKZTccdupTmW2UtlpkWaz9d3nVVy6QgqmmuK-XPILLRWbJTTqtkLhXYW2ex1zFlDegPJD4jyzF1p_nZ63gF195mNmX1Xq2UZRWJlx5CwEKwHk-FlD-XBN9og6&xkcb=SoA467M359I0SmykJJ0KbzkdCdPP&fccid=820ac147e8dc015b&vjs=3",
+        "Job Title": "Lead Machine Learning Engineer, Ad Platforms",
+        "Company": "Disney Entertainment & ESPN Technology",
+        "Date Posted": "N/A",
+        "Location": "Santa Monica, CA"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=51063778badc5d88&bb=VpSRf7WZKZTccdupTmW2UiKZsU_xBLBGMWTiK8bX0o2wKMzlrQUl28mRW84ed2I0xNhyyUbGgPMcfJuq4lyzhbJWYD6unTvAkrXzxzZL6hDVtKyvRVf6wA%3D%3D&xkcb=SoCl67M359I0SmykJJ0JbzkdCdPP&fccid=a5b4499d9e91a5c6&vjs=3",
+        "Job Title": "Software Engineer III, Quantum Error Correction",
+        "Company": "Google",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA\u00a0(Venice area)"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=2876819693964140&bb=VpSRf7WZKZTccdupTmW2UjzustoRPzfo-5LeqwboXZOIXltgJFeE0MkNJvlloqb8W-No70G08nOGR7hDgg0AVgroJbvgNJI2RluO5HENbFPlLj2y9LjRg0A40LZBtzd8&xkcb=SoAR67M359I0SmykJJ0IbzkdCdPP&fccid=bfac37d9f1a8a5a2&vjs=3",
+        "Job Title": "AVP, Principal Android Software Development Engineer",
+        "Company": "Synchrony",
+        "Date Posted": "N/A",
+        "Location": "Costa Mesa, CA 92626"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=806befddf0549b86&bb=VpSRf7WZKZTccdupTmW2UvJ1m2LpQJ7gpt6RLlBz9YC4Xn7PKGTcvu2QPJZGQpk41bMIyopENx0KfaO6CP4UP_IGa0TH0Pumt_Ii5HNqYyOP65cbO45i9Q%3D%3D&xkcb=SoCf67M359I0SmykJJ0PbzkdCdPP&fccid=11619ce0d3c2c733&vjs=3",
+        "Job Title": "Flight Dynamics Software Developer",
+        "Company": "Northrop Grumman",
+        "Date Posted": "N/A",
+        "Location": "Manhattan Beach, CA 90266"
+    },
+    {
+        "Link": "https://www.indeed.com/rc/clk?jk=aef6eb4b5caae65f&bb=VpSRf7WZKZTccdupTmW2Ui74sCWXCswEjQ1J8eFFD-BL1JI9vGLNoCoXc6E9vbzUE-2h4sgX2VUobKSrEjZWqR34DlX99U2SKjGRG3iHWZ17OheyWeYGUA%3D%3D&xkcb=SoAr67M359I0SmykJJ0ObzkdCdPP&fccid=a5b4499d9e91a5c6&vjs=3",
+        "Job Title": "Senior Software Engineer, Full Stack, Google Ads",
+        "Company": "Google",
+        "Date Posted": "N/A",
+        "Location": "Los Angeles, CA\u00a0(Venice area)"
+    },
+    {
+        "Link": "https://www.indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0B2bOEkk8UrqJVEoAyAOcPVA2ZS29b_d2_fqMFne3leGKqhdM-GXbHMMs3Al6UtYF5cdLVx8sQAvQJ1_1EaZLKSxRbUchUTC3FdZeaUwPFPizTL8YpHG3CqFn31LsGXcJJNoSuy29YeXIx_GcwiUyEuxlcBEZykt539Ar1Vt5M46fOfAU0xElp3U9Uom2Hqs4Bme4V9MD_1b2lgzULxI_Oh9fFUjRR1XUhclKox5gIgI1PfqTz0vJqP9xlf7_UMBb8meYl4lSZ-lTOj5w_RUJ0UZGW0GxvMIjye2vNNIC90guomCbP1XeRyNSLGW9M-CUMaZHJt5brsY0hEzdvR5ON9SoneiwLwIynV6Q_U-wImbMA3fMzriSxmLM814zMn0b8meQ3e8mnfW6rdqwzKDD-gHbU6xx6aNBrQw8_l5sdOvahGVM66xVBboIJ08teWGRbmNFtwN8c-w-P1u5Y11rT-TPtogKyRuomdDh2Fa1H7mNKQ1RFpd_-XIo9cx63E4XrDLKGaApbDgvevX7PT2FkMy8lBTlYxFH0QtF48hQ2eYL7CkSTS0uxTor4Sh0urrihADJ5_MqHFcr_qpB8v9BpLXBwWnsPKCa4YPq5tz9O40_LLInLaR27ZjU2yJ_2YEXBoO0vrA98oXtkoK1eP1p2S0y0YjXnmybqnNO2Be7UqO8-6MfNFEo_zHCWsxB4P2xilSb2-E3TODwHPCMPfL3T2&xkcb=SoBC6_M359I0SmykJJ0NbzkdCdPP&camk=nUmJqO2E8rh6tdueB0ztOg==&p=5&fvj=0&vjs=3",
+        "Job Title": "Manager - Storage Technology",
+        "Company": "G42",
+        "Date Posted": "N/A",
+        "Location": "United States"
+    }
+]

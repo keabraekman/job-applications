@@ -20,12 +20,12 @@ api_key = os.getenv('OPENAI_API_KEY')
 united_states = 'https://www.indeed.com'
 country = united_states
 
-branch_name = 'Kea-Braekman'
+# branch_name = 'Kea-Braekman'
 driver = configure_webdriver()
 job_positions = ['devops engineer', 'security engineer', 'cloud engineer', 'backend', 'AWS', 'Terraform', 'Gitlab', 'Python', 'Docker', 'Bash', 'systems enginer', 'software engineer']
 job_location = '90066'
 date_posted = 3
-pay = '$150,000'
+pay = '$130,000'
 yearsExperience = '6'
 disqualifySkills = 'sales, hardware, Machine Learning, AI, Blockchain, embedded systems, Top Secret Clearance, VR, Robotics'
 disqualifyTerms = 'BAH, Director, Booz Allen Hamilton'
@@ -388,11 +388,11 @@ folderPath = '/Users/keabraekman/Documents-Offline/' + todaysDate
 
 os.makedirs(todaysDate, exist_ok=True)
 searchToJson()
-jsonPath = branch_name+'/'+todaysDate+'/'+todaysDate+'.json'
+jsonPath = todaysDate+'/'+todaysDate+'.json'
 refined = refineJson(jsonPath)
 print('refined = ', refined)
 joburls, companies, titles, locations = getURLCompanyTitleAndLocationList(jsonPath)
-createXlsxTable(branch_name+'/'+todaysDate + '/' + todaysDate)
+createXlsxTable(todaysDate + '/' + todaysDate)
 
 create_folder_if_not_exists(folderPath)
 
@@ -408,7 +408,7 @@ for i in range(len(joburls)):
     newBulletDict = parse_string_to_dict(resume_text_bullets)
     # title_first_three_words = ' '.join(titles[i].split()[:3])
     title_first_three_words = ' '.join(re.sub(r'\W+', ' ', titles[i]).split()[:3])
-    filename = '/Users/keabraekman/Documents-Offline/' +branch_name+'/'+ todaysDate + '/' + output_docx_path + ' ' + companies[i] + ' ' + title_first_three_words + '.docx'
+    filename = '/Users/keabraekman/Documents-Offline/' + todaysDate + '/' + output_docx_path + ' ' + companies[i] + ' ' + title_first_three_words + '.docx'
     print('replacing bullets')
     replaceBullets(filename, newBulletDict)
     print('adding into spreadsheet')
